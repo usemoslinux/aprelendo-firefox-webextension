@@ -3,53 +3,80 @@ html, body {
 }
 
 .button {
+  background-position: 4px;
+  background-repeat: no-repeat;
+  background-size: 18px;
   border-radius: 3px;
   color: black;
+  cursor: pointer;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
   margin: 3% auto;
-  padding: 8px 8px 8px 32px;
-  cursor: pointer;
+  padding: 4px 4px 4px 32px;
+}
+
+.button:hover {
+  background-color: #0275d8;
+  color: white;
+}
+
+
+.button.ar {
+  background-image: url("../icons/flags/ar.svg");
+}
+
+.button.zh {
+  background-image: url("../icons/flags/zh.svg");
+}
+
+.button.nl {
+  background-image: url("../icons/flags/nl.svg");
 }
 
 .button.en {
-  background: #f0f0f0 url("../icons/flags/en.svg");
-  background-position: 8px 8px;
-  background-repeat: no-repeat;
-  background-size: 18px;
+  background-image: url("../icons/flags/en.svg");
 }
 
 .button.fr {
-  background: #f0f0f0 url("../icons/flags/fr.svg");
-  background-position: 8px 8px;
-  background-repeat: no-repeat;
-  background-size: 18px;
+  background-image: url("../icons/flags/fr.svg");
 }
 
 .button.de {
-  background: #f0f0f0 url("../icons/flags/de.svg");
-  background-position: 8px 8px;
-  background-repeat: no-repeat;
-  background-size: 18px;
+  background-image: url("../icons/flags/de.svg");
 }
 
-.button.es {
-  background: #f0f0f0 url("../icons/flags/es.svg");
-  background-position: 8px 8px;
-  background-repeat: no-repeat;
-  background-size: 18px;
+.button.el {
+  background-image: url("../icons/flags/el.svg");
+}
+
+.button.he {
+  background-image: url("../icons/flags/he.svg");
+}
+
+.button.hi {
+  background-image: url("../icons/flags/hi.svg");
 }
 
 .button.it {
-  background: #f0f0f0 url("../icons/flags/it.svg");
-  background-position: 8px 8px;
-  background-repeat: no-repeat;
-  background-size: 18px;
+  background-image: url("../icons/flags/it.svg");
+}
+
+.button.ja {
+  background-image: url("../icons/flags/ja.svg");
+}
+
+.button.ko {
+  background-image: url("../icons/flags/ko.svg");
 }
 
 .button.pt {
-  background: #f0f0f0 url("../icons/flags/pt.svg");
-  background-position: 8px 8px;
-  background-repeat: no-repeat;
-  background-size: 18px;
+  background-image: url("../icons/flags/pt.svg");
+}
+
+.button.ru {
+  background-image: url("../icons/flags/ru.svg");
+}
+
+.button.es {
+  background-image: url("../icons/flags/es.svg");
 }
