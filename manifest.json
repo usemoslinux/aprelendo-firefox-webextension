@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Aprelendo",
-  "version": "1.2",
-  "description": "Add texts to your Aprelendo library.",
+  "name": "__MSG_extensionName__",
+  "version": "1.3",
+  "description": "__MSG_extensionDescription__",
   "homepage_url": "https://www.aprelendo.com",
   "icons": {
     "48": "icons/aprelendo.svg",
@@ -28,6 +28,21 @@
   
   "options_ui": {
     "page": "options.html"
-  }
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "commands": {
+    "add-page": {
+      "suggested_key": {
+        "default": "Ctrl+Alt+P"
+      },
+      "description": "Send page to Aprelendo using the language selected in Preferences"
+    }
+  },
+
+  "default_locale": "en"
 
 }

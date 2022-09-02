@@ -1,0 +1,70 @@
+{
+  "extensionName": {
+    "message": "Aprelendo"
+  },
+  "extensionDescription": {
+    "message": "Add texts to your Aprelendo library."
+  },
+  "arabicName": {
+    "message": "Arabic"
+  },
+  "chineseName": {
+    "message": "Chinese"
+  },
+  "dutchName": {
+    "message": "Dutch"
+  },
+  "englishName": {
+    "message": "English"
+  },
+  "frenchName": {
+    "message": "French"
+  },
+  "germanName": {
+    "message": "German"
+  },
+  "greekName": {
+    "message": "Greek"
+  },
+  "hebrewName": {
+    "message": "Hebrew"
+  },
+  "hindiName": {
+    "message": "Hindi"
+  },
+  "italianName": {
+    "message": "Italian"
+  },
+  "japaneseName": {
+    "message": "Japanese"
+  },
+  "koreanName": {
+    "message": "Korean"
+  },
+  "portugueseName": {
+    "message": "Portuguese"
+  },
+  "russianName": {
+    "message": "Russian"
+  },
+  "spanishName": {
+    "message": "Spanish"
+  },
+  "langsShownOptLabel": {
+    "message": "Languages to show in the menu:"
+  },
+  "shortcutLangOptLabel": {
+    "message": "Language to use with keyboard shortcut:"
+  },
+  "successOptMsgTitle": {
+    "message": "Success!"
+  },
+  "successOptMsgText": {
+    "message": "Your preferences where saved."
+  },
+  "saveBtnOpt": {
+    "message": "Save"
+  },
+
+  "__WET_LOCALE__": { "message": "en" }
+}

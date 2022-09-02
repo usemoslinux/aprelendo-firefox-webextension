@@ -2,43 +2,13 @@
  * Listen for clicks on the buttons, and redirect to the appropriate page
  */
 document.addEventListener("click", (e) => {
-
-    function redirect(tabs) {
-        let tab = tabs[0]; // Safe to assume there will only be one result
-
-        let aprelendo_url = 'https://www.aprelendo.com/addtext.php?lang=' + e.target.id + '&url=' + encodeURIComponent(tab.url);
-
-        let is_yt_url = false;
-        let yt_urls = new Array('https://www.youtube.com/watch',
-            'https://m.youtube.com/watch',
-            'https://youtu.be/');
-
-        for (let i = 0; i < yt_urls.length; i++) {
-            if (tab.url.lastIndexOf(yt_urls[i]) === 0) {
-                aprelendo_url = 'https://www.aprelendo.com/addvideo.php?lang=' + e.target.id + '&url=' + encodeURIComponent(tab.url);
-                is_yt_url = true;
-                break;
-            }
-        }
-
-        browser.tabs.update({
-            url: aprelendo_url
-        });
-        window.close();
-    }
-
-    function onError(err) {
-        console.error(err);
-    }
-
-    if(e.target.classList.contains('button')) {
-        browser.tabs.query({
-            currentWindow: true,
-            active: true
-        }).then(redirect, onError);
-    }    
+    browser.runtime.sendMessage({"lang": e.target.id});
+    window.close();
 });
 
+/**
+ * Loads languages shown in menu depending on user selection in Preferences
+ */
 document.addEventListener("DOMContentLoaded", (e) => {
     var popup = document.querySelector("#popup-content");
     var htmlstr = '';
@@ -52,7 +22,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
             element = document.createElement('div');
             element.id = "ar";
             element.className = "button ar";
-            element.textContent = "Arabic";
+            element.textContent = browser.i18n.getMessage("arabicName");
             popup.appendChild(element);
         }
         
@@ -60,7 +30,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
             element = document.createElement('div');
             element.id = "zh";
             element.className = "button zh";
-            element.textContent = "Chinese";
+            element.textContent = browser.i18n.getMessage("chineseName");
             popup.appendChild(element);
         }
         
@@ -68,7 +38,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
             element = document.createElement('div');
             element.id = "nl";
             element.className = "button nl";
-            element.textContent = "Dutch";
+            element.textContent = browser.i18n.getMessage("dutchName");
             popup.appendChild(element);
         }
         
@@ -76,7 +46,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
             element = document.createElement('div');
             element.id = "en";
             element.className = "button en";
-            element.textContent = "English";
+            element.textContent = browser.i18n.getMessage("englishName");
             popup.appendChild(element);
         }
         
@@ -84,7 +54,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
             element = document.createElement('div');
             element.id = "fr";
             element.className = "button fr";
-            element.textContent = "French";
+            element.textContent = browser.i18n.getMessage("frenchName");
             popup.appendChild(element);
         }
         
@@ -92,7 +62,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
             element = document.createElement('div');
             element.id = "de";
             element.className = "button de";
-            element.textContent = "German";
+            element.textContent = browser.i18n.getMessage("germanName");
             popup.appendChild(element);
         }
         
@@ -100,7 +70,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
             element = document.createElement('div');
             element.id = "el";
             element.className = "button el";
-            element.textContent = "Greek";
+            element.textContent = browser.i18n.getMessage("greekName");
             popup.appendChild(element);
         }
         
@@ -108,7 +78,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
             element = document.createElement('div');
             element.id = "he";
             element.className = "button he";
-            element.textContent = "Hebrew";
+            element.textContent = browser.i18n.getMessage("hebrewName");
             popup.appendChild(element);
         }
         
@@ -116,7 +86,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
             element = document.createElement('div');
             element.id = "hi";
             element.className = "button hi";
-            element.textContent = "Hindi";
+            element.textContent = browser.i18n.getMessage("hindiName");
             popup.appendChild(element);
         }
         
@@ -124,7 +94,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
             element = document.createElement('div');
             element.id = "it";
             element.className = "button it";
-            element.textContent = "Italian";
+            element.textContent = browser.i18n.getMessage("italianName");
             popup.appendChild(element);
         }
         
@@ -132,7 +102,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
             element = document.createElement('div');
             element.id = "ja";
             element.className = "button ja";
-            element.textContent = "Japanese";
+            element.textContent = browser.i18n.getMessage("japaneseName");
             popup.appendChild(element);
         }
         
@@ -140,7 +110,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
             element = document.createElement('div');
             element.id = "ko";
             element.className = "button ko";
-            element.textContent = "Korean";
+            element.textContent = browser.i18n.getMessage("koreanName");
             popup.appendChild(element);
         }
         
@@ -148,7 +118,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
             element = document.createElement('div');
             element.id = "pt";
             element.className = "button pt";
-            element.textContent = "Portuguese";
+            element.textContent = browser.i18n.getMessage("portugueseName");
             popup.appendChild(element);
         }
         
@@ -156,7 +126,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
             element = document.createElement('div');
             element.id = "ru";
             element.className = "button ru";
-            element.textContent = "Russian";
+            element.textContent = browser.i18n.getMessage("russianName");
             popup.appendChild(element);
         }
         
@@ -164,7 +134,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
             element = document.createElement('div');
             element.id = "es";
             element.className = "button es";
-            element.textContent = "Spanish";
+            element.textContent = browser.i18n.getMessage("spanishName");
             popup.appendChild(element);
         }
     });

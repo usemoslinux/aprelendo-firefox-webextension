@@ -13,14 +13,14 @@ function saveOptions() {
                             "show_ko": document.querySelector("#ko").checked,
                             "show_pt": document.querySelector("#pt").checked,
                             "show_ru": document.querySelector("#ru").checked,
-                            "show_es": document.querySelector("#es").checked
+                            "show_es": document.querySelector("#es").checked,
+                            "shortcut_lang": document.querySelector("#shortcut-lang").value
                           }, function() {
-                             // Update status to let user know options were saved.
-                             var status = document.getElementById('status');
-                             status.classList.add("success");
-                             status.textContent = 'Options saved!';
+                             // Update message to let user know options were saved.
+                             var msg = document.getElementById('message-block');
+                             msg.classList.remove("hidden");
                              setTimeout(function() {
-                                status.textContent = '';
+                                msg.classList.add("hidden");
                              }, 2000);
                           });
 }
@@ -28,7 +28,7 @@ function saveOptions() {
 function restoreOptions() {
   browser.storage.sync.get(["show_ar","show_zh","show_nl","show_en","show_fr",
                              "show_de","show_el","show_he","show_hi","show_it",
-                             "show_ja","show_ko","show_pt","show_ru","show_es"], (res) => {
+                             "show_ja","show_ko","show_pt","show_ru","show_es", "shortcut_lang"], (res) => {
     document.querySelector("#ar").checked = (typeof res.show_ar !== 'undefined') ? res.show_ar : true;
     document.querySelector("#zh").checked = (typeof res.show_zh !== 'undefined') ? res.show_zh : true;
     document.querySelector("#nl").checked = (typeof res.show_nl !== 'undefined') ? res.show_nl : true;
@@ -44,6 +44,18 @@ function restoreOptions() {
     document.querySelector("#pt").checked = (typeof res.show_pt !== 'undefined') ? res.show_pt : true;
     document.querySelector("#ru").checked = (typeof res.show_ru !== 'undefined') ? res.show_ru : true;
     document.querySelector("#es").checked = (typeof res.show_es !== 'undefined') ? res.show_es : true;
+    document.querySelector("#shortcut-lang").value = (typeof res.shortcut_lang !== 'undefined') ? res.shortcut_lang : 'en';
+  });
+
+  updateLocaleStrings();
+}
+
+function updateLocaleStrings() {
+  let i18nElements = document.querySelectorAll('[data-i18n-content]');
+
+  i18nElements.forEach(function (i18nElement) {
+    let i18nMessageName = i18nElement.getAttribute('data-i18n-content');
+    i18nElement.innerText = browser.i18n.getMessage(i18nMessageName);
   });
 }
 

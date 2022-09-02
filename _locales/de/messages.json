@@ -1,0 +1,92 @@
+{
+  "extensionName": {
+    "message": "Aprelendo",
+    "hash": "5cf92cdb65eaaf0ed4dcd12cd3167edb"
+  },
+  "extensionDescription": {
+    "message": "Fügen Sie Ihrer Lernbibliothek Texte hinzu.",
+    "hash": "452af59bd388b75f2e320ae4d256d0d9"
+  },
+  "arabicName": {
+    "message": "Arabisch",
+    "hash": "b30d849e422c0976e622b7ee0a9c13d5"
+  },
+  "chineseName": {
+    "message": "Chinesisch",
+    "hash": "985aaf35ed7f5d3a39e0e94bfd30d321"
+  },
+  "dutchName": {
+    "message": "Niederländisch",
+    "hash": "73bfe6ac490280fbca216188cda1546e"
+  },
+  "englishName": {
+    "message": "Englisch",
+    "hash": "648e324401faf8ae90395ce21e894596"
+  },
+  "frenchName": {
+    "message": "Französisch",
+    "hash": "09a22929e52b1a0c2d830c4415f09290"
+  },
+  "germanName": {
+    "message": "Deutsch",
+    "hash": "730e124165ee254c3f3c34c40acc10dc"
+  },
+  "greekName": {
+    "message": "Griechisch",
+    "hash": "3159094058d1d92b39a95a43de58efed"
+  },
+  "hebrewName": {
+    "message": "Hebräisch",
+    "hash": "9c5bda953486f7d1ed2091bf94d8b291"
+  },
+  "hindiName": {
+    "message": "Hindi",
+    "hash": "3a92e87079b1f58eb313e51ffd5c5095"
+  },
+  "italianName": {
+    "message": "Italienisch",
+    "hash": "11b98f20d7520e3ce3922fb5e915e493"
+  },
+  "japaneseName": {
+    "message": "Japanisch",
+    "hash": "ed0730b295dca59e5a09fa843eb87c8d"
+  },
+  "koreanName": {
+    "message": "Koreanisch",
+    "hash": "ae858ae79eb21082407b9bd5d547fa95"
+  },
+  "portugueseName": {
+    "message": "Portugiesisch",
+    "hash": "e94504292f0304c8b4d2ba973ca726db"
+  },
+  "russianName": {
+    "message": "Russisch",
+    "hash": "cfa28bfc6a8c0162c0ec3d50a165948b"
+  },
+  "spanishName": {
+    "message": "Spanisch",
+    "hash": "c58ca0cfe7f76c9bef2da8033fd644eb"
+  },
+  "langsShownOptLabel": {
+    "message": "Sprachen, die im Menü angezeigt werden sollen:",
+    "hash": "0ac0524bb1eb439892be1b81fa23744c"
+  },
+  "shortcutLangOptLabel": {
+    "message": "Mit Tastaturkürzel zu verwendende Sprache:",
+    "hash": "82b7a45777b900e306c01ad61c32bebf"
+  },
+  "successOptMsgTitle": {
+    "message": "Erfolg!",
+    "hash": "250314a446b1d8a2a1bddc737f84bc3d"
+  },
+  "successOptMsgText": {
+    "message": "Ihre Einstellungen wurden gespeichert.",
+    "hash": "a7ccfe30009c0227f9ba9318f2c3f77a"
+  },
+  "saveBtnOpt": {
+    "message": "Speichern",
+    "hash": "aa14043bd4e6f79db542868539be9220"
+  },
+
+  "__WET_LOCALE__": { "message": "de" }
+}
