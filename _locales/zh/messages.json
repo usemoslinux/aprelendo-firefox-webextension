@@ -7,6 +7,10 @@
     "message": "将文本添加到您的学习库。",
     "hash": "452af59bd388b75f2e320ae4d256d0d9"
   },
+  "shortcutDescription": {
+    "message": "使用在首选项中选择的语言将页面发送到 Aprelendo",
+    "hash": "71aac76c51101bb1b80aeeb40ba8cdf1"
+  },
   "arabicName": {
     "message": "阿拉伯语",
     "hash": "b30d849e422c0976e622b7ee0a9c13d5"

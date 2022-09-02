@@ -7,6 +7,10 @@
     "message": "הוסף טקסטים לספריית הלמידה שלך.",
     "hash": "452af59bd388b75f2e320ae4d256d0d9"
   },
+  "shortcutDescription": {
+    "message": "שלח את הדף אל Aprelendo בשפה שנבחרה בהעדפות",
+    "hash": "71aac76c51101bb1b80aeeb40ba8cdf1"
+  },
   "arabicName": {
     "message": "ערבית",
     "hash": "b30d849e422c0976e622b7ee0a9c13d5"

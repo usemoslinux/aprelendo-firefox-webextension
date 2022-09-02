@@ -7,6 +7,10 @@
     "message": "Ajoutez des textes à votre bibliothèque Aprelendo.",
     "hash": "452af59bd388b75f2e320ae4d256d0d9"
   },
+  "shortcutDescription": {
+    "message": "Envoyer la page à Aprelendo en utilisant la langue sélectionnée dans les Préférences",
+    "hash": "71aac76c51101bb1b80aeeb40ba8cdf1"
+  },
   "arabicName": {
     "message": "Arabe",
     "hash": "b30d849e422c0976e622b7ee0a9c13d5"

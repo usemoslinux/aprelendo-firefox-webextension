@@ -7,6 +7,10 @@
     "message": "Aggiungi testi alla tua libreria di apprendimento.",
     "hash": "452af59bd388b75f2e320ae4d256d0d9"
   },
+  "shortcutDescription": {
+    "message": "Invia pagina a Aprelendo utilizzando la lingua selezionata in Preferenze",
+    "hash": "71aac76c51101bb1b80aeeb40ba8cdf1"
+  },
   "arabicName": {
     "message": "Arabo",
     "hash": "b30d849e422c0976e622b7ee0a9c13d5"

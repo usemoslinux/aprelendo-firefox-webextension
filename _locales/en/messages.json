@@ -5,6 +5,9 @@
   "extensionDescription": {
     "message": "Add texts to your Aprelendo library."
   },
+  "shortcutDescription": {
+    "message": "Send page to Aprelendo using the language selected in Preferences"
+  },
   "arabicName": {
     "message": "Arabic"
   },

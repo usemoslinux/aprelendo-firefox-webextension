@@ -7,6 +7,10 @@
     "message": "अपनी लर्निंग लाइब्रेरी में टेक्स्ट जोड़ें।",
     "hash": "452af59bd388b75f2e320ae4d256d0d9"
   },
+  "shortcutDescription": {
+    "message": "वरीयता में चुनी गई भाषा का उपयोग करके Aprelendo पर पेज भेजें",
+    "hash": "71aac76c51101bb1b80aeeb40ba8cdf1"
+  },
   "arabicName": {
     "message": "अरबी",
     "hash": "b30d849e422c0976e622b7ee0a9c13d5"

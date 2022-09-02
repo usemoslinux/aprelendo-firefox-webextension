@@ -7,6 +7,10 @@
     "message": "학습 라이브러리에 텍스트를 추가합니다.",
     "hash": "452af59bd388b75f2e320ae4d256d0d9"
   },
+  "shortcutDescription": {
+    "message": "기본 설정에서 선택한 언어를 사용하여 Aprelendo으로 페이지 보내기",
+    "hash": "71aac76c51101bb1b80aeeb40ba8cdf1"
+  },
   "arabicName": {
     "message": "아랍어",
     "hash": "b30d849e422c0976e622b7ee0a9c13d5"

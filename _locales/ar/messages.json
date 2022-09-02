@@ -7,6 +7,10 @@
     "message": "أضف نصوصًا إلى مكتبة التعلم الخاصة بك.",
     "hash": "452af59bd388b75f2e320ae4d256d0d9"
   },
+  "shortcutDescription": {
+    "message": "أرسل الصفحة إلى Aprelendo باستخدام اللغة المحددة في التفضيلات",
+    "hash": "71aac76c51101bb1b80aeeb40ba8cdf1"
+  },
   "arabicName": {
     "message": "العربية",
     "hash": "b30d849e422c0976e622b7ee0a9c13d5"

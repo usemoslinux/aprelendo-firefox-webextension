@@ -7,6 +7,10 @@
     "message": "Fügen Sie Ihrer Lernbibliothek Texte hinzu.",
     "hash": "452af59bd388b75f2e320ae4d256d0d9"
   },
+  "shortcutDescription": {
+    "message": "Seite an Aprelendo senden und dabei die in den Einstellungen ausgewählte Sprache verwenden",
+    "hash": "71aac76c51101bb1b80aeeb40ba8cdf1"
+  },
   "arabicName": {
     "message": "Arabisch",
     "hash": "b30d849e422c0976e622b7ee0a9c13d5"
