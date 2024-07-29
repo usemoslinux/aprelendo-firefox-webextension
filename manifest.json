@@ -1,15 +1,17 @@
 {
   "manifest_version": 2,
   "name": "__MSG_extensionName__",
-  "version": "1.3.1",
+  "version": "1.5",
   "description": "__MSG_extensionDescription__",
   "homepage_url": "https://www.aprelendo.com",
   "icons": {
-    "48": "icons/aprelendo.svg",
-    "96": "icons/aprelendo.svg"
+      "16": "icons/aprelendo16.png",
+      "32": "icons/aprelendo32.png",
+      "48": "icons/aprelendo48.png",
+      "96": "icons/aprelendo96.png"
   },
   
-  "applications": {
+  "browser_specific_settings": {
     "gecko": {
       "id": "{d89b9665-3b30-4586-9bff-7b9aeea27145}"
     }
@@ -21,7 +23,7 @@
   ],
 
   "browser_action": {
-    "default_icon": "icons/aprelendo.svg",
+    "default_icon": "icons/aprelendo16.png",
     "default_title": "Add to Aprelendo",
     "default_popup": "popup/choose_lang.html"
   },

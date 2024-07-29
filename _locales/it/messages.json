@@ -1,96 +1,116 @@
 {
-  "extensionName": {
-    "message": "Aprelendo",
-    "hash": "5cf92cdb65eaaf0ed4dcd12cd3167edb"
-  },
-  "extensionDescription": {
-    "message": "Aggiungi testi alla tua libreria di apprendimento.",
-    "hash": "452af59bd388b75f2e320ae4d256d0d9"
-  },
-  "shortcutDescription": {
-    "message": "Invia pagina a Aprelendo utilizzando la lingua selezionata in Preferenze",
-    "hash": "71aac76c51101bb1b80aeeb40ba8cdf1"
-  },
-  "arabicName": {
-    "message": "Arabo",
-    "hash": "b30d849e422c0976e622b7ee0a9c13d5"
-  },
-  "chineseName": {
-    "message": "Cinese",
-    "hash": "985aaf35ed7f5d3a39e0e94bfd30d321"
-  },
-  "dutchName": {
-    "message": "Olandese",
-    "hash": "73bfe6ac490280fbca216188cda1546e"
-  },
-  "englishName": {
-    "message": "Inglese",
-    "hash": "648e324401faf8ae90395ce21e894596"
-  },
-  "frenchName": {
-    "message": "Francese",
-    "hash": "09a22929e52b1a0c2d830c4415f09290"
-  },
-  "germanName": {
-    "message": "Tedesco",
-    "hash": "730e124165ee254c3f3c34c40acc10dc"
-  },
-  "greekName": {
-    "message": "Greco",
-    "hash": "3159094058d1d92b39a95a43de58efed"
-  },
-  "hebrewName": {
-    "message": "Ebraico",
-    "hash": "9c5bda953486f7d1ed2091bf94d8b291"
-  },
-  "hindiName": {
-    "message": "Hindi",
-    "hash": "3a92e87079b1f58eb313e51ffd5c5095"
-  },
-  "italianName": {
-    "message": "Italiano",
-    "hash": "11b98f20d7520e3ce3922fb5e915e493"
-  },
-  "japaneseName": {
-    "message": "Giapponese",
-    "hash": "ed0730b295dca59e5a09fa843eb87c8d"
-  },
-  "koreanName": {
-    "message": "Coreano",
-    "hash": "ae858ae79eb21082407b9bd5d547fa95"
-  },
-  "portugueseName": {
-    "message": "Portoghese",
-    "hash": "e94504292f0304c8b4d2ba973ca726db"
-  },
-  "russianName": {
-    "message": "Russo",
-    "hash": "cfa28bfc6a8c0162c0ec3d50a165948b"
-  },
-  "spanishName": {
-    "message": "Spagnolo",
-    "hash": "c58ca0cfe7f76c9bef2da8033fd644eb"
-  },
-  "langsShownOptLabel": {
-    "message": "Lingue da mostrare nel menu:",
-    "hash": "0ac0524bb1eb439892be1b81fa23744c"
-  },
-  "shortcutLangOptLabel": {
-    "message": "Lingua da utilizzare con la scorciatoia da tastiera:",
-    "hash": "82b7a45777b900e306c01ad61c32bebf"
-  },
-  "successOptMsgTitle": {
-    "message": "Successo!",
-    "hash": "250314a446b1d8a2a1bddc737f84bc3d"
-  },
-  "successOptMsgText": {
-    "message": "Le tue preferenze sono state salvate.",
-    "hash": "a7ccfe30009c0227f9ba9318f2c3f77a"
-  },
-  "saveBtnOpt": {
-    "message": "Salva",
-    "hash": "aa14043bd4e6f79db542868539be9220"
-  },
-
-  "__WET_LOCALE__": { "message": "it" }
+    "extensionName": {
+        "message": "Aprelendo"
+    },
+    "extensionDescription": {
+        "message": "Aggiungi testi alla tua libreria Aprelendo."
+    },
+    "shortcutDescription": {
+        "message": "Invia pagina ad Aprelendo utilizzando la lingua selezionata nelle Preferenze"
+    },
+    "arabicName": {
+        "message": "Arabo"
+    },
+    "bulgarianName": {
+        "message": "Bulgaro"
+    },
+    "catalanName": {
+        "message": "Catalano"
+    },
+    "chineseName": {
+        "message": "Cinese"
+    },
+    "croatianName": {
+        "message": "Croato"
+    },
+    "czechName": {
+        "message": "Ceco"
+    },
+    "danishName": {
+        "message": "Danese"
+    },
+    "dutchName": {
+        "message": "Olandese"
+    },
+    "englishName": {
+        "message": "Inglese"
+    },
+    "frenchName": {
+        "message": "Francese"
+    },
+    "germanName": {
+        "message": "Tedesco"
+    },
+    "greekName": {
+        "message": "Greco"
+    },
+    "hebrewName": {
+        "message": "Ebraico"
+    },
+    "hindiName": {
+        "message": "Hindi"
+    },
+    "hungarianName": {
+        "message": "Ungherese"
+    },
+    "italianName": {
+        "message": "Italiano"
+    },
+    "japaneseName": {
+        "message": "Giapponese"
+    },
+    "koreanName": {
+        "message": "Coreano"
+    },
+    "norwegianName": {
+        "message": "Norvegese"
+    },
+    "polishName": {
+        "message": "Polacco"
+    },
+    "portugueseName": {
+        "message": "Portoghese"
+    },
+    "romanianName": {
+        "message": "Rumeno"
+    },
+    "russianName": {
+        "message": "Russo"
+    },
+    "slovakName": {
+        "message": "Slovacco"
+    },
+    "slovenianName": {
+        "message": "Sloveno"
+    },
+    "spanishName": {
+        "message": "Spagnolo"
+    },
+    "swedishName": {
+        "message": "Svedese"
+    },
+    "turkishName": {
+        "message": "Turco"
+    },
+    "vietnameseName": {
+        "message": "Vietnamita"
+    },
+    "langsShownOptLabel": {
+        "message": "Lingue da mostrare nel menu:"
+    },
+    "shortcutLangOptLabel": {
+        "message": "Lingua da usare con la scorciatoia da tastiera:"
+    },
+    "successOptMsgTitle": {
+        "message": "Successo!"
+    },
+    "successOptMsgText": {
+        "message": "Le tue preferenze sono state salvate."
+    },
+    "saveBtnOpt": {
+        "message": "Salva"
+    },
+    "__WET_LOCALE__": {
+        "message": "it"
+    }
 }

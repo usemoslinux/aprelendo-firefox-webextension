@@ -1,0 +1,116 @@
+{
+    "extensionName": {
+        "message": "Aprelendo"
+    },
+    "extensionDescription": {
+        "message": "Tilføj tekster til dit Aprelendo-bibliotek."
+    },
+    "shortcutDescription": {
+        "message": "Send side til Aprelendo ved hjælp af det sprog, der er valgt i Indstillinger"
+    },
+    "arabicName": {
+        "message": "Arabisk"
+    },
+    "bulgarianName": {
+        "message": "Bulgarsk"
+    },
+    "catalanName": {
+        "message": "Catalansk"
+    },
+    "chineseName": {
+        "message": "Kinesisk"
+    },
+    "croatianName": {
+        "message": "Kroatisk"
+    },
+    "czechName": {
+        "message": "Tjekkisk"
+    },
+    "danishName": {
+        "message": "Dansk"
+    },
+    "dutchName": {
+        "message": "Hollandsk"
+    },
+    "englishName": {
+        "message": "Engelsk"
+    },
+    "frenchName": {
+        "message": "Fransk"
+    },
+    "germanName": {
+        "message": "Tysk"
+    },
+    "greekName": {
+        "message": "Græsk"
+    },
+    "hebrewName": {
+        "message": "Hebraisk"
+    },
+    "hindiName": {
+        "message": "Hindi"
+    },
+    "hungarianName": {
+        "message": "Ungarsk"
+    },
+    "italianName": {
+        "message": "Italiensk"
+    },
+    "japaneseName": {
+        "message": "Japansk"
+    },
+    "koreanName": {
+        "message": "Koreansk"
+    },
+    "norwegianName": {
+        "message": "Norsk"
+    },
+    "polishName": {
+        "message": "Polsk"
+    },
+    "portugueseName": {
+        "message": "Portugisisk"
+    },
+    "romanianName": {
+        "message": "Rumænsk"
+    },
+    "russianName": {
+        "message": "Russisk"
+    },
+    "slovakName": {
+        "message": "Slovakisk"
+    },
+    "slovenianName": {
+        "message": "Slovensk"
+    },
+    "spanishName": {
+        "message": "Spansk"
+    },
+    "swedishName": {
+        "message": "Svensk"
+    },
+    "turkishName": {
+        "message": "Tyrkisk"
+    },
+    "vietnameseName": {
+        "message": "Vietnamesisk"
+    },
+    "langsShownOptLabel": {
+        "message": "Sprog, der skal vises i menuen:"
+    },
+    "shortcutLangOptLabel": {
+        "message": "Sprog, der skal bruges med tastaturgenvej:"
+    },
+    "successOptMsgTitle": {
+        "message": "Succes!"
+    },
+    "successOptMsgText": {
+        "message": "Dine indstillinger blev gemt."
+    },
+    "saveBtnOpt": {
+        "message": "Gem"
+    },
+    "__WET_LOCALE__": {
+        "message": "da"
+    }
+}

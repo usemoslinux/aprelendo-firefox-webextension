@@ -1,96 +1,116 @@
 {
   "extensionName": {
-    "message": "Aprelendo",
-    "hash": "5cf92cdb65eaaf0ed4dcd12cd3167edb"
+    "message": "Aprelendo"
   },
   "extensionDescription": {
-    "message": "将文本添加到您的学习库。",
-    "hash": "452af59bd388b75f2e320ae4d256d0d9"
+    "message": "将文本添加到您的Aprelendo库中。"
   },
   "shortcutDescription": {
-    "message": "使用在首选项中选择的语言将页面发送到 Aprelendo",
-    "hash": "71aac76c51101bb1b80aeeb40ba8cdf1"
+    "message": "使用“首选项”中选择的语言将页面发送到Aprelendo"
   },
   "arabicName": {
-    "message": "阿拉伯语",
-    "hash": "b30d849e422c0976e622b7ee0a9c13d5"
+    "message": "阿拉伯语"
+  },
+  "bulgarianName": {
+    "message": "保加利亚语"
+  },
+  "catalanName": {
+    "message": "加泰罗尼亚语"
   },
   "chineseName": {
-    "message": "中文",
-    "hash": "985aaf35ed7f5d3a39e0e94bfd30d321"
+    "message": "中文"
+  },
+  "croatianName": {
+    "message": "克罗地亚语"
+  },
+  "czechName": {
+    "message": "捷克语"
+  },
+  "danishName": {
+    "message": "丹麦语"
   },
   "dutchName": {
-    "message": "荷兰语",
-    "hash": "73bfe6ac490280fbca216188cda1546e"
+    "message": "荷兰语"
   },
   "englishName": {
-    "message": "英语",
-    "hash": "648e324401faf8ae90395ce21e894596"
+    "message": "英语"
   },
   "frenchName": {
-    "message": "法语",
-    "hash": "09a22929e52b1a0c2d830c4415f09290"
+    "message": "法语"
   },
   "germanName": {
-    "message": "德语",
-    "hash": "730e124165ee254c3f3c34c40acc10dc"
+    "message": "德语"
   },
   "greekName": {
-    "message": "希腊语",
-    "hash": "3159094058d1d92b39a95a43de58efed"
+    "message": "希腊语"
   },
   "hebrewName": {
-    "message": "希伯来语",
-    "hash": "9c5bda953486f7d1ed2091bf94d8b291"
+    "message": "希伯来语"
   },
   "hindiName": {
-    "message": "印地语",
-    "hash": "3a92e87079b1f58eb313e51ffd5c5095"
+    "message": "印地语"
+  },
+  "hungarianName": {
+    "message": "匈牙利语"
   },
   "italianName": {
-    "message": "意大利语",
-    "hash": "11b98f20d7520e3ce3922fb5e915e493"
+    "message": "意大利语"
   },
   "japaneseName": {
-    "message": "日语",
-    "hash": "ed0730b295dca59e5a09fa843eb87c8d"
+    "message": "日语"
   },
   "koreanName": {
-    "message": "韩语",
-    "hash": "ae858ae79eb21082407b9bd5d547fa95"
+    "message": "韩语"
+  },
+  "norwegianName": {
+    "message": "挪威语"
+  },
+  "polishName": {
+    "message": "波兰语"
   },
   "portugueseName": {
-    "message": "葡萄牙语",
-    "hash": "e94504292f0304c8b4d2ba973ca726db"
+    "message": "葡萄牙语"
+  },
+  "romanianName": {
+    "message": "罗马尼亚语"
   },
   "russianName": {
-    "message": "俄语",
-    "hash": "cfa28bfc6a8c0162c0ec3d50a165948b"
+    "message": "俄语"
+  },
+  "slovakName": {
+    "message": "斯洛伐克语"
+  },
+  "slovenianName": {
+    "message": "斯洛文尼亚语"
   },
   "spanishName": {
-    "message": "西班牙语",
-    "hash": "c58ca0cfe7f76c9bef2da8033fd644eb"
+    "message": "西班牙语"
+  },
+  "swedishName": {
+    "message": "瑞典语"
+  },
+  "turkishName": {
+    "message": "土耳其语"
+  },
+  "vietnameseName": {
+    "message": "越南语"
   },
   "langsShownOptLabel": {
-    "message": "菜单中显示的语言：",
-    "hash": "0ac0524bb1eb439892be1b81fa23744c"
+    "message": "菜单中显示的语言："
   },
   "shortcutLangOptLabel": {
-    "message": "与键盘快捷键一起使用的语言：",
-    "hash": "82b7a45777b900e306c01ad61c32bebf"
+    "message": "使用快捷键的语言："
   },
   "successOptMsgTitle": {
-    "message": "成功！",
-    "hash": "250314a446b1d8a2a1bddc737f84bc3d"
+    "message": "成功！"
   },
   "successOptMsgText": {
-    "message": "您的偏好保存在哪里。",
-    "hash": "a7ccfe30009c0227f9ba9318f2c3f77a"
+    "message": "您的偏好设置已保存。"
   },
   "saveBtnOpt": {
-    "message": "节省",
-    "hash": "aa14043bd4e6f79db542868539be9220"
+    "message": "保存"
   },
-
-  "__WET_LOCALE__": { "message": "zh" }
+  "__WET_LOCALE__": {
+    "message": "zh"
+  }
 }

@@ -1,96 +1,116 @@
 {
   "extensionName": {
-    "message": "Aprelendo",
-    "hash": "5cf92cdb65eaaf0ed4dcd12cd3167edb"
+    "message": "Aprelendo"
   },
   "extensionDescription": {
-    "message": "अपनी लर्निंग लाइब्रेरी में टेक्स्ट जोड़ें।",
-    "hash": "452af59bd388b75f2e320ae4d256d0d9"
+    "message": "अपने Aprelendo पुस्तकालय में पाठ जोड़ें।"
   },
   "shortcutDescription": {
-    "message": "वरीयता में चुनी गई भाषा का उपयोग करके Aprelendo पर पेज भेजें",
-    "hash": "71aac76c51101bb1b80aeeb40ba8cdf1"
+    "message": "प्राथमिकताओं में चयनित भाषा का उपयोग करके पृष्ठ को Aprelendo पर भेजें"
   },
   "arabicName": {
-    "message": "अरबी",
-    "hash": "b30d849e422c0976e622b7ee0a9c13d5"
+    "message": "अरबी"
+  },
+  "bulgarianName": {
+    "message": "बल्गेरियाई"
+  },
+  "catalanName": {
+    "message": "कैटलन"
   },
   "chineseName": {
-    "message": "चीनी",
-    "hash": "985aaf35ed7f5d3a39e0e94bfd30d321"
+    "message": "चीनी"
+  },
+  "croatianName": {
+    "message": "क्रोएशियाई"
+  },
+  "czechName": {
+    "message": "चेक"
+  },
+  "danishName": {
+    "message": "डेनिश"
   },
   "dutchName": {
-    "message": "डच",
-    "hash": "73bfe6ac490280fbca216188cda1546e"
+    "message": "डच"
   },
   "englishName": {
-    "message": "अंग्रेजी",
-    "hash": "648e324401faf8ae90395ce21e894596"
+    "message": "अंग्रेज़ी"
   },
   "frenchName": {
-    "message": "फ्रेंच",
-    "hash": "09a22929e52b1a0c2d830c4415f09290"
+    "message": "फ्रेंच"
   },
   "germanName": {
-    "message": "जर्मन",
-    "hash": "730e124165ee254c3f3c34c40acc10dc"
+    "message": "जर्मन"
   },
   "greekName": {
-    "message": "ग्रीक",
-    "hash": "3159094058d1d92b39a95a43de58efed"
+    "message": "ग्रीक"
   },
   "hebrewName": {
-    "message": "हिब्रू",
-    "hash": "9c5bda953486f7d1ed2091bf94d8b291"
+    "message": "हीब्रू"
   },
   "hindiName": {
-    "message": "हिंदी",
-    "hash": "3a92e87079b1f58eb313e51ffd5c5095"
+    "message": "हिंदी"
+  },
+  "hungarianName": {
+    "message": "हंगेरियाई"
   },
   "italianName": {
-    "message": "इतालवी",
-    "hash": "11b98f20d7520e3ce3922fb5e915e493"
+    "message": "इतालवी"
   },
   "japaneseName": {
-    "message": "जापानी",
-    "hash": "ed0730b295dca59e5a09fa843eb87c8d"
+    "message": "जापानी"
   },
   "koreanName": {
-    "message": "कोरियाई",
-    "hash": "ae858ae79eb21082407b9bd5d547fa95"
+    "message": "कोरियाई"
+  },
+  "norwegianName": {
+    "message": "नॉर्वेजियन"
+  },
+  "polishName": {
+    "message": "पोलिश"
   },
   "portugueseName": {
-    "message": "पुर्तगाली",
-    "hash": "e94504292f0304c8b4d2ba973ca726db"
+    "message": "पुर्तगाली"
+  },
+  "romanianName": {
+    "message": "रोमानियाई"
   },
   "russianName": {
-    "message": "रूसी",
-    "hash": "cfa28bfc6a8c0162c0ec3d50a165948b"
+    "message": "रूसी"
+  },
+  "slovakName": {
+    "message": "स्लोवाक"
+  },
+  "slovenianName": {
+    "message": "स्लोवेनियाई"
   },
   "spanishName": {
-    "message": "स्पेनिश",
-    "hash": "c58ca0cfe7f76c9bef2da8033fd644eb"
+    "message": "स्पेनिश"
+  },
+  "swedishName": {
+    "message": "स्वीडिश"
+  },
+  "turkishName": {
+    "message": "तुर्की"
+  },
+  "vietnameseName": {
+    "message": "वियतनामी"
   },
   "langsShownOptLabel": {
-    "message": "मेनू में दिखाने के लिए भाषाएँ:",
-    "hash": "0ac0524bb1eb439892be1b81fa23744c"
+    "message": "मेनू में दिखाने के लिए भाषाएँ:"
   },
   "shortcutLangOptLabel": {
-    "message": "कीबोर्ड शॉर्टकट के साथ प्रयोग की जाने वाली भाषा:",
-    "hash": "82b7a45777b900e306c01ad61c32bebf"
+    "message": "कीबोर्ड शॉर्टकट के साथ उपयोग करने के लिए भाषा:"
   },
   "successOptMsgTitle": {
-    "message": "सफलता!",
-    "hash": "250314a446b1d8a2a1bddc737f84bc3d"
+    "message": "सफलता!"
   },
   "successOptMsgText": {
-    "message": "आपकी प्राथमिकताएँ जहाँ सहेजी गई हैं।",
-    "hash": "a7ccfe30009c0227f9ba9318f2c3f77a"
+    "message": "आपकी प्राथमिकताएँ सहेजी गईं।"
   },
   "saveBtnOpt": {
-    "message": "बचाना",
-    "hash": "aa14043bd4e6f79db542868539be9220"
+    "message": "सहेजें"
   },
-
-  "__WET_LOCALE__": { "message": "hi" }
+  "__WET_LOCALE__": {
+    "message": "hi"
+  }
 }

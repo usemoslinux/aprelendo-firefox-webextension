@@ -1,0 +1,116 @@
+{
+  "extensionName": {
+    "message": "Aprelendo"
+  },
+  "extensionDescription": {
+    "message": "Pridajte texty do svojej knižnice Aprelendo."
+  },
+  "shortcutDescription": {
+    "message": "Odošlite stránku do Aprelendo pomocou jazyka vybraného v Predvoľbách"
+  },
+  "arabicName": {
+    "message": "Arabčina"
+  },
+  "bulgarianName": {
+    "message": "Bulharčina"
+  },
+  "catalanName": {
+    "message": "Katalánčina"
+  },
+  "chineseName": {
+    "message": "Čínština"
+  },
+  "croatianName": {
+    "message": "Chorvátčina"
+  },
+  "czechName": {
+    "message": "Čeština"
+  },
+  "danishName": {
+    "message": "Dánčina"
+  },
+  "dutchName": {
+    "message": "Holandčina"
+  },
+  "englishName": {
+    "message": "Angličtina"
+  },
+  "frenchName": {
+    "message": "Francúzština"
+  },
+  "germanName": {
+    "message": "Nemčina"
+  },
+  "greekName": {
+    "message": "Gréčtina"
+  },
+  "hebrewName": {
+    "message": "Hebrejčina"
+  },
+  "hindiName": {
+    "message": "Hindčina"
+  },
+  "hungarianName": {
+    "message": "Maďarčina"
+  },
+  "italianName": {
+    "message": "Taliančina"
+  },
+  "japaneseName": {
+    "message": "Japončina"
+  },
+  "koreanName": {
+    "message": "Kórejčina"
+  },
+  "norwegianName": {
+    "message": "Nórčina"
+  },
+  "polishName": {
+    "message": "Poľština"
+  },
+  "portugueseName": {
+    "message": "Portugalčina"
+  },
+  "romanianName": {
+    "message": "Rumunčina"
+  },
+  "russianName": {
+    "message": "Ruština"
+  },
+  "slovakName": {
+    "message": "Slovenčina"
+  },
+  "slovenianName": {
+    "message": "Slovinčina"
+  },
+  "spanishName": {
+    "message": "Španielčina"
+  },
+  "swedishName": {
+    "message": "Švédčina"
+  },
+  "turkishName": {
+    "message": "Turečtina"
+  },
+  "vietnameseName": {
+    "message": "Vietnamčina"
+  },
+  "langsShownOptLabel": {
+    "message": "Jazyky, ktoré sa majú zobrazovať v menu:"
+  },
+  "shortcutLangOptLabel": {
+    "message": "Jazyk pre použitie s klávesovou skratkou:"
+  },
+  "successOptMsgTitle": {
+    "message": "Úspech!"
+  },
+  "successOptMsgText": {
+    "message": "Vaše predvoľby boli uložené."
+  },
+  "saveBtnOpt": {
+    "message": "Uložiť"
+  },
+
+  "__WET_LOCALE__": { "message": "sk" }
+}
+

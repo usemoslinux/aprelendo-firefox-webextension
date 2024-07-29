@@ -1,96 +1,116 @@
 {
-  "extensionName": {
-    "message": "Aprelendo",
-    "hash": "5cf92cdb65eaaf0ed4dcd12cd3167edb"
-  },
-  "extensionDescription": {
-    "message": "أضف نصوصًا إلى مكتبة التعلم الخاصة بك.",
-    "hash": "452af59bd388b75f2e320ae4d256d0d9"
-  },
-  "shortcutDescription": {
-    "message": "أرسل الصفحة إلى Aprelendo باستخدام اللغة المحددة في التفضيلات",
-    "hash": "71aac76c51101bb1b80aeeb40ba8cdf1"
-  },
-  "arabicName": {
-    "message": "العربية",
-    "hash": "b30d849e422c0976e622b7ee0a9c13d5"
-  },
-  "chineseName": {
-    "message": "الصينية",
-    "hash": "985aaf35ed7f5d3a39e0e94bfd30d321"
-  },
-  "dutchName": {
-    "message": "الهولندية",
-    "hash": "73bfe6ac490280fbca216188cda1546e"
-  },
-  "englishName": {
-    "message": "الإنجليزية",
-    "hash": "648e324401faf8ae90395ce21e894596"
-  },
-  "frenchName": {
-    "message": "الفرنسية",
-    "hash": "09a22929e52b1a0c2d830c4415f09290"
-  },
-  "germanName": {
-    "message": "الألمانية",
-    "hash": "730e124165ee254c3f3c34c40acc10dc"
-  },
-  "greekName": {
-    "message": "اليونانية",
-    "hash": "3159094058d1d92b39a95a43de58efed"
-  },
-  "hebrewName": {
-    "message": "العبرية",
-    "hash": "9c5bda953486f7d1ed2091bf94d8b291"
-  },
-  "hindiName": {
-    "message": "الهندية",
-    "hash": "3a92e87079b1f58eb313e51ffd5c5095"
-  },
-  "italianName": {
-    "message": "الإيطالية",
-    "hash": "11b98f20d7520e3ce3922fb5e915e493"
-  },
-  "japaneseName": {
-    "message": "اليابانية",
-    "hash": "ed0730b295dca59e5a09fa843eb87c8d"
-  },
-  "koreanName": {
-    "message": "الكورية",
-    "hash": "ae858ae79eb21082407b9bd5d547fa95"
-  },
-  "portugueseName": {
-    "message": "البرتغالية",
-    "hash": "e94504292f0304c8b4d2ba973ca726db"
-  },
-  "russianName": {
-    "message": "الروسية",
-    "hash": "cfa28bfc6a8c0162c0ec3d50a165948b"
-  },
-  "spanishName": {
-    "message": "الإسبانية",
-    "hash": "c58ca0cfe7f76c9bef2da8033fd644eb"
-  },
-  "langsShownOptLabel": {
-    "message": "اللغات المراد إظهارها في القائمة:",
-    "hash": "0ac0524bb1eb439892be1b81fa23744c"
-  },
-  "shortcutLangOptLabel": {
-    "message": "اللغة المراد استخدامها مع اختصار لوحة المفاتيح:",
-    "hash": "82b7a45777b900e306c01ad61c32bebf"
-  },
-  "successOptMsgTitle": {
-    "message": "النجاح!",
-    "hash": "250314a446b1d8a2a1bddc737f84bc3d"
-  },
-  "successOptMsgText": {
-    "message": "تفضيلاتك حيث تم حفظها.",
-    "hash": "a7ccfe30009c0227f9ba9318f2c3f77a"
-  },
-  "saveBtnOpt": {
-    "message": "يحفظ",
-    "hash": "aa14043bd4e6f79db542868539be9220"
-  },
-
-  "__WET_LOCALE__": { "message": "ar" }
+    "extensionName": {
+        "message": "Aprelendo"
+    },
+    "extensionDescription": {
+        "message": "أضف نصوصًا إلى مكتبة Aprelendo الخاصة بك."
+    },
+    "shortcutDescription": {
+        "message": "أرسل الصفحة إلى Aprelendo باستخدام اللغة المحددة في التفضيلات"
+    },
+    "arabicName": {
+        "message": "العربية"
+    },
+    "bulgarianName": {
+        "message": "البلغارية"
+    },
+    "catalanName": {
+        "message": "الكاتالونية"
+    },
+    "chineseName": {
+        "message": "الصينية"
+    },
+    "croatianName": {
+        "message": "الكرواتية"
+    },
+    "czechName": {
+        "message": "التشيكية"
+    },
+    "danishName": {
+        "message": "الدانماركية"
+    },
+    "dutchName": {
+        "message": "الهولندية"
+    },
+    "englishName": {
+        "message": "الإنجليزية"
+    },
+    "frenchName": {
+        "message": "الفرنسية"
+    },
+    "germanName": {
+        "message": "الألمانية"
+    },
+    "greekName": {
+        "message": "اليونانية"
+    },
+    "hebrewName": {
+        "message": "العبرية"
+    },
+    "hindiName": {
+        "message": "الهندية"
+    },
+    "hungarianName": {
+        "message": "المجرية"
+    },
+    "italianName": {
+        "message": "الإيطالية"
+    },
+    "japaneseName": {
+        "message": "اليابانية"
+    },
+    "koreanName": {
+        "message": "الكورية"
+    },
+    "norwegianName": {
+        "message": "النرويجية"
+    },
+    "polishName": {
+        "message": "البولندية"
+    },
+    "portugueseName": {
+        "message": "البرتغالية"
+    },
+    "romanianName": {
+        "message": "الرومانية"
+    },
+    "russianName": {
+        "message": "الروسية"
+    },
+    "slovakName": {
+        "message": "السلوفاكية"
+    },
+    "slovenianName": {
+        "message": "السلوفينية"
+    },
+    "spanishName": {
+        "message": "الإسبانية"
+    },
+    "swedishName": {
+        "message": "السويدية"
+    },
+    "turkishName": {
+        "message": "التركية"
+    },
+    "vietnameseName": {
+        "message": "الفيتنامية"
+    },
+    "langsShownOptLabel": {
+        "message": "اللغات التي تظهر في القائمة:"
+    },
+    "shortcutLangOptLabel": {
+        "message": "اللغة التي تستخدم مع اختصار لوحة المفاتيح:"
+    },
+    "successOptMsgTitle": {
+        "message": "نجاح!"
+    },
+    "successOptMsgText": {
+        "message": "تم حفظ تفضيلاتك."
+    },
+    "saveBtnOpt": {
+        "message": "حفظ"
+    },
+    "__WET_LOCALE__": {
+        "message": "ar"
+    }
 }

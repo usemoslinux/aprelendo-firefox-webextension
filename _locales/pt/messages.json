@@ -1,96 +1,116 @@
 {
   "extensionName": {
-    "message": "Aprelendo",
-    "hash": "5cf92cdb65eaaf0ed4dcd12cd3167edb"
+    "message": "Aprelendo"
   },
   "extensionDescription": {
-    "message": "Adicione textos à sua biblioteca de aprendizagem.",
-    "hash": "452af59bd388b75f2e320ae4d256d0d9"
+    "message": "Adicione textos à sua biblioteca Aprelendo."
   },
   "shortcutDescription": {
-    "message": "Enviar página para Aprelendo usando o idioma selecionado em Preferências",
-    "hash": "71aac76c51101bb1b80aeeb40ba8cdf1"
+    "message": "Envie a página para Aprelendo usando o idioma selecionado nas Preferências"
   },
   "arabicName": {
-    "message": "Árabe",
-    "hash": "b30d849e422c0976e622b7ee0a9c13d5"
+    "message": "Árabe"
+  },
+  "bulgarianName": {
+    "message": "Búlgaro"
+  },
+  "catalanName": {
+    "message": "Catalão"
   },
   "chineseName": {
-    "message": "Chinês",
-    "hash": "985aaf35ed7f5d3a39e0e94bfd30d321"
+    "message": "Chinês"
+  },
+  "croatianName": {
+    "message": "Croata"
+  },
+  "czechName": {
+    "message": "Tcheco"
+  },
+  "danishName": {
+    "message": "Dinamarquês"
   },
   "dutchName": {
-    "message": "Holandês",
-    "hash": "73bfe6ac490280fbca216188cda1546e"
+    "message": "Holandês"
   },
   "englishName": {
-    "message": "Inglês",
-    "hash": "648e324401faf8ae90395ce21e894596"
+    "message": "Inglês"
   },
   "frenchName": {
-    "message": "Francês",
-    "hash": "09a22929e52b1a0c2d830c4415f09290"
+    "message": "Francês"
   },
   "germanName": {
-    "message": "Alemão",
-    "hash": "730e124165ee254c3f3c34c40acc10dc"
+    "message": "Alemão"
   },
   "greekName": {
-    "message": "Grego",
-    "hash": "3159094058d1d92b39a95a43de58efed"
+    "message": "Grego"
   },
   "hebrewName": {
-    "message": "Hebraico",
-    "hash": "9c5bda953486f7d1ed2091bf94d8b291"
+    "message": "Hebraico"
   },
   "hindiName": {
-    "message": "Hindi",
-    "hash": "3a92e87079b1f58eb313e51ffd5c5095"
+    "message": "Hindi"
+  },
+  "hungarianName": {
+    "message": "Húngaro"
   },
   "italianName": {
-    "message": "Italiano",
-    "hash": "11b98f20d7520e3ce3922fb5e915e493"
+    "message": "Italiano"
   },
   "japaneseName": {
-    "message": "Japonês",
-    "hash": "ed0730b295dca59e5a09fa843eb87c8d"
+    "message": "Japonês"
   },
   "koreanName": {
-    "message": "Coreano",
-    "hash": "ae858ae79eb21082407b9bd5d547fa95"
+    "message": "Coreano"
+  },
+  "norwegianName": {
+    "message": "Norueguês"
+  },
+  "polishName": {
+    "message": "Polonês"
   },
   "portugueseName": {
-    "message": "Português",
-    "hash": "e94504292f0304c8b4d2ba973ca726db"
+    "message": "Português"
+  },
+  "romanianName": {
+    "message": "Romeno"
   },
   "russianName": {
-    "message": "Russo",
-    "hash": "cfa28bfc6a8c0162c0ec3d50a165948b"
+    "message": "Russo"
+  },
+  "slovakName": {
+    "message": "Eslovaco"
+  },
+  "slovenianName": {
+    "message": "Esloveno"
   },
   "spanishName": {
-    "message": "Espanhol",
-    "hash": "c58ca0cfe7f76c9bef2da8033fd644eb"
+    "message": "Espanhol"
+  },
+  "swedishName": {
+    "message": "Sueco"
+  },
+  "turkishName": {
+    "message": "Turco"
+  },
+  "vietnameseName": {
+    "message": "Vietnamita"
   },
   "langsShownOptLabel": {
-    "message": "Idiomas para mostrar no menu:",
-    "hash": "0ac0524bb1eb439892be1b81fa23744c"
+    "message": "Idiomas a serem exibidos no menu:"
   },
   "shortcutLangOptLabel": {
-    "message": "Idioma a ser usado com atalho de teclado:",
-    "hash": "82b7a45777b900e306c01ad61c32bebf"
+    "message": "Idioma a ser usado com atalho de teclado:"
   },
   "successOptMsgTitle": {
-    "message": "Sucesso!",
-    "hash": "250314a446b1d8a2a1bddc737f84bc3d"
+    "message": "Sucesso!"
   },
   "successOptMsgText": {
-    "message": "Suas preferências foram salvas.",
-    "hash": "a7ccfe30009c0227f9ba9318f2c3f77a"
+    "message": "Suas preferências foram salvas."
   },
   "saveBtnOpt": {
-    "message": "Salvar",
-    "hash": "aa14043bd4e6f79db542868539be9220"
+    "message": "Salvar"
   },
-
-  "__WET_LOCALE__": { "message": "pt" }
+  "__WET_LOCALE__": {
+    "message": "pt"
+  }
 }

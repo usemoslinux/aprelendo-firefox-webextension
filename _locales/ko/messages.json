@@ -1,96 +1,116 @@
 {
   "extensionName": {
-    "message": "Aprelendo",
-    "hash": "5cf92cdb65eaaf0ed4dcd12cd3167edb"
+    "message": "Aprelendo"
   },
   "extensionDescription": {
-    "message": "학습 라이브러리에 텍스트를 추가합니다.",
-    "hash": "452af59bd388b75f2e320ae4d256d0d9"
+    "message": "Aprelendo 라이브러리에 텍스트 추가."
   },
   "shortcutDescription": {
-    "message": "기본 설정에서 선택한 언어를 사용하여 Aprelendo으로 페이지 보내기",
-    "hash": "71aac76c51101bb1b80aeeb40ba8cdf1"
+    "message": "환경설정에서 선택한 언어로 Aprelendo에 페이지 보내기"
   },
   "arabicName": {
-    "message": "아랍어",
-    "hash": "b30d849e422c0976e622b7ee0a9c13d5"
+    "message": "아랍어"
+  },
+  "bulgarianName": {
+    "message": "불가리아어"
+  },
+  "catalanName": {
+    "message": "카탈로니아어"
   },
   "chineseName": {
-    "message": "중국어",
-    "hash": "985aaf35ed7f5d3a39e0e94bfd30d321"
+    "message": "중국어"
+  },
+  "croatianName": {
+    "message": "크로아티아어"
+  },
+  "czechName": {
+    "message": "체코어"
+  },
+  "danishName": {
+    "message": "덴마크어"
   },
   "dutchName": {
-    "message": "네덜란드어",
-    "hash": "73bfe6ac490280fbca216188cda1546e"
+    "message": "네덜란드어"
   },
   "englishName": {
-    "message": "영어",
-    "hash": "648e324401faf8ae90395ce21e894596"
+    "message": "영어"
   },
   "frenchName": {
-    "message": "프랑스어",
-    "hash": "09a22929e52b1a0c2d830c4415f09290"
+    "message": "프랑스어"
   },
   "germanName": {
-    "message": "독일어",
-    "hash": "730e124165ee254c3f3c34c40acc10dc"
+    "message": "독일어"
   },
   "greekName": {
-    "message": "그리스어",
-    "hash": "3159094058d1d92b39a95a43de58efed"
+    "message": "그리스어"
   },
   "hebrewName": {
-    "message": "히브리어",
-    "hash": "9c5bda953486f7d1ed2091bf94d8b291"
+    "message": "히브리어"
   },
   "hindiName": {
-    "message": "힌디어",
-    "hash": "3a92e87079b1f58eb313e51ffd5c5095"
+    "message": "힌디어"
+  },
+  "hungarianName": {
+    "message": "헝가리어"
   },
   "italianName": {
-    "message": "이탈리아어",
-    "hash": "11b98f20d7520e3ce3922fb5e915e493"
+    "message": "이탈리아어"
   },
   "japaneseName": {
-    "message": "일본어",
-    "hash": "ed0730b295dca59e5a09fa843eb87c8d"
+    "message": "일본어"
   },
   "koreanName": {
-    "message": "한국어",
-    "hash": "ae858ae79eb21082407b9bd5d547fa95"
+    "message": "한국어"
+  },
+  "norwegianName": {
+    "message": "노르웨이어"
+  },
+  "polishName": {
+    "message": "폴란드어"
   },
   "portugueseName": {
-    "message": "포르투갈어",
-    "hash": "e94504292f0304c8b4d2ba973ca726db"
+    "message": "포르투갈어"
+  },
+  "romanianName": {
+    "message": "루마니아어"
   },
   "russianName": {
-    "message": "러시아어",
-    "hash": "cfa28bfc6a8c0162c0ec3d50a165948b"
+    "message": "러시아어"
+  },
+  "slovakName": {
+    "message": "슬로바키아어"
+  },
+  "slovenianName": {
+    "message": "슬로베니아어"
   },
   "spanishName": {
-    "message": "스페인어",
-    "hash": "c58ca0cfe7f76c9bef2da8033fd644eb"
+    "message": "스페인어"
+  },
+  "swedishName": {
+    "message": "스웨덴어"
+  },
+  "turkishName": {
+    "message": "터키어"
+  },
+  "vietnameseName": {
+    "message": "베트남어"
   },
   "langsShownOptLabel": {
-    "message": "메뉴에 표시할 언어:",
-    "hash": "0ac0524bb1eb439892be1b81fa23744c"
+    "message": "메뉴에 표시할 언어:"
   },
   "shortcutLangOptLabel": {
-    "message": "키보드 단축키와 함께 사용할 언어:",
-    "hash": "82b7a45777b900e306c01ad61c32bebf"
+    "message": "키보드 단축키에 사용할 언어:"
   },
   "successOptMsgTitle": {
-    "message": "성공!",
-    "hash": "250314a446b1d8a2a1bddc737f84bc3d"
+    "message": "성공!"
   },
   "successOptMsgText": {
-    "message": "저장된 환경 설정.",
-    "hash": "a7ccfe30009c0227f9ba9318f2c3f77a"
+    "message": "환경설정이 저장되었습니다."
   },
   "saveBtnOpt": {
-    "message": "구하다",
-    "hash": "aa14043bd4e6f79db542868539be9220"
+    "message": "저장"
   },
-
-  "__WET_LOCALE__": { "message": "ko" }
+  "__WET_LOCALE__": {
+    "message": "ko"
+  }
 }

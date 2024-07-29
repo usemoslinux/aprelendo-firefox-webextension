@@ -1,0 +1,116 @@
+{
+  "extensionName": {
+    "message": "Aprelendo"
+  },
+  "extensionDescription": {
+    "message": "Afegeix textos a la teva biblioteca Aprelendo."
+  },
+  "shortcutDescription": {
+    "message": "Envia la pàgina a Aprelendo utilitzant l'idioma seleccionat a Preferències"
+  },
+  "arabicName": {
+    "message": "Àrab"
+  },
+  "bulgarianName": {
+    "message": "Búlgar"
+  },
+  "catalanName": {
+    "message": "Català"
+  },
+  "chineseName": {
+    "message": "Xinès"
+  },
+  "croatianName": {
+    "message": "Croat"
+  },
+  "czechName": {
+    "message": "Txec"
+  },
+  "danishName": {
+    "message": "Danès"
+  },
+  "dutchName": {
+    "message": "Holandès"
+  },
+  "englishName": {
+    "message": "Anglès"
+  },
+  "frenchName": {
+    "message": "Francès"
+  },
+  "germanName": {
+    "message": "Alemany"
+  },
+  "greekName": {
+    "message": "Grec"
+  },
+  "hebrewName": {
+    "message": "Hebreu"
+  },
+  "hindiName": {
+    "message": "Hindi"
+  },
+  "hungarianName": {
+    "message": "Hongarès"
+  },
+  "italianName": {
+    "message": "Italià"
+  },
+  "japaneseName": {
+    "message": "Japonès"
+  },
+  "koreanName": {
+    "message": "Coreà"
+  },
+  "norwegianName": {
+    "message": "Noruec"
+  },
+  "polishName": {
+    "message": "Polonès"
+  },
+  "portugueseName": {
+    "message": "Portuguès"
+  },
+  "romanianName": {
+    "message": "Romanès"
+  },
+  "russianName": {
+    "message": "Rus"
+  },
+  "slovakName": {
+    "message": "Eslovac"
+  },
+  "slovenianName": {
+    "message": "Eslovè"
+  },
+  "spanishName": {
+    "message": "Espanyol"
+  },
+  "swedishName": {
+    "message": "Suec"
+  },
+  "turkishName": {
+    "message": "Turc"
+  },
+  "vietnameseName": {
+    "message": "Vietnamita"
+  },
+  "langsShownOptLabel": {
+    "message": "Idiomes per mostrar al menú:"
+  },
+  "shortcutLangOptLabel": {
+    "message": "Idioma per utilitzar amb la drecera del teclat:"
+  },
+  "successOptMsgTitle": {
+    "message": "Èxit!"
+  },
+  "successOptMsgText": {
+    "message": "Les teves preferències s'han guardat."
+  },
+  "saveBtnOpt": {
+    "message": "Desa"
+  },
+  "__WET_LOCALE__": {
+    "message": "ca"
+  }
+}

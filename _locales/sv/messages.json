@@ -1,0 +1,116 @@
+{
+  "extensionName": {
+    "message": "Aprelendo"
+  },
+  "extensionDescription": {
+    "message": "Lägg till texter i ditt Aprelendo-bibliotek."
+  },
+  "shortcutDescription": {
+    "message": "Skicka sida till Aprelendo med det språk som valts i Inställningar"
+  },
+  "arabicName": {
+    "message": "Arabiska"
+  },
+  "bulgarianName": {
+    "message": "Bulgariska"
+  },
+  "catalanName": {
+    "message": "Katalanska"
+  },
+  "chineseName": {
+    "message": "Kinesiska"
+  },
+  "croatianName": {
+    "message": "Kroatiska"
+  },
+  "czechName": {
+    "message": "Tjeckiska"
+  },
+  "danishName": {
+    "message": "Danska"
+  },
+  "dutchName": {
+    "message": "Holländska"
+  },
+  "englishName": {
+    "message": "Engelska"
+  },
+  "frenchName": {
+    "message": "Franska"
+  },
+  "germanName": {
+    "message": "Tyska"
+  },
+  "greekName": {
+    "message": "Grekiska"
+  },
+  "hebrewName": {
+    "message": "Hebreiska"
+  },
+  "hindiName": {
+    "message": "Hindi"
+  },
+  "hungarianName": {
+    "message": "Ungerska"
+  },
+  "italianName": {
+    "message": "Italienska"
+  },
+  "japaneseName": {
+    "message": "Japanska"
+  },
+  "koreanName": {
+    "message": "Koreanska"
+  },
+  "norwegianName": {
+    "message": "Norska"
+  },
+  "polishName": {
+    "message": "Polska"
+  },
+  "portugueseName": {
+    "message": "Portugisiska"
+  },
+  "romanianName": {
+    "message": "Rumänska"
+  },
+  "russianName": {
+    "message": "Ryska"
+  },
+  "slovakName": {
+    "message": "Slovakiska"
+  },
+  "slovenianName": {
+    "message": "Slovenska"
+  },
+  "spanishName": {
+    "message": "Spanska"
+  },
+  "swedishName": {
+    "message": "Svenska"
+  },
+  "turkishName": {
+    "message": "Turkiska"
+  },
+  "vietnameseName": {
+    "message": "Vietnamesiska"
+  },
+  "langsShownOptLabel": {
+    "message": "Språk att visa i menyn:"
+  },
+  "shortcutLangOptLabel": {
+    "message": "Språk att använda med snabbkommando:"
+  },
+  "successOptMsgTitle": {
+    "message": "Framgång!"
+  },
+  "successOptMsgText": {
+    "message": "Dina inställningar har sparats."
+  },
+  "saveBtnOpt": {
+    "message": "Spara"
+  },
+
+  "__WET_LOCALE__": { "message": "sv" }
+}
+

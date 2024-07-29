@@ -1,96 +1,116 @@
 {
   "extensionName": {
-    "message": "Aprelendo",
-    "hash": "5cf92cdb65eaaf0ed4dcd12cd3167edb"
+    "message": "Aprelendo"
   },
   "extensionDescription": {
-    "message": "学習ライブラリにテキストを追加します。",
-    "hash": "452af59bd388b75f2e320ae4d256d0d9"
+    "message": "テキストをAprelendoライブラリに追加します。"
   },
   "shortcutDescription": {
-    "message": "環境設定で選択した言語を使用して、Aprelendo にページを送信します",
-    "hash": "71aac76c51101bb1b80aeeb40ba8cdf1"
+    "message": "設定で選択した言語を使用してページをAprelendoに送信します"
   },
   "arabicName": {
-    "message": "アラビア語",
-    "hash": "b30d849e422c0976e622b7ee0a9c13d5"
+    "message": "アラビア語"
+  },
+  "bulgarianName": {
+    "message": "ブルガリア語"
+  },
+  "catalanName": {
+    "message": "カタロニア語"
   },
   "chineseName": {
-    "message": "中国語",
-    "hash": "985aaf35ed7f5d3a39e0e94bfd30d321"
+    "message": "中国語"
+  },
+  "croatianName": {
+    "message": "クロアチア語"
+  },
+  "czechName": {
+    "message": "チェコ語"
+  },
+  "danishName": {
+    "message": "デンマーク語"
   },
   "dutchName": {
-    "message": "オランダ語",
-    "hash": "73bfe6ac490280fbca216188cda1546e"
+    "message": "オランダ語"
   },
   "englishName": {
-    "message": "英語",
-    "hash": "648e324401faf8ae90395ce21e894596"
+    "message": "英語"
   },
   "frenchName": {
-    "message": "フランス語",
-    "hash": "09a22929e52b1a0c2d830c4415f09290"
+    "message": "フランス語"
   },
   "germanName": {
-    "message": "ドイツ語",
-    "hash": "730e124165ee254c3f3c34c40acc10dc"
+    "message": "ドイツ語"
   },
   "greekName": {
-    "message": "ギリシャ語",
-    "hash": "3159094058d1d92b39a95a43de58efed"
+    "message": "ギリシャ語"
   },
   "hebrewName": {
-    "message": "ヘブライ語",
-    "hash": "9c5bda953486f7d1ed2091bf94d8b291"
+    "message": "ヘブライ語"
   },
   "hindiName": {
-    "message": "ヒンディー語",
-    "hash": "3a92e87079b1f58eb313e51ffd5c5095"
+    "message": "ヒンディー語"
+  },
+  "hungarianName": {
+    "message": "ハンガリー語"
   },
   "italianName": {
-    "message": "イタリア語",
-    "hash": "11b98f20d7520e3ce3922fb5e915e493"
+    "message": "イタリア語"
   },
   "japaneseName": {
-    "message": "日本語",
-    "hash": "ed0730b295dca59e5a09fa843eb87c8d"
+    "message": "日本語"
   },
   "koreanName": {
-    "message": "韓国語",
-    "hash": "ae858ae79eb21082407b9bd5d547fa95"
+    "message": "韓国語"
+  },
+  "norwegianName": {
+    "message": "ノルウェー語"
+  },
+  "polishName": {
+    "message": "ポーランド語"
   },
   "portugueseName": {
-    "message": "ポルトガル語",
-    "hash": "e94504292f0304c8b4d2ba973ca726db"
+    "message": "ポルトガル語"
+  },
+  "romanianName": {
+    "message": "ルーマニア語"
   },
   "russianName": {
-    "message": "ロシア語",
-    "hash": "cfa28bfc6a8c0162c0ec3d50a165948b"
+    "message": "ロシア語"
+  },
+  "slovakName": {
+    "message": "スロバキア語"
+  },
+  "slovenianName": {
+    "message": "スロベニア語"
   },
   "spanishName": {
-    "message": "スペイン語",
-    "hash": "c58ca0cfe7f76c9bef2da8033fd644eb"
+    "message": "スペイン語"
+  },
+  "swedishName": {
+    "message": "スウェーデン語"
+  },
+  "turkishName": {
+    "message": "トルコ語"
+  },
+  "vietnameseName": {
+    "message": "ベトナム語"
   },
   "langsShownOptLabel": {
-    "message": "メニューに表示する言語:",
-    "hash": "0ac0524bb1eb439892be1b81fa23744c"
+    "message": "メニューに表示する言語："
   },
   "shortcutLangOptLabel": {
-    "message": "キーボード ショートカットで使用する言語:",
-    "hash": "82b7a45777b900e306c01ad61c32bebf"
+    "message": "キーボードショートカットで使用する言語："
   },
   "successOptMsgTitle": {
-    "message": "成功！",
-    "hash": "250314a446b1d8a2a1bddc737f84bc3d"
+    "message": "成功！"
   },
   "successOptMsgText": {
-    "message": "あなたの設定が保存されました。",
-    "hash": "a7ccfe30009c0227f9ba9318f2c3f77a"
+    "message": "設定が保存されました。"
   },
   "saveBtnOpt": {
-    "message": "保存",
-    "hash": "aa14043bd4e6f79db542868539be9220"
+    "message": "保存"
   },
-
-  "__WET_LOCALE__": { "message": "ja" }
+  "__WET_LOCALE__": {
+    "message": "ja"
+  }
 }

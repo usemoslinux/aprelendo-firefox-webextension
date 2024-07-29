@@ -1,0 +1,116 @@
+{
+  "extensionName": {
+    "message": "Aprelendo"
+  },
+  "extensionDescription": {
+    "message": "Metinleri Aprelendo kütüphanenize ekleyin."
+  },
+  "shortcutDescription": {
+    "message": "Sayfayı Tercihlerde seçilen dili kullanarak Aprelendo'ya gönder"
+  },
+  "arabicName": {
+    "message": "Arapça"
+  },
+  "bulgarianName": {
+    "message": "Bulgarca"
+  },
+  "catalanName": {
+    "message": "Katalanca"
+  },
+  "chineseName": {
+    "message": "Çince"
+  },
+  "croatianName": {
+    "message": "Hırvatça"
+  },
+  "czechName": {
+    "message": "Çekçe"
+  },
+  "danishName": {
+    "message": "Danca"
+  },
+  "dutchName": {
+    "message": "Flemenkçe"
+  },
+  "englishName": {
+    "message": "İngilizce"
+  },
+  "frenchName": {
+    "message": "Fransızca"
+  },
+  "germanName": {
+    "message": "Almanca"
+  },
+  "greekName": {
+    "message": "Yunanca"
+  },
+  "hebrewName": {
+    "message": "İbranice"
+  },
+  "hindiName": {
+    "message": "Hintçe"
+  },
+  "hungarianName": {
+    "message": "Macarca"
+  },
+  "italianName": {
+    "message": "İtalyanca"
+  },
+  "japaneseName": {
+    "message": "Japonca"
+  },
+  "koreanName": {
+    "message": "Korece"
+  },
+  "norwegianName": {
+    "message": "Norveççe"
+  },
+  "polishName": {
+    "message": "Lehçe"
+  },
+  "portugueseName": {
+    "message": "Portekizce"
+  },
+  "romanianName": {
+    "message": "Romence"
+  },
+  "russianName": {
+    "message": "Rusça"
+  },
+  "slovakName": {
+    "message": "Slovakça"
+  },
+  "slovenianName": {
+    "message": "Slovence"
+  },
+  "spanishName": {
+    "message": "İspanyolca"
+  },
+  "swedishName": {
+    "message": "İsveççe"
+  },
+  "turkishName": {
+    "message": "Türkçe"
+  },
+  "vietnameseName": {
+    "message": "Vietnamca"
+  },
+  "langsShownOptLabel": {
+    "message": "Menüde gösterilecek diller:"
+  },
+  "shortcutLangOptLabel": {
+    "message": "Klavye kısayolu ile kullanılacak dil:"
+  },
+  "successOptMsgTitle": {
+    "message": "Başarılı!"
+  },
+  "successOptMsgText": {
+    "message": "Tercihleriniz kaydedildi."
+  },
+  "saveBtnOpt": {
+    "message": "Kaydet"
+  },
+  "__WET_LOCALE__": {
+    "message": "tr"
+  }
+}

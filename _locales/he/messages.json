@@ -1,96 +1,116 @@
 {
   "extensionName": {
-    "message": "Aprelendo",
-    "hash": "5cf92cdb65eaaf0ed4dcd12cd3167edb"
+    "message": "Aprelendo"
   },
   "extensionDescription": {
-    "message": "הוסף טקסטים לספריית הלמידה שלך.",
-    "hash": "452af59bd388b75f2e320ae4d256d0d9"
+    "message": "הוסף טקסטים לספריית Aprelendo שלך."
   },
   "shortcutDescription": {
-    "message": "שלח את הדף אל Aprelendo בשפה שנבחרה בהעדפות",
-    "hash": "71aac76c51101bb1b80aeeb40ba8cdf1"
+    "message": "שלח דף לאפרלנדו בשפה שנבחרה בהעדפות"
   },
   "arabicName": {
-    "message": "ערבית",
-    "hash": "b30d849e422c0976e622b7ee0a9c13d5"
+    "message": "ערבית"
+  },
+  "bulgarianName": {
+    "message": "בולגרית"
+  },
+  "catalanName": {
+    "message": "קטלאנית"
   },
   "chineseName": {
-    "message": "סינית",
-    "hash": "985aaf35ed7f5d3a39e0e94bfd30d321"
+    "message": "סינית"
+  },
+  "croatianName": {
+    "message": "קרואטית"
+  },
+  "czechName": {
+    "message": "צ'כית"
+  },
+  "danishName": {
+    "message": "דנית"
   },
   "dutchName": {
-    "message": "הולנדית",
-    "hash": "73bfe6ac490280fbca216188cda1546e"
+    "message": "הולנדית"
   },
   "englishName": {
-    "message": "אנגלית",
-    "hash": "648e324401faf8ae90395ce21e894596"
+    "message": "אנגלית"
   },
   "frenchName": {
-    "message": "צרפתית",
-    "hash": "09a22929e52b1a0c2d830c4415f09290"
+    "message": "צרפתית"
   },
   "germanName": {
-    "message": "גרמנית",
-    "hash": "730e124165ee254c3f3c34c40acc10dc"
+    "message": "גרמנית"
   },
   "greekName": {
-    "message": "יוונית",
-    "hash": "3159094058d1d92b39a95a43de58efed"
+    "message": "יוונית"
   },
   "hebrewName": {
-    "message": "עברית",
-    "hash": "9c5bda953486f7d1ed2091bf94d8b291"
+    "message": "עברית"
   },
   "hindiName": {
-    "message": "הינדית",
-    "hash": "3a92e87079b1f58eb313e51ffd5c5095"
+    "message": "הינדי"
+  },
+  "hungarianName": {
+    "message": "הונגרית"
   },
   "italianName": {
-    "message": "איטלקית",
-    "hash": "11b98f20d7520e3ce3922fb5e915e493"
+    "message": "איטלקית"
   },
   "japaneseName": {
-    "message": "יפנית",
-    "hash": "ed0730b295dca59e5a09fa843eb87c8d"
+    "message": "יפנית"
   },
   "koreanName": {
-    "message": "קוריאנית",
-    "hash": "ae858ae79eb21082407b9bd5d547fa95"
+    "message": "קוריאנית"
+  },
+  "norwegianName": {
+    "message": "נורווגית"
+  },
+  "polishName": {
+    "message": "פולנית"
   },
   "portugueseName": {
-    "message": "פורטוגזית",
-    "hash": "e94504292f0304c8b4d2ba973ca726db"
+    "message": "פורטוגזית"
+  },
+  "romanianName": {
+    "message": "רומנית"
   },
   "russianName": {
-    "message": "רוסית",
-    "hash": "cfa28bfc6a8c0162c0ec3d50a165948b"
+    "message": "רוסית"
+  },
+  "slovakName": {
+    "message": "סלובקית"
+  },
+  "slovenianName": {
+    "message": "סלובנית"
   },
   "spanishName": {
-    "message": "ספרדית",
-    "hash": "c58ca0cfe7f76c9bef2da8033fd644eb"
+    "message": "ספרדית"
+  },
+  "swedishName": {
+    "message": "שוודית"
+  },
+  "turkishName": {
+    "message": "טורקית"
+  },
+  "vietnameseName": {
+    "message": "וייטנאמי"
   },
   "langsShownOptLabel": {
-    "message": "שפות להצגה בתפריט:",
-    "hash": "0ac0524bb1eb439892be1b81fa23744c"
+    "message": "שפות להצגה בתפריט:"
   },
   "shortcutLangOptLabel": {
-    "message": "שפה לשימוש עם קיצור מקשים:",
-    "hash": "82b7a45777b900e306c01ad61c32bebf"
+    "message": "שפה לשימוש עם קיצור מקלדת:"
   },
   "successOptMsgTitle": {
-    "message": "הַצלָחָה!",
-    "hash": "250314a446b1d8a2a1bddc737f84bc3d"
+    "message": "הצלחה!"
   },
   "successOptMsgText": {
-    "message": "ההעדפות שלך נשמרו.",
-    "hash": "a7ccfe30009c0227f9ba9318f2c3f77a"
+    "message": "ההעדפות שלך נשמרו."
   },
   "saveBtnOpt": {
-    "message": "להציל",
-    "hash": "aa14043bd4e6f79db542868539be9220"
+    "message": "שמור"
   },
-
-  "__WET_LOCALE__": { "message": "he" }
+  "__WET_LOCALE__": {
+    "message": "he"
+  }
 }

@@ -1,0 +1,116 @@
+{
+    "extensionName": {
+        "message": "Aprelendo"
+    },
+    "extensionDescription": {
+        "message": "Adjon szövegeket az Aprelendo könyvtárához."
+    },
+    "shortcutDescription": {
+        "message": "Oldal küldése az Aprelendo számára a Beállításokban kiválasztott nyelven"
+    },
+    "arabicName": {
+        "message": "Arab"
+    },
+    "bulgarianName": {
+        "message": "Bolgár"
+    },
+    "catalanName": {
+        "message": "Katalán"
+    },
+    "chineseName": {
+        "message": "Kínai"
+    },
+    "croatianName": {
+        "message": "Horvát"
+    },
+    "czechName": {
+        "message": "Cseh"
+    },
+    "danishName": {
+        "message": "Dán"
+    },
+    "dutchName": {
+        "message": "Holland"
+    },
+    "englishName": {
+        "message": "Angol"
+    },
+    "frenchName": {
+        "message": "Francia"
+    },
+    "germanName": {
+        "message": "Német"
+    },
+    "greekName": {
+        "message": "Görög"
+    },
+    "hebrewName": {
+        "message": "Héber"
+    },
+    "hindiName": {
+        "message": "Hindi"
+    },
+    "hungarianName": {
+        "message": "Magyar"
+    },
+    "italianName": {
+        "message": "Olasz"
+    },
+    "japaneseName": {
+        "message": "Japán"
+    },
+    "koreanName": {
+        "message": "Koreai"
+    },
+    "norwegianName": {
+        "message": "Norvég"
+    },
+    "polishName": {
+        "message": "Lengyel"
+    },
+    "portugueseName": {
+        "message": "Portugál"
+    },
+    "romanianName": {
+        "message": "Román"
+    },
+    "russianName": {
+        "message": "Orosz"
+    },
+    "slovakName": {
+        "message": "Szlovák"
+    },
+    "slovenianName": {
+        "message": "Szlovén"
+    },
+    "spanishName": {
+        "message": "Spanyol"
+    },
+    "swedishName": {
+        "message": "Svéd"
+    },
+    "turkishName": {
+        "message": "Török"
+    },
+    "vietnameseName": {
+        "message": "Vietnámi"
+    },
+    "langsShownOptLabel": {
+        "message": "Nyelvek megjelenítése a menüben:"
+    },
+    "shortcutLangOptLabel": {
+        "message": "Nyelv használata billentyűparancsokhoz:"
+    },
+    "successOptMsgTitle": {
+        "message": "Siker!"
+    },
+    "successOptMsgText": {
+        "message": "Az Ön beállításait mentettük."
+    },
+    "saveBtnOpt": {
+        "message": "Mentés"
+    },
+    "__WET_LOCALE__": {
+        "message": "hu"
+    }
+}

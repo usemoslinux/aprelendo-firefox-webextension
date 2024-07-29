@@ -1,96 +1,116 @@
 {
   "extensionName": {
-    "message": "Aprelendo",
-    "hash": "5cf92cdb65eaaf0ed4dcd12cd3167edb"
+    "message": "Aprelendo"
   },
   "extensionDescription": {
-    "message": "Добавляйте тексты в свою библиотеку обучения.",
-    "hash": "452af59bd388b75f2e320ae4d256d0d9"
+    "message": "Добавьте тексты в свою библиотеку Aprelendo."
   },
   "shortcutDescription": {
-    "message": "Отправить страницу на Aprelendo, используя язык, выбранный в настройках",
-    "hash": "71aac76c51101bb1b80aeeb40ba8cdf1"
+    "message": "Отправьте страницу в Aprelendo, используя язык, выбранный в настройках"
   },
   "arabicName": {
-    "message": "арабский",
-    "hash": "b30d849e422c0976e622b7ee0a9c13d5"
+    "message": "Арабский"
+  },
+  "bulgarianName": {
+    "message": "Болгарский"
+  },
+  "catalanName": {
+    "message": "Каталонский"
   },
   "chineseName": {
-    "message": "китайский",
-    "hash": "985aaf35ed7f5d3a39e0e94bfd30d321"
+    "message": "Китайский"
+  },
+  "croatianName": {
+    "message": "Хорватский"
+  },
+  "czechName": {
+    "message": "Чешский"
+  },
+  "danishName": {
+    "message": "Датский"
   },
   "dutchName": {
-    "message": "голландский",
-    "hash": "73bfe6ac490280fbca216188cda1546e"
+    "message": "Голландский"
   },
   "englishName": {
-    "message": "английский",
-    "hash": "648e324401faf8ae90395ce21e894596"
+    "message": "Английский"
   },
   "frenchName": {
-    "message": "французский",
-    "hash": "09a22929e52b1a0c2d830c4415f09290"
+    "message": "Французский"
   },
   "germanName": {
-    "message": "немецкий",
-    "hash": "730e124165ee254c3f3c34c40acc10dc"
+    "message": "Немецкий"
   },
   "greekName": {
-    "message": "греческий",
-    "hash": "3159094058d1d92b39a95a43de58efed"
+    "message": "Греческий"
   },
   "hebrewName": {
-    "message": "иврит",
-    "hash": "9c5bda953486f7d1ed2091bf94d8b291"
+    "message": "Иврит"
   },
   "hindiName": {
-    "message": "хинди",
-    "hash": "3a92e87079b1f58eb313e51ffd5c5095"
+    "message": "Хинди"
+  },
+  "hungarianName": {
+    "message": "Венгерский"
   },
   "italianName": {
-    "message": "итальянский",
-    "hash": "11b98f20d7520e3ce3922fb5e915e493"
+    "message": "Итальянский"
   },
   "japaneseName": {
-    "message": "японский",
-    "hash": "ed0730b295dca59e5a09fa843eb87c8d"
+    "message": "Японский"
   },
   "koreanName": {
-    "message": "корейский",
-    "hash": "ae858ae79eb21082407b9bd5d547fa95"
+    "message": "Корейский"
+  },
+  "norwegianName": {
+    "message": "Норвежский"
+  },
+  "polishName": {
+    "message": "Польский"
   },
   "portugueseName": {
-    "message": "португальский",
-    "hash": "e94504292f0304c8b4d2ba973ca726db"
+    "message": "Португальский"
+  },
+  "romanianName": {
+    "message": "Румынский"
   },
   "russianName": {
-    "message": "русский",
-    "hash": "cfa28bfc6a8c0162c0ec3d50a165948b"
+    "message": "Русский"
+  },
+  "slovakName": {
+    "message": "Словацкий"
+  },
+  "slovenianName": {
+    "message": "Словенский"
   },
   "spanishName": {
-    "message": "испанский",
-    "hash": "c58ca0cfe7f76c9bef2da8033fd644eb"
+    "message": "Испанский"
+  },
+  "swedishName": {
+    "message": "Шведский"
+  },
+  "turkishName": {
+    "message": "Турецкий"
+  },
+  "vietnameseName": {
+    "message": "Вьетнамский"
   },
   "langsShownOptLabel": {
-    "message": "Языки для отображения в меню:",
-    "hash": "0ac0524bb1eb439892be1b81fa23744c"
+    "message": "Языки для отображения в меню:"
   },
   "shortcutLangOptLabel": {
-    "message": "Язык для использования с сочетанием клавиш:",
-    "hash": "82b7a45777b900e306c01ad61c32bebf"
+    "message": "Язык для использования с клавиатурным сокращением:"
   },
   "successOptMsgTitle": {
-    "message": "Успех!",
-    "hash": "250314a446b1d8a2a1bddc737f84bc3d"
+    "message": "Успех!"
   },
   "successOptMsgText": {
-    "message": "Ваши настройки сохранены.",
-    "hash": "a7ccfe30009c0227f9ba9318f2c3f77a"
+    "message": "Ваши настройки были сохранены."
   },
   "saveBtnOpt": {
-    "message": "Сохранять",
-    "hash": "aa14043bd4e6f79db542868539be9220"
+    "message": "Сохранить"
   },
-
-  "__WET_LOCALE__": { "message": "ru" }
+  "__WET_LOCALE__": {
+    "message": "ru"
+  }
 }

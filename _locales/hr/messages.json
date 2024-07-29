@@ -1,0 +1,116 @@
+{
+    "extensionName": {
+        "message": "Aprelendo"
+    },
+    "extensionDescription": {
+        "message": "Dodajte tekstove u svoju Aprelendo knjižnicu."
+    },
+    "shortcutDescription": {
+        "message": "Pošaljite stranicu u Aprelendo koristeći jezik odabran u Postavkama"
+    },
+    "arabicName": {
+        "message": "Arapski"
+    },
+    "bulgarianName": {
+        "message": "Bugarski"
+    },
+    "catalanName": {
+        "message": "Katalonski"
+    },
+    "chineseName": {
+        "message": "Kineski"
+    },
+    "croatianName": {
+        "message": "Hrvatski"
+    },
+    "czechName": {
+        "message": "Češki"
+    },
+    "danishName": {
+        "message": "Danski"
+    },
+    "dutchName": {
+        "message": "Nizozemski"
+    },
+    "englishName": {
+        "message": "Engleski"
+    },
+    "frenchName": {
+        "message": "Francuski"
+    },
+    "germanName": {
+        "message": "Njemački"
+    },
+    "greekName": {
+        "message": "Grčki"
+    },
+    "hebrewName": {
+        "message": "Hebrejski"
+    },
+    "hindiName": {
+        "message": "Hindski"
+    },
+    "hungarianName": {
+        "message": "Mađarski"
+    },
+    "italianName": {
+        "message": "Talijanski"
+    },
+    "japaneseName": {
+        "message": "Japanski"
+    },
+    "koreanName": {
+        "message": "Korejski"
+    },
+    "norwegianName": {
+        "message": "Norveški"
+    },
+    "polishName": {
+        "message": "Poljski"
+    },
+    "portugueseName": {
+        "message": "Portugalski"
+    },
+    "romanianName": {
+        "message": "Rumunjski"
+    },
+    "russianName": {
+        "message": "Ruski"
+    },
+    "slovakName": {
+        "message": "Slovački"
+    },
+    "slovenianName": {
+        "message": "Slovenski"
+    },
+    "spanishName": {
+        "message": "Španjolski"
+    },
+    "swedishName": {
+        "message": "Švedski"
+    },
+    "turkishName": {
+        "message": "Turski"
+    },
+    "VietnameseName": {
+        "message": "Vijetnamski"
+    },
+    "langsShownOptLabel": {
+        "message": "Jezici za prikaz u izborniku:"
+    },
+    "shortcutLangOptLabel": {
+        "message": "Jezik za korištenje s tipkovničkim prečacem:"
+    },
+    "successOptMsgTitle": {
+        "message": "Uspjeh!"
+    },
+    "successOptMsgText": {
+        "message": "Vaše postavke su spremljene."
+    },
+    "saveBtnOpt": {
+        "message": "Spremi"
+    },
+    "__WET_LOCALE__": {
+        "message": "hr"
+    }
+}

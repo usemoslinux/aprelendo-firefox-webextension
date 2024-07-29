@@ -11,8 +11,23 @@
   "arabicName": {
     "message": "Arabic"
   },
+  "bulgarianName": {
+    "message": "Bulgarian"
+  },
+  "catalanName": {
+    "message": "Catalan"
+  },
   "chineseName": {
     "message": "Chinese"
+  },
+  "croatianName": {
+    "message": "Croatian"
+  },
+  "czechName": {
+    "message": "Czech"
+  },
+  "danishName": {
+    "message": "Danish"
   },
   "dutchName": {
     "message": "Dutch"
@@ -35,6 +50,9 @@
   "hindiName": {
     "message": "Hindi"
   },
+  "hungarianName": {
+    "message": "Hungarian"
+  },
   "italianName": {
     "message": "Italian"
   },
@@ -44,14 +62,38 @@
   "koreanName": {
     "message": "Korean"
   },
+  "norwegianName": {
+    "message": "Norwegian"
+  },
+  "polishName": {
+    "message": "Polish"
+  },
   "portugueseName": {
     "message": "Portuguese"
+  },
+  "romanianName": {
+    "message": "Romanian"
   },
   "russianName": {
     "message": "Russian"
   },
+  "slovakName": {
+    "message": "Slovak"
+  },
+  "slovenianName": {
+    "message": "Slovenian"
+  },
   "spanishName": {
     "message": "Spanish"
+  },
+  "swedishName": {
+    "message": "Swedish"
+  },
+  "turkishName": {
+    "message": "Turkish"
+  },
+  "vietnameseName": {
+    "message": "Vietnamese"
   },
   "langsShownOptLabel": {
     "message": "Languages to show in the menu:"

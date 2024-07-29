@@ -1,0 +1,116 @@
+{
+  "extensionName": {
+    "message": "Aprelendo"
+  },
+  "extensionDescription": {
+    "message": "Добавете текстове към вашата библиотека Aprelendo."
+  },
+  "shortcutDescription": {
+    "message": "Изпратете страницата към Aprelendo, използвайки езика, избран в предпочитанията"
+  },
+  "arabicName": {
+    "message": "Арабски"
+  },
+  "bulgarianName": {
+    "message": "Български"
+  },
+  "catalanName": {
+    "message": "Каталонски"
+  },
+  "chineseName": {
+    "message": "Китайски"
+  },
+  "croatianName": {
+    "message": "Хърватски"
+  },
+  "czechName": {
+    "message": "Чешки"
+  },
+  "danishName": {
+    "message": "Датски"
+  },
+  "dutchName": {
+    "message": "Холандски"
+  },
+  "englishName": {
+    "message": "Английски"
+  },
+  "frenchName": {
+    "message": "Френски"
+  },
+  "germanName": {
+    "message": "Немски"
+  },
+  "greekName": {
+    "message": "Гръцки"
+  },
+  "hebrewName": {
+    "message": "Иврит"
+  },
+  "hindiName": {
+    "message": "Хинди"
+  },
+  "hungarianName": {
+    "message": "Унгарски"
+  },
+  "italianName": {
+    "message": "Италиански"
+  },
+  "japaneseName": {
+    "message": "Японски"
+  },
+  "koreanName": {
+    "message": "Корейски"
+  },
+  "norwegianName": {
+    "message": "Норвежки"
+  },
+  "polishName": {
+    "message": "Полски"
+  },
+  "portugueseName": {
+    "message": "Португалски"
+  },
+  "romanianName": {
+    "message": "Румънски"
+  },
+  "russianName": {
+    "message": "Руски"
+  },
+  "slovakName": {
+    "message": "Словашки"
+  },
+  "slovenianName": {
+    "message": "Словенски"
+  },
+  "spanishName": {
+    "message": "Испански"
+  },
+  "swedishName": {
+    "message": "Шведски"
+  },
+  "turkishName": {
+    "message": "Турски"
+  },
+  "vietnameseName": {
+    "message": "Виетнамски"
+  },
+  "langsShownOptLabel": {
+    "message": "Езици за показване в менюто:"
+  },
+  "shortcutLangOptLabel": {
+    "message": "Език за използване с клавишната комбинация:"
+  },
+  "successOptMsgTitle": {
+    "message": "Успех!"
+  },
+  "successOptMsgText": {
+    "message": "Вашите предпочитания бяха запазени."
+  },
+  "saveBtnOpt": {
+    "message": "Запази"
+  },
+  "__WET_LOCALE__": {
+    "message": "bg"
+  }
+}

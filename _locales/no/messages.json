@@ -1,0 +1,116 @@
+{
+    "extensionName": {
+        "message": "Aprelendo"
+    },
+    "extensionDescription": {
+        "message": "Legg til tekster i ditt Aprelendo-bibliotek."
+    },
+    "shortcutDescription": {
+        "message": "Send siden til Aprelendo med språket valgt i Innstillinger"
+    },
+    "arabicName": {
+        "message": "Arabisk"
+    },
+    "bulgarianName": {
+        "message": "Bulgarsk"
+    },
+    "catalanName": {
+        "message": "Katalansk"
+    },
+    "chineseName": {
+        "message": "Kinesisk"
+    },
+    "croatianName": {
+        "message": "Kroatisk"
+    },
+    "czechName": {
+        "message": "Tsjekkisk"
+    },
+    "danishName": {
+        "message": "Dansk"
+    },
+    "dutchName": {
+        "message": "Nederlandsk"
+    },
+    "englishName": {
+        "message": "Engelsk"
+    },
+    "frenchName": {
+        "message": "Fransk"
+    },
+    "germanName": {
+        "message": "Tysk"
+    },
+    "greekName": {
+        "message": "Gresk"
+    },
+    "hebrewName": {
+        "message": "Hebraisk"
+    },
+    "hindiName": {
+        "message": "Hindi"
+    },
+    "hungarianName": {
+        "message": "Ungarsk"
+    },
+    "italianName": {
+        "message": "Italiensk"
+    },
+    "japaneseName": {
+        "message": "Japansk"
+    },
+    "koreanName": {
+        "message": "Koreansk"
+    },
+    "norwegianName": {
+        "message": "Norsk"
+    },
+    "polishName": {
+        "message": "Polsk"
+    },
+    "portugueseName": {
+        "message": "Portugisisk"
+    },
+    "romanianName": {
+        "message": "Rumensk"
+    },
+    "russianName": {
+        "message": "Russisk"
+    },
+    "slovakName": {
+        "message": "Slovakisk"
+    },
+    "slovenianName": {
+        "message": "Slovensk"
+    },
+    "spanishName": {
+        "message": "Spansk"
+    },
+    "swedishName": {
+        "message": "Svensk"
+    },
+    "turkishName": {
+        "message": "Tyrkisk"
+    },
+    "vietnameseName": {
+        "message": "Vietnamesisk"
+    },
+    "langsShownOptLabel": {
+        "message": "Språk å vise i menyen:"
+    },
+    "shortcutLangOptLabel": {
+        "message": "Språk å bruke med hurtigtast:"
+    },
+    "successOptMsgTitle": {
+        "message": "Suksess!"
+    },
+    "successOptMsgText": {
+        "message": "Dine preferanser ble lagret."
+    },
+    "saveBtnOpt": {
+        "message": "Lagre"
+    },
+    "__WET_LOCALE__": {
+        "message": "no"
+    }
+}

@@ -1,0 +1,116 @@
+{
+  "extensionName": {
+    "message": "Aprelendo"
+  },
+  "extensionDescription": {
+    "message": "Thêm văn bản vào thư viện Aprelendo của bạn."
+  },
+  "shortcutDescription": {
+    "message": "Gửi trang đến Aprelendo bằng ngôn ngữ được chọn trong Tùy chọn"
+  },
+  "arabicName": {
+    "message": "Tiếng Ả Rập"
+  },
+  "bulgarianName": {
+    "message": "Tiếng Bulgaria"
+  },
+  "catalanName": {
+    "message": "Tiếng Catalan"
+  },
+  "chineseName": {
+    "message": "Tiếng Trung"
+  },
+  "croatianName": {
+    "message": "Tiếng Croatia"
+  },
+  "czechName": {
+    "message": "Tiếng Séc"
+  },
+  "danishName": {
+    "message": "Tiếng Đan Mạch"
+  },
+  "dutchName": {
+    "message": "Tiếng Hà Lan"
+  },
+  "englishName": {
+    "message": "Tiếng Anh"
+  },
+  "frenchName": {
+    "message": "Tiếng Pháp"
+  },
+  "germanName": {
+    "message": "Tiếng Đức"
+  },
+  "greekName": {
+    "message": "Tiếng Hy Lạp"
+  },
+  "hebrewName": {
+    "message": "Tiếng Do Thái"
+  },
+  "hindiName": {
+    "message": "Tiếng Hindi"
+  },
+  "hungarianName": {
+    "message": "Tiếng Hungary"
+  },
+  "italianName": {
+    "message": "Tiếng Ý"
+  },
+  "japaneseName": {
+    "message": "Tiếng Nhật"
+  },
+  "koreanName": {
+    "message": "Tiếng Hàn"
+  },
+  "norwegianName": {
+    "message": "Tiếng Na Uy"
+  },
+  "polishName": {
+    "message": "Tiếng Ba Lan"
+  },
+  "portugueseName": {
+    "message": "Tiếng Bồ Đào Nha"
+  },
+  "romanianName": {
+    "message": "Tiếng Romania"
+  },
+  "russianName": {
+    "message": "Tiếng Nga"
+  },
+  "slovakName": {
+    "message": "Tiếng Slovak"
+  },
+  "slovenianName": {
+    "message": "Tiếng Slovenia"
+  },
+  "spanishName": {
+    "message": "Tiếng Tây Ban Nha"
+  },
+  "swedishName": {
+    "message": "Tiếng Thụy Điển"
+  },
+  "turkishName": {
+    "message": "Tiếng Thổ Nhĩ Kỳ"
+  },
+  "vietnameseName": {
+    "message": "Tiếng Việt"
+  },
+  "langsShownOptLabel": {
+    "message": "Ngôn ngữ để hiển thị trong menu:"
+  },
+  "shortcutLangOptLabel": {
+    "message": "Ngôn ngữ sử dụng với phím tắt:"
+  },
+  "successOptMsgTitle": {
+    "message": "Thành công!"
+  },
+  "successOptMsgText": {
+    "message": "Tùy chọn của bạn đã được lưu."
+  },
+  "saveBtnOpt": {
+    "message": "Lưu"
+  },
+  "__WET_LOCALE__": {
+    "message": "vi"
+  }
+}

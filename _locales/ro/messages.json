@@ -1,0 +1,116 @@
+{
+  "extensionName": {
+    "message": "Aprelendo"
+  },
+  "extensionDescription": {
+    "message": "Adăugați texte în biblioteca dvs. Aprelendo."
+  },
+  "shortcutDescription": {
+    "message": "Trimiteți pagina la Aprelendo folosind limba selectată în Preferințe"
+  },
+  "arabicName": {
+    "message": "Arabă"
+  },
+  "bulgarianName": {
+    "message": "Bulgară"
+  },
+  "catalanName": {
+    "message": "Catalană"
+  },
+  "chineseName": {
+    "message": "Chineză"
+  },
+  "croatianName": {
+    "message": "Croată"
+  },
+  "czechName": {
+    "message": "Cehă"
+  },
+  "danishName": {
+    "message": "Daneză"
+  },
+  "dutchName": {
+    "message": "Olandeză"
+  },
+  "englishName": {
+    "message": "Engleză"
+  },
+  "frenchName": {
+    "message": "Franceză"
+  },
+  "germanName": {
+    "message": "Germană"
+  },
+  "greekName": {
+    "message": "Greacă"
+  },
+  "hebrewName": {
+    "message": "Ebraică"
+  },
+  "hindiName": {
+    "message": "Hindusă"
+  },
+  "hungarianName": {
+    "message": "Maghiară"
+  },
+  "italianName": {
+    "message": "Italiană"
+  },
+  "japaneseName": {
+    "message": "Japoneză"
+  },
+  "koreanName": {
+    "message": "Coreeană"
+  },
+  "norwegianName": {
+    "message": "Norvegiană"
+  },
+  "polishName": {
+    "message": "Poloneză"
+  },
+  "portugueseName": {
+    "message": "Portugheză"
+  },
+  "romanianName": {
+    "message": "Română"
+  },
+  "russianName": {
+    "message": "Rusă"
+  },
+  "slovakName": {
+    "message": "Slovacă"
+  },
+  "slovenianName": {
+    "message": "Slovenă"
+  },
+  "spanishName": {
+    "message": "Spaniolă"
+  },
+  "swedishName": {
+    "message": "Suedeză"
+  },
+  "turkishName": {
+    "message": "Turcă"
+  },
+  "vietnameseName": {
+    "message": "Vietnameză"
+  },
+  "langsShownOptLabel": {
+    "message": "Limbi de afișat în meniu:"
+  },
+  "shortcutLangOptLabel": {
+    "message": "Limba de utilizat cu comanda rapidă de la tastatură:"
+  },
+  "successOptMsgTitle": {
+    "message": "Succes!"
+  },
+  "successOptMsgText": {
+    "message": "Preferințele dvs. au fost salvate."
+  },
+  "saveBtnOpt": {
+    "message": "Salvează"
+  },
+  "__WET_LOCALE__": {
+    "message": "ro"
+  }
+}

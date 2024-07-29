@@ -1,0 +1,116 @@
+{
+  "extensionName": {
+    "message": "Aprelendo"
+  },
+  "extensionDescription": {
+    "message": "Dodaj teksty do swojej biblioteki Aprelendo."
+  },
+  "shortcutDescription": {
+    "message": "Wyślij stronę do Aprelendo, używając języka wybranego w Preferencjach"
+  },
+  "arabicName": {
+    "message": "Arabski"
+  },
+  "bulgarianName": {
+    "message": "Bułgarski"
+  },
+  "catalanName": {
+    "message": "Kataloński"
+  },
+  "chineseName": {
+    "message": "Chiński"
+  },
+  "croatianName": {
+    "message": "Chorwacki"
+  },
+  "czechName": {
+    "message": "Czeski"
+  },
+  "danishName": {
+    "message": "Duński"
+  },
+  "dutchName": {
+    "message": "Holenderski"
+  },
+  "englishName": {
+    "message": "Angielski"
+  },
+  "frenchName": {
+    "message": "Francuski"
+  },
+  "germanName": {
+    "message": "Niemiecki"
+  },
+  "greekName": {
+    "message": "Grecki"
+  },
+  "hebrewName": {
+    "message": "Hebrajski"
+  },
+  "hindiName": {
+    "message": "Hinduski"
+  },
+  "hungarianName": {
+    "message": "Węgierski"
+  },
+  "italianName": {
+    "message": "Włoski"
+  },
+  "japaneseName": {
+    "message": "Japoński"
+  },
+  "koreanName": {
+    "message": "Koreański"
+  },
+  "norwegianName": {
+    "message": "Norweski"
+  },
+  "polishName": {
+    "message": "Polski"
+  },
+  "portugueseName": {
+    "message": "Portugalski"
+  },
+  "romanianName": {
+    "message": "Rumuński"
+  },
+  "russianName": {
+    "message": "Rosyjski"
+  },
+  "slovakName": {
+    "message": "Słowacki"
+  },
+  "slovenianName": {
+    "message": "Słoweński"
+  },
+  "spanishName": {
+    "message": "Hiszpański"
+  },
+  "swedishName": {
+    "message": "Szwedzki"
+  },
+  "turkishName": {
+    "message": "Turecki"
+  },
+  "vietnameseName": {
+    "message": "Wietnamski"
+  },
+  "langsShownOptLabel": {
+    "message": "Języki do wyświetlenia w menu:"
+  },
+  "shortcutLangOptLabel": {
+    "message": "Język do użycia z skrótem klawiaturowym:"
+  },
+  "successOptMsgTitle": {
+    "message": "Sukces!"
+  },
+  "successOptMsgText": {
+    "message": "Twoje preferencje zostały zapisane."
+  },
+  "saveBtnOpt": {
+    "message": "Zapisz"
+  },
+  "__WET_LOCALE__": {
+    "message": "pl"
+  }
+}

@@ -37,7 +37,8 @@ browser.commands.onCommand.addListener((command) => {
     // add page to Aprelendo using
     if (command === "add-page") {
     browser.storage.sync.get(["shortcut_lang"], (res) => {
-        redirect({"lang": res.shortcut_lang});
+        let lang = (typeof res.shortcut_lang !== 'undefined') ? res.shortcut_lang : 'en';
+        redirect({"lang": lang});
     });
   }
 });

@@ -1,0 +1,116 @@
+{
+    "extensionName": {
+        "message": "Aprelendo"
+    },
+    "extensionDescription": {
+        "message": "Přidejte texty do své knihovny Aprelendo."
+    },
+    "shortcutDescription": {
+        "message": "Odešlete stránku do Aprelendo pomocí jazyka vybraného v Předvolbách"
+    },
+    "arabicName": {
+        "message": "Arabština"
+    },
+    "bulgarianName": {
+        "message": "Bulharština"
+    },
+    "catalanName": {
+        "message": "Katalánština"
+    },
+    "chineseName": {
+        "message": "Čínština"
+    },
+    "croatianName": {
+        "message": "Chorvatština"
+    },
+    "czechName": {
+        "message": "Čeština"
+    },
+    "danishName": {
+        "message": "Dánština"
+    },
+    "dutchName": {
+        "message": "Nizozemština"
+    },
+    "englishName": {
+        "message": "Angličtina"
+    },
+    "frenchName": {
+        "message": "Francouzština"
+    },
+    "germanName": {
+        "message": "Němčina"
+    },
+    "greekName": {
+        "message": "Řečtina"
+    },
+    "hebrewName": {
+        "message": "Hebrejština"
+    },
+    "hindiName": {
+        "message": "Hindština"
+    },
+    "hungarianName": {
+        "message": "Maďarština"
+    },
+    "italianName": {
+        "message": "Italština"
+    },
+    "japaneseName": {
+        "message": "Japonština"
+    },
+    "koreanName": {
+        "message": "Korejština"
+    },
+    "norwegianName": {
+        "message": "Norština"
+    },
+    "polishName": {
+        "message": "Polština"
+    },
+    "portugueseName": {
+        "message": "Portugalština"
+    },
+    "romanianName": {
+        "message": "Rumunština"
+    },
+    "russianName": {
+        "message": "Ruština"
+    },
+    "slovakName": {
+        "message": "Slovenština"
+    },
+    "slovenianName": {
+        "message": "Slovinština"
+    },
+    "spanishName": {
+        "message": "Španělština"
+    },
+    "swedishName": {
+        "message": "Švédština"
+    },
+    "turkishName": {
+        "message": "Turečtina"
+    },
+    "vietnameseName": {
+        "message": "Vietnamština"
+    },
+    "langsShownOptLabel": {
+        "message": "Jazyky k zobrazení v nabídce:"
+    },
+    "shortcutLangOptLabel": {
+        "message": "Jazyk pro použití s ​​klávesovou zkratkou:"
+    },
+    "successOptMsgTitle": {
+        "message": "Úspěch!"
+    },
+    "successOptMsgText": {
+        "message": "Vaše předvolby byly uloženy."
+    },
+    "saveBtnOpt": {
+        "message": "Uložit"
+    },
+    "__WET_LOCALE__": {
+        "message": "cs"
+    }
+}

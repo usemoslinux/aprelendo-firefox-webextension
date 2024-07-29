@@ -1,96 +1,116 @@
 {
-  "extensionName": {
-    "message": "Aprelendo",
-    "hash": "5cf92cdb65eaaf0ed4dcd12cd3167edb"
-  },
-  "extensionDescription": {
-    "message": "Voeg teksten toe aan uw leerbibliotheek.",
-    "hash": "452af59bd388b75f2e320ae4d256d0d9"
-  },
-  "shortcutDescription": {
-    "message": "Stuur de pagina naar Aprelendo in de taal die is geselecteerd in Voorkeuren",
-    "hash": "71aac76c51101bb1b80aeeb40ba8cdf1"
-  },
-  "arabicName": {
-    "message": "Arabisch",
-    "hash": "b30d849e422c0976e622b7ee0a9c13d5"
-  },
-  "chineseName": {
-    "message": "Chinees",
-    "hash": "985aaf35ed7f5d3a39e0e94bfd30d321"
-  },
-  "dutchName": {
-    "message": "Nederlands",
-    "hash": "73bfe6ac490280fbca216188cda1546e"
-  },
-  "englishName": {
-    "message": "Engels",
-    "hash": "648e324401faf8ae90395ce21e894596"
-  },
-  "frenchName": {
-    "message": "Frans",
-    "hash": "09a22929e52b1a0c2d830c4415f09290"
-  },
-  "germanName": {
-    "message": "Duits",
-    "hash": "730e124165ee254c3f3c34c40acc10dc"
-  },
-  "greekName": {
-    "message": "Grieks",
-    "hash": "3159094058d1d92b39a95a43de58efed"
-  },
-  "hebrewName": {
-    "message": "Hebreeuws",
-    "hash": "9c5bda953486f7d1ed2091bf94d8b291"
-  },
-  "hindiName": {
-    "message": "Hindi",
-    "hash": "3a92e87079b1f58eb313e51ffd5c5095"
-  },
-  "italianName": {
-    "message": "Italiaans",
-    "hash": "11b98f20d7520e3ce3922fb5e915e493"
-  },
-  "japaneseName": {
-    "message": "Japans",
-    "hash": "ed0730b295dca59e5a09fa843eb87c8d"
-  },
-  "koreanName": {
-    "message": "Koreaans",
-    "hash": "ae858ae79eb21082407b9bd5d547fa95"
-  },
-  "portugueseName": {
-    "message": "Portugees",
-    "hash": "e94504292f0304c8b4d2ba973ca726db"
-  },
-  "russianName": {
-    "message": "Russisch",
-    "hash": "cfa28bfc6a8c0162c0ec3d50a165948b"
-  },
-  "spanishName": {
-    "message": "Spaans",
-    "hash": "c58ca0cfe7f76c9bef2da8033fd644eb"
-  },
-  "langsShownOptLabel": {
-    "message": "Talen die in het menu moeten worden weergegeven:",
-    "hash": "0ac0524bb1eb439892be1b81fa23744c"
-  },
-  "shortcutLangOptLabel": {
-    "message": "Taal voor gebruik met sneltoets:",
-    "hash": "82b7a45777b900e306c01ad61c32bebf"
-  },
-  "successOptMsgTitle": {
-    "message": "Succes!",
-    "hash": "250314a446b1d8a2a1bddc737f84bc3d"
-  },
-  "successOptMsgText": {
-    "message": "Uw voorkeuren zijn opgeslagen.",
-    "hash": "a7ccfe30009c0227f9ba9318f2c3f77a"
-  },
-  "saveBtnOpt": {
-    "message": "Opslaan",
-    "hash": "aa14043bd4e6f79db542868539be9220"
-  },
-
-  "__WET_LOCALE__": { "message": "nl" }
+    "extensionName": {
+        "message": "Aprelendo"
+    },
+    "extensionDescription": {
+        "message": "Voeg teksten toe aan je Aprelendo-bibliotheek."
+    },
+    "shortcutDescription": {
+        "message": "Stuur pagina naar Aprelendo met de taal geselecteerd in Voorkeuren"
+    },
+    "arabicName": {
+        "message": "Arabisch"
+    },
+    "bulgarianName": {
+        "message": "Bulgaars"
+    },
+    "catalanName": {
+        "message": "Catalaans"
+    },
+    "chineseName": {
+        "message": "Chinees"
+    },
+    "croatianName": {
+        "message": "Kroatisch"
+    },
+    "czechName": {
+        "message": "Tsjechisch"
+    },
+    "danishName": {
+        "message": "Deens"
+    },
+    "dutchName": {
+        "message": "Nederlands"
+    },
+    "englishName": {
+        "message": "Engels"
+    },
+    "frenchName": {
+        "message": "Frans"
+    },
+    "germanName": {
+        "message": "Duits"
+    },
+    "greekName": {
+        "message": "Grieks"
+    },
+    "hebrewName": {
+        "message": "Hebreeuws"
+    },
+    "hindiName": {
+        "message": "Hindi"
+    },
+    "hungarianName": {
+        "message": "Hongaars"
+    },
+    "italianName": {
+        "message": "Italiaans"
+    },
+    "japaneseName": {
+        "message": "Japans"
+    },
+    "koreanName": {
+        "message": "Koreaans"
+    },
+    "norwegianName": {
+        "message": "Noors"
+    },
+    "polishName": {
+        "message": "Pools"
+    },
+    "portugueseName": {
+        "message": "Portugees"
+    },
+    "romanianName": {
+        "message": "Roemeens"
+    },
+    "russianName": {
+        "message": "Russisch"
+    },
+    "slovakName": {
+        "message": "Slowaaks"
+    },
+    "slovenianName": {
+        "message": "Sloveens"
+    },
+    "spanishName": {
+        "message": "Spaans"
+    },
+    "swedishName": {
+        "message": "Zweeds"
+    },
+    "turkishName": {
+        "message": "Turks"
+    },
+    "vietnameseName": {
+        "message": "Vietnamees"
+    },
+    "langsShownOptLabel": {
+        "message": "Talen om in het menu te tonen:"
+    },
+    "shortcutLangOptLabel": {
+        "message": "Taal om te gebruiken met toetsenbord snelkoppeling:"
+    },
+    "successOptMsgTitle": {
+        "message": "Succes!"
+    },
+    "successOptMsgText": {
+        "message": "Je voorkeuren zijn opgeslagen."
+    },
+    "saveBtnOpt": {
+        "message": "Opslaan"
+    },
+    "__WET_LOCALE__": {
+        "message": "nl"
+    }
 }
