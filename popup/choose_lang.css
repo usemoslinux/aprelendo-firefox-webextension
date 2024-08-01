@@ -1,21 +1,27 @@
 .button {
-  background-position: 4px;
+  background-position: .25rem;
   background-repeat: no-repeat;
-  background-size: 18px;
+  background-size: 1rem;
   border-radius: 3px;
   color: black;
   cursor: pointer;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: system-ui, Arial, Helvetica, sans-serif;
   font-size: 1rem;
-  margin: 3% auto;
-  padding: 4px 4px 4px 32px;
+  margin: 0.2rem 0;
+  padding: .25rem .5rem .25rem 1.75rem;
+  user-select: none;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
 }
 
 .button:hover {
   background-color: #0275d8;
   color: white;
 }
-
 
 .button.ar {
   background-image: url("../icons/flags/ar.svg");

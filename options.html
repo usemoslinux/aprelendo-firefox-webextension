@@ -3,17 +3,12 @@
 <html>
   <head>
     <title>Aprelendo Options</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="options.css"/>
   </head>
 
   <body>
-    <section class="message message-success hidden" id="message-block">
-        <h4 class="message-head" data-i18n-content="successOptMsgTitle"></h4>
-        <div class="message-body" data-i18n-content="successOptMsgText"></div>
-    </section>
-
     <section class="option" id="opt-menu-langs">
         <p data-i18n-content="langsShownOptLabel"></p>
         <div>
@@ -171,7 +166,14 @@
 
     <br>
 
-    <button id="save" class="button" data-i18n-content="saveBtnOpt" type="button"></button>
+    <section class="footer">
+      <button id="save" class="button" data-i18n-content="saveBtnOpt" type="button"></button>
+
+      <span class="message message-success hidden" id="message-block">
+          <span class="message-head" data-i18n-content="successOptMsgTitle"></span>
+          <span class="message-body" data-i18n-content="successOptMsgText"></span>
+      </span>
+    </section>
 
     <script src="options.js"></script>
 

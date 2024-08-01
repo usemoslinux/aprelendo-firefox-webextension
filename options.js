@@ -15,6 +15,7 @@ function saveOptions() {
     browser.storage.sync.set(settings, () => {
         // Update message to let user know options were saved.
         const msg = document.getElementById('message-block');
+
         msg.classList.remove("hidden");
         setTimeout(() => {
             msg.classList.add("hidden");
