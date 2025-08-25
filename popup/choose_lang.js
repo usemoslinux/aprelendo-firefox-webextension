@@ -1,14 +1,4 @@
 /**
- * Listen for clicks on the buttons, and redirect to the appropriate page
- */
-document.addEventListener("click", (e) => {
-    if (e.target.classList.contains("button")) {
-        browser.runtime.sendMessage({"lang": e.target.id});
-        window.close();
-    }
-});
-
-/**
  * Loads languages shown in menu depending on user selection in Preferences
  */
 document.addEventListener("DOMContentLoaded", () => {
@@ -45,6 +35,9 @@ document.addEventListener("DOMContentLoaded", () => {
         { code: 'vi', name: 'vietnameseName' }
     ];
 
+    /**
+     * Create menu buttons with language names and flags
+     */
     browser.storage.sync.get(languages.map(lang => `show_${lang.code}`), (res) => {
         languages.forEach(lang => {
             if (res[`show_${lang.code}`] || typeof res[`show_${lang.code}`] === 'undefined') {
@@ -55,6 +48,16 @@ document.addEventListener("DOMContentLoaded", () => {
                 popup.appendChild(element);
             }
         });
+    });
+
+    /**
+     * Listen for clicks on the buttons, and redirect to the appropriate page
+     */
+    document.addEventListener("click", (e) => {
+        if (e.target.classList.contains("button")) {
+            browser.runtime.sendMessage({ "lang": e.target.id });
+            window.close();
+        }
     });
 });
 
