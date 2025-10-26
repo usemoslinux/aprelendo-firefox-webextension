@@ -138,3 +138,8 @@
 .button.vi {
   background-image: url("../icons/flags/vi.svg");
 }
+
+#popup-content:focus {
+  outline: none;
+  box-shadow: none;
+}
