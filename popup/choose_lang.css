@@ -18,9 +18,15 @@
   margin: auto;
 }
 
-.button:hover {
+.button:hover,
+.button.detected:hover {
   background-color: #0275d8;
   color: white;
+}
+
+.button.detected {
+  background-color: #f0f8ff;
+  border: 1px solid #007bff;
 }
 
 .button.ar {

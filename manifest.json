@@ -20,7 +20,9 @@
   "permissions": [
 	"tabs",    
 	"activeTab",
-    "storage"
+    "storage",
+	"contextMenus",
+	"scripting"
   ],
 
   "browser_action": {
@@ -34,7 +36,7 @@
   },
 
   "background": {
-    "scripts": ["shared/languages.js", "background.js"]
+    "scripts": ["shared/languages.js", "shared/language_detector.js", "background.js"]
   },
 
   "commands": {

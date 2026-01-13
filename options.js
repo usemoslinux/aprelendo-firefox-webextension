@@ -1,6 +1,6 @@
 const languageCodes = languages.map(lang => lang.code);
 
-function saveOptions() {
+async function saveOptions() {
     let settings = {};
 
     languageCodes.forEach(code => {
@@ -9,26 +9,25 @@ function saveOptions() {
 
     settings["shortcut_lang"] = document.querySelector("#shortcut-lang").value;
 
-    browser.storage.sync.set(settings, () => {
-        // Update message to let user know options were saved.
-        const msg = document.getElementById('message-block');
+    await browser.storage.sync.set(settings);
 
-        msg.classList.remove("hidden");
-        setTimeout(() => {
-            msg.classList.add("hidden");
-        }, 2000);
-    });
+    // Update message to let user know options were saved.
+    const msg = document.getElementById('message-block');
+    msg.classList.remove("hidden");
+    setTimeout(() => {
+        msg.classList.add("hidden");
+    }, 2000);
 }
 
-function restoreOptions() {
+async function restoreOptions() {
     const keys = languageCodes.map(code => `show_${code}`).concat(["shortcut_lang"]);
 
-    browser.storage.sync.get(keys, (res) => {
-        languageCodes.forEach(code => {
-            document.querySelector(`#${code}`).checked = (typeof res[`show_${code}`] !== 'undefined') ? res[`show_${code}`] : true;
-        });
-        document.querySelector("#shortcut-lang").value = (typeof res.shortcut_lang !== 'undefined') ? res.shortcut_lang : 'en';
+    const res = await browser.storage.sync.get(keys);
+
+    languageCodes.forEach(code => {
+        document.querySelector(`#${code}`).checked = (typeof res[`show_${code}`] !== 'undefined') ? res[`show_${code}`] : true;
     });
+    document.querySelector("#shortcut-lang").value = (typeof res.shortcut_lang !== 'undefined') ? res.shortcut_lang : 'en';
 
     updateLocaleStrings();
 }
