@@ -34,3 +34,22 @@ browser.commands.onCommand.addListener(async (command) => {
         }
     }
 });
+
+async function cacheVisibleLanguages() {
+    const keys = languages.map(l => `show_${l.code}`);
+    const settings = await browser.storage.sync.get(keys);
+    const visibleLangs = languages.filter(lang =>
+        settings[`show_${lang.code}`] || typeof settings[`show_${lang.code}`] === 'undefined'
+    );
+    await browser.storage.local.set({ cached_languages: visibleLangs });
+}
+
+browser.runtime.onInstalled.addListener(cacheVisibleLanguages);
+browser.storage.onChanged.addListener((changes, namespace) => {
+    if (namespace === 'sync') {
+        const langSettingChanged = Object.keys(changes).some(key => key.startsWith('show_'));
+        if (langSettingChanged) {
+            cacheVisibleLanguages();
+        }
+    }
+});

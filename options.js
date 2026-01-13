@@ -1,7 +1,4 @@
-const languageCodes = [
-    'ar', 'bg', 'ca', 'zh', 'hr', 'cs', 'da', 'nl', 'en', 'fr', 'de', 'el', 'he', 'hi', 'hu', 
-    'it', 'ja', 'ko', 'no', 'pl', 'pt', 'ro', 'ru', 'sk', 'sl', 'es', 'sv', 'tr', 'vi'
-];
+const languageCodes = languages.map(lang => lang.code);
 
 function saveOptions() {
     let settings = {};
@@ -46,4 +43,3 @@ function updateLocaleStrings() {
 
 document.addEventListener("DOMContentLoaded", restoreOptions);
 document.querySelector("#save").addEventListener("click", saveOptions);
-

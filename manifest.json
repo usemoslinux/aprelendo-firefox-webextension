@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "__MSG_extensionName__",
-  "version": "1.5.6",
+  "version": "1.5.7",
   "description": "__MSG_extensionDescription__",
   "homepage_url": "https://www.aprelendo.com",
   "icons": {
@@ -34,7 +34,7 @@
   },
 
   "background": {
-    "scripts": ["background.js"]
+    "scripts": ["shared/languages.js", "background.js"]
   },
 
   "commands": {
