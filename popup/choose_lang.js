@@ -65,8 +65,8 @@ document.addEventListener("DOMContentLoaded", async () => {
         setTimeout(() => window.close(), 0);
     };
 
-    // Use a single event to avoid double fire
-    document.addEventListener('pointerdown', handlePick, { passive: true });
+    // Use click so scrolling doesn't trigger a selection on touch devices.
+    popup.addEventListener('click', handlePick);
 
     // Optional keyboard support (Enter/Space) without using 'click'
     document.addEventListener('keydown', async (e) => {
@@ -81,4 +81,3 @@ document.addEventListener("DOMContentLoaded", async () => {
         }
     });
 });
-

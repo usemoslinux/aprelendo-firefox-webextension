@@ -143,3 +143,16 @@
   outline: none;
   box-shadow: none;
 }
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+#popup-content {
+  max-height: 100vh;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-y;
+}
