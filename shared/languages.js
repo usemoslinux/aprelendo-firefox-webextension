@@ -1,4 +1,4 @@
-const languages = [
+export const languages = [
     { code: 'ar', name: 'arabicName' }, { code: 'bg', name: 'bulgarianName' },
     { code: 'ca', name: 'catalanName' }, { code: 'zh', name: 'chineseName' },
     { code: 'hr', name: 'croatianName' }, { code: 'cs', name: 'czechName' },

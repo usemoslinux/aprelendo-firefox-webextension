@@ -130,7 +130,7 @@
     </section>
 
     <section class="option" id="opt-shortcut-lang">
-        <label for="shortcut-lang">Language to use with keyboard shortcut (default Shift+Ctrl+L):</label>
+        <label for="shortcut-lang">Fallback language (used when shortcut or context menu can't auto-detect):</label>
         <select name="shortcut-lang" id="shortcut-lang">
             <option value="ar" data-i18n-content="arabicName"></option>
             <option value="bg" data-i18n-content="bulgarianName"></option>
@@ -164,6 +164,11 @@
         </select>
     </section>
 
+    <section class="option" id="opt-open-new-tab">
+        <input type="checkbox" id="open-in-new-tab">
+        <label for="open-in-new-tab">Open Aprelendo in a new tab when adding a page</label>
+    </section>
+
     <br>
 
     <section class="footer">
@@ -175,10 +180,8 @@
       </span>
     </section>
 
-    <script src="shared/languages.js"></script>
-    <script src="options.js"></script>
+    <script type="module" src="options.js"></script>
 
   </body>
 
 </html>
-

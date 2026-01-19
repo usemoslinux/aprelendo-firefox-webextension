@@ -12,12 +12,6 @@
   user-select: none;
 }
 
-.flex-column {
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-}
-
 .button:hover,
 .button.detected:hover {
   background-color: #0275d8;

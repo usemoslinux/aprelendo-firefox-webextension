@@ -1,15 +1,28 @@
-const t = (k) => browser.i18n.getMessage(k) || k;
+import { languages } from '../shared/languages.js';
 
 document.addEventListener("DOMContentLoaded", async () => {
     const popup = document.querySelector("#popup-content");
+    let detectedLang = null;
 
     function buildPopup(visibleLangs) {
         for (const lang of visibleLangs) {
             const el = document.createElement('div');
             el.id = lang.code;
             el.className = `button ${lang.code}`;
-            el.textContent = t(lang.name);
+            el.textContent = browser.i18n.getMessage(lang.name);
             popup.appendChild(el);
+        }
+        if (detectedLang) {
+            highlightDetected(detectedLang);
+        }
+    }
+
+    function highlightDetected(lang) {
+        detectedLang = lang;
+        const detectedButton = document.getElementById(lang);
+        if (detectedButton) {
+            detectedButton.classList.add('detected');
+            detectedButton.scrollIntoView({ block: 'center' });
         }
     }
 
@@ -21,10 +34,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             return;
         }
         if (response && response.lang) {
-            const detectedButton = document.getElementById(response.lang);
-            if (detectedButton) {
-                detectedButton.classList.add('detected');
-            }
+            highlightDetected(response.lang);
         }
     });
 
@@ -50,21 +60,25 @@ document.addEventListener("DOMContentLoaded", async () => {
         if (!btn || busy) return;
         busy = true;
 
-        try { await browser.runtime.sendMessage({ lang: btn.id }); }
-        finally { window.close(); }
+        await browser.runtime.sendMessage({ lang: btn.id });
+        // close even if no ack (older Chromium) — but only once
+        setTimeout(() => window.close(), 0);
     };
 
+    // Use a single event to avoid double fire
     document.addEventListener('pointerdown', handlePick, { passive: true });
 
+    // Optional keyboard support (Enter/Space) without using 'click'
     document.addEventListener('keydown', async (e) => {
         if ((e.key === 'Enter' || e.key === ' ') && !busy) {
             const btn = document.activeElement?.closest?.('.button');
             if (btn) {
                 e.preventDefault();
                 busy = true;
-                try { await browser.runtime.sendMessage({ lang: btn.id }); }
-                finally { window.close(); }
+                await browser.runtime.sendMessage({ lang: btn.id });
+                setTimeout(() => window.close(), 0);
             }
         }
     });
 });
+

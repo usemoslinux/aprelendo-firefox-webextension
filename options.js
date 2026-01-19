@@ -1,3 +1,5 @@
+import { languages } from './shared/languages.js';
+
 const languageCodes = languages.map(lang => lang.code);
 
 async function saveOptions() {
@@ -8,6 +10,7 @@ async function saveOptions() {
     });
 
     settings["shortcut_lang"] = document.querySelector("#shortcut-lang").value;
+    settings["open_in_new_tab"] = document.querySelector("#open-in-new-tab").checked;
 
     await browser.storage.sync.set(settings);
 
@@ -20,7 +23,7 @@ async function saveOptions() {
 }
 
 async function restoreOptions() {
-    const keys = languageCodes.map(code => `show_${code}`).concat(["shortcut_lang"]);
+    const keys = languageCodes.map(code => `show_${code}`).concat(["shortcut_lang", "open_in_new_tab"]);
 
     const res = await browser.storage.sync.get(keys);
 
@@ -28,6 +31,7 @@ async function restoreOptions() {
         document.querySelector(`#${code}`).checked = (typeof res[`show_${code}`] !== 'undefined') ? res[`show_${code}`] : true;
     });
     document.querySelector("#shortcut-lang").value = (typeof res.shortcut_lang !== 'undefined') ? res.shortcut_lang : 'en';
+    document.querySelector("#open-in-new-tab").checked = (typeof res.open_in_new_tab !== 'undefined') ? res.open_in_new_tab : true;
 
     updateLocaleStrings();
 }

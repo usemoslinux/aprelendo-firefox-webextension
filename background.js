@@ -1,4 +1,14 @@
+import { languages } from './shared/languages.js';
+import { detectLang } from './shared/language_detector.js';
+
+// background.js
+
 const supportedLangCodes = new Set(languages.map(l => l.code));
+
+async function getShortcutFallbackLang() {
+    const { shortcut_lang } = await browser.storage.sync.get(['shortcut_lang']);
+    return shortcut_lang || 'en';
+}
 
 async function redirect(msg) {
     const tabs = await browser.tabs.query({ currentWindow: true, active: true });
@@ -13,11 +23,18 @@ async function redirect(msg) {
         ? `https://www.aprelendo.com/addvideo.php?lang=${lang}&url=${encodeURIComponent(tab.url)}`
         : `https://www.aprelendo.com/addtext.php?lang=${lang}&url=${encodeURIComponent(tab.url)}`;
 
-    await browser.tabs.create({
-        url: aprelendo_url,
-        active: true,
-        index: (typeof tab.index === 'number' ? tab.index : 0) + 1
-    });
+    const { open_in_new_tab } = await browser.storage.sync.get(['open_in_new_tab']);
+    const openInNewTab = typeof open_in_new_tab === 'undefined' ? true : open_in_new_tab;
+
+    if (openInNewTab) {
+        await browser.tabs.create({
+            url: aprelendo_url,
+            active: true,
+            index: (typeof tab.index === 'number' ? tab.index : 0) + 1
+        });
+    } else if (tab.id) {
+        await browser.tabs.update(tab.id, { url: aprelendo_url, active: true });
+    }
 }
 
 async function detectTabLanguage(tab) {
@@ -60,8 +77,7 @@ browser.commands.onCommand.addListener(async (command) => {
     if (command === 'add-page') {
         const [tab] = await browser.tabs.query({ active: true, currentWindow: true });
         const detectedLang = await detectTabLanguage(tab);
-        const { shortcut_lang } = await browser.storage.sync.get(['shortcut_lang']);
-        const lang = detectedLang || shortcut_lang || 'en';
+        const lang = detectedLang || await getShortcutFallbackLang();
         try {
             await redirect({ lang });
         } catch (e) {
@@ -73,7 +89,7 @@ browser.commands.onCommand.addListener(async (command) => {
 browser.contextMenus.onClicked.addListener(async (info, tab) => {
     if (info.menuItemId === 'add-page-auto-detect') {
         const detectedLang = await detectTabLanguage(tab);
-        const lang = detectedLang || 'en';
+        const lang = detectedLang || await getShortcutFallbackLang();
         try { await redirect({ lang }); } catch (e) { console.error(e); }
     }
 });

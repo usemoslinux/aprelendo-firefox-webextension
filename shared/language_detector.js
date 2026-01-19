@@ -38,7 +38,7 @@ const languageData = {
     en: { words: ['the', 'a', 'an', 'is', 'are', 'in', 'on', 'of', 'and', 'to', 'that'] },
 };
 
-function detectLang(text) {
+export function detectLang(text) {
     if (!text) return null;
 
     // First, check for languages with unique character sets for a quick and reliable detection
