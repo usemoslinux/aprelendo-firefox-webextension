@@ -1,158 +1,163 @@
 .button {
-  background-position: .25rem;
-  background-repeat: no-repeat;
-  background-size: 1rem;
-  border-radius: 3px;
-  color: black;
-  cursor: pointer;
-  font-family: system-ui, Arial, Helvetica, sans-serif;
-  font-size: 1rem;
-  margin: 0;
-  padding: .25rem 1.25rem .25rem 1.75rem;
-  user-select: none;
+    background-position: 0.25rem;
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    font-family: system-ui, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0.25rem 1.25rem 0.25rem 1.75rem;
+    user-select: none;
 }
 
 .button:hover,
 .button.detected:hover {
-  background-color: #0275d8;
-  color: white;
+    background-color: #0275d8;
+    color: white;
 }
 
 .button.detected {
-  background-color: #f0f8ff;
-  border: 1px solid #007bff;
+    background-color: #f0f8ff;
+    border: 1px solid #007bff;
 }
 
 .button.ar {
-  background-image: url("../icons/flags/ar.svg");
+    background-image: url("../icons/flags/ar.svg");
 }
 
 .button.bg {
-  background-image: url("../icons/flags/bg.svg");
+    background-image: url("../icons/flags/bg.svg");
 }
 
 .button.ca {
-  background-image: url("../icons/flags/ca.svg");
+    background-image: url("../icons/flags/ca.svg");
 }
 
 .button.zh {
-  background-image: url("../icons/flags/zh.svg");
+    background-image: url("../icons/flags/zh.svg");
 }
 
 .button.hr {
-  background-image: url("../icons/flags/hr.svg");
+    background-image: url("../icons/flags/hr.svg");
 }
 
 .button.cs {
-  background-image: url("../icons/flags/cs.svg");
+    background-image: url("../icons/flags/cs.svg");
 }
 
 .button.da {
-  background-image: url("../icons/flags/da.svg");
+    background-image: url("../icons/flags/da.svg");
 }
 
 .button.nl {
-  background-image: url("../icons/flags/nl.svg");
+    background-image: url("../icons/flags/nl.svg");
 }
 
 .button.en {
-  background-image: url("../icons/flags/en.svg");
+    background-image: url("../icons/flags/en.svg");
 }
 
 .button.fr {
-  background-image: url("../icons/flags/fr.svg");
+    background-image: url("../icons/flags/fr.svg");
 }
 
 .button.de {
-  background-image: url("../icons/flags/de.svg");
+    background-image: url("../icons/flags/de.svg");
 }
 
 .button.el {
-  background-image: url("../icons/flags/el.svg");
+    background-image: url("../icons/flags/el.svg");
 }
 
 .button.he {
-  background-image: url("../icons/flags/he.svg");
+    background-image: url("../icons/flags/he.svg");
 }
 
 .button.hi {
-  background-image: url("../icons/flags/hi.svg");
+    background-image: url("../icons/flags/hi.svg");
 }
 
 .button.hu {
-  background-image: url("../icons/flags/hu.svg");
+    background-image: url("../icons/flags/hu.svg");
 }
 
 .button.it {
-  background-image: url("../icons/flags/it.svg");
+    background-image: url("../icons/flags/it.svg");
 }
 
 .button.ja {
-  background-image: url("../icons/flags/ja.svg");
+    background-image: url("../icons/flags/ja.svg");
 }
 
 .button.ko {
-  background-image: url("../icons/flags/ko.svg");
+    background-image: url("../icons/flags/ko.svg");
 }
 
 .button.no {
-  background-image: url("../icons/flags/no.svg");
+    background-image: url("../icons/flags/no.svg");
 }
 
 .button.pl {
-  background-image: url("../icons/flags/pl.svg");
+    background-image: url("../icons/flags/pl.svg");
 }
 
 .button.pt {
-  background-image: url("../icons/flags/pt.svg");
+    background-image: url("../icons/flags/pt.svg");
 }
 
 .button.ro {
-  background-image: url("../icons/flags/ro.svg");
+    background-image: url("../icons/flags/ro.svg");
 }
 
 .button.ru {
-  background-image: url("../icons/flags/ru.svg");
+    background-image: url("../icons/flags/ru.svg");
 }
 
 .button.sk {
-  background-image: url("../icons/flags/sk.svg");
+    background-image: url("../icons/flags/sk.svg");
 }
 
 .button.sl {
-  background-image: url("../icons/flags/sl.svg");
+    background-image: url("../icons/flags/sl.svg");
 }
 
 .button.es {
-  background-image: url("../icons/flags/es.svg");
+    background-image: url("../icons/flags/es.svg");
 }
 
 .button.sv {
-  background-image: url("../icons/flags/sv.svg");
+    background-image: url("../icons/flags/sv.svg");
 }
 
 .button.tr {
-  background-image: url("../icons/flags/tr.svg");
+    background-image: url("../icons/flags/tr.svg");
 }
 
 .button.vi {
-  background-image: url("../icons/flags/vi.svg");
+    background-image: url("../icons/flags/vi.svg");
 }
 
 #popup-content:focus {
-  outline: none;
-  box-shadow: none;
+    outline: none;
+    box-shadow: none;
 }
 
-html,
+html {
+    overflow-y: hidden;
+}
+
 body {
-  height: 100%;
-  margin: 0;
+    margin: 0;
+    width: 20rem;
+    min-height: 300px;
+    max-height: 600px;
 }
 
 #popup-content {
-  max-height: 100vh;
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
-  touch-action: pan-y;
+    max-height: 600px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    touch-action: pan-y;
 }
