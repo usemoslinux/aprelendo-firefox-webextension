@@ -41,12 +41,27 @@ hr {
     margin-top: 10px;
 }
 
+.option-help {
+    margin: 4px 0 0;
+    max-width: 480px;
+    opacity: .85;
+}
+
+#opt-aprelendo-base-url label {
+    display: block;
+    margin-bottom: 4px;
+}
+
 .message {
     margin-left: 15px;
 }
 
 .message-success {
     color: green;
+}
+
+.message-error {
+    color: #c00;
 }
 
 /**
@@ -70,6 +85,14 @@ hr {
     width: fit-content;
 }
 
+.text-input {
+    box-sizing: border-box;
+    font-family: var(--font-family-sans-serif);
+    font-size: 12px;
+    max-width: 480px;
+    padding: 5px 6px;
+    width: 100%;
+}
 
 /**
  * Miscellaneous

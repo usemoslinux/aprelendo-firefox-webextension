@@ -1,15 +1,42 @@
 .button {
+    appearance: none;
+    background-color: transparent;
     background-position: 0.25rem;
     background-repeat: no-repeat;
     background-size: 1rem;
+    border: 1px solid transparent;
     border-radius: 3px;
+    box-sizing: border-box;
     color: black;
     cursor: pointer;
+    display: block;
     font-family: system-ui, Arial, Helvetica, sans-serif;
     font-size: 1rem;
     margin: 0;
+    overflow: hidden;
+    overflow: hidden;
     padding: 0.25rem 1.25rem 0.25rem 1.75rem;
+    text-align: left;
     user-select: none;
+    width: 100%;
+}
+
+.button:focus-visible {
+    outline: 2px solid #005fcc;
+    outline-offset: -2px;
+}
+
+#popup-error {
+    color: #a61b1b;
+    font-family: system-ui, Arial, Helvetica, sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0.5rem 0.75rem 0;
+}
+
+.hidden {
+    display: none;
 }
 
 .button:hover,
@@ -20,7 +47,7 @@
 
 .button.detected {
     background-color: #f0f8ff;
-    border: 1px solid #007bff;
+    border-color: #007bff;
 }
 
 .button.ar {
@@ -139,25 +166,25 @@
     background-image: url("../icons/flags/vi.svg");
 }
 
-#popup-content:focus {
-    outline: none;
-    box-shadow: none;
-}
-
 html {
     overflow-y: hidden;
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     margin: 0;
+    overflow: hidden;
     width: 20rem;
     min-height: 300px;
     max-height: 600px;
 }
 
 #popup-content {
-    max-height: 600px;
+    flex: 1 1 auto;
+    min-height: 0;
     overflow-y: auto;
+    padding-bottom: 0.25rem;
     -webkit-overflow-scrolling: touch;
     touch-action: pan-y;
 }

@@ -1,116 +1,140 @@
 {
-    "extensionName": {
-        "message": "Aprelendo"
-    },
-    "extensionDescription": {
-        "message": "Aggiungi testi alla tua libreria Aprelendo."
-    },
-    "shortcutDescription": {
-        "message": "Invia pagina ad Aprelendo utilizzando la lingua selezionata nelle Preferenze"
-    },
-    "arabicName": {
-        "message": "Arabo"
-    },
-    "bulgarianName": {
-        "message": "Bulgaro"
-    },
-    "catalanName": {
-        "message": "Catalano"
-    },
-    "chineseName": {
-        "message": "Cinese"
-    },
-    "croatianName": {
-        "message": "Croato"
-    },
-    "czechName": {
-        "message": "Ceco"
-    },
-    "danishName": {
-        "message": "Danese"
-    },
-    "dutchName": {
-        "message": "Olandese"
-    },
-    "englishName": {
-        "message": "Inglese"
-    },
-    "frenchName": {
-        "message": "Francese"
-    },
-    "germanName": {
-        "message": "Tedesco"
-    },
-    "greekName": {
-        "message": "Greco"
-    },
-    "hebrewName": {
-        "message": "Ebraico"
-    },
-    "hindiName": {
-        "message": "Hindi"
-    },
-    "hungarianName": {
-        "message": "Ungherese"
-    },
-    "italianName": {
-        "message": "Italiano"
-    },
-    "japaneseName": {
-        "message": "Giapponese"
-    },
-    "koreanName": {
-        "message": "Coreano"
-    },
-    "norwegianName": {
-        "message": "Norvegese"
-    },
-    "polishName": {
-        "message": "Polacco"
-    },
-    "portugueseName": {
-        "message": "Portoghese"
-    },
-    "romanianName": {
-        "message": "Rumeno"
-    },
-    "russianName": {
-        "message": "Russo"
-    },
-    "slovakName": {
-        "message": "Slovacco"
-    },
-    "slovenianName": {
-        "message": "Sloveno"
-    },
-    "spanishName": {
-        "message": "Spagnolo"
-    },
-    "swedishName": {
-        "message": "Svedese"
-    },
-    "turkishName": {
-        "message": "Turco"
-    },
-    "vietnameseName": {
-        "message": "Vietnamita"
-    },
-    "langsShownOptLabel": {
-        "message": "Lingue da mostrare nel menu:"
-    },
-    "shortcutLangOptLabel": {
-        "message": "Lingua da usare con la scorciatoia da tastiera:"
-    },
-    "successOptMsgTitle": {
-        "message": "Successo!"
-    },
-    "successOptMsgText": {
-        "message": "Le tue preferenze sono state salvate."
-    },
-    "saveBtnOpt": {
-        "message": "Salva"
-    },
-    "__WET_LOCALE__": {
-        "message": "it"
-    }
+  "extensionName": {
+    "message": "Aprelendo"
+  },
+  "extensionDescription": {
+    "message": "Aggiungi testi alla tua libreria Aprelendo."
+  },
+  "shortcutDescription": {
+    "message": "Invia pagina ad Aprelendo utilizzando la lingua selezionata nelle Preferenze"
+  },
+  "arabicName": {
+    "message": "Arabo"
+  },
+  "bulgarianName": {
+    "message": "Bulgaro"
+  },
+  "catalanName": {
+    "message": "Catalano"
+  },
+  "chineseName": {
+    "message": "Cinese"
+  },
+  "croatianName": {
+    "message": "Croato"
+  },
+  "czechName": {
+    "message": "Ceco"
+  },
+  "danishName": {
+    "message": "Danese"
+  },
+  "dutchName": {
+    "message": "Olandese"
+  },
+  "englishName": {
+    "message": "Inglese"
+  },
+  "frenchName": {
+    "message": "Francese"
+  },
+  "germanName": {
+    "message": "Tedesco"
+  },
+  "greekName": {
+    "message": "Greco"
+  },
+  "hebrewName": {
+    "message": "Ebraico"
+  },
+  "hindiName": {
+    "message": "Hindi"
+  },
+  "hungarianName": {
+    "message": "Ungherese"
+  },
+  "italianName": {
+    "message": "Italiano"
+  },
+  "japaneseName": {
+    "message": "Giapponese"
+  },
+  "koreanName": {
+    "message": "Coreano"
+  },
+  "norwegianName": {
+    "message": "Norvegese"
+  },
+  "polishName": {
+    "message": "Polacco"
+  },
+  "portugueseName": {
+    "message": "Portoghese"
+  },
+  "romanianName": {
+    "message": "Rumeno"
+  },
+  "russianName": {
+    "message": "Russo"
+  },
+  "slovakName": {
+    "message": "Slovacco"
+  },
+  "slovenianName": {
+    "message": "Sloveno"
+  },
+  "spanishName": {
+    "message": "Spagnolo"
+  },
+  "swedishName": {
+    "message": "Svedese"
+  },
+  "turkishName": {
+    "message": "Turco"
+  },
+  "vietnameseName": {
+    "message": "Vietnamita"
+  },
+  "langsShownOptLabel": {
+    "message": "Lingue da mostrare nel menu:"
+  },
+  "shortcutLangOptLabel": {
+    "message": "Lingua da usare con la scorciatoia da tastiera:"
+  },
+  "successOptMsgTitle": {
+    "message": "Successo!"
+  },
+  "successOptMsgText": {
+    "message": "Le tue preferenze sono state salvate."
+  },
+  "saveBtnOpt": {
+    "message": "Salva"
+  },
+  "actionTitle": {
+    "message": "Aggiungi ad Aprelendo"
+  },
+  "contextMenuAutoDetectTitle": {
+    "message": "Aggiungi ad Aprelendo (rileva automaticamente la lingua)"
+  },
+  "optionsPageTitle": {
+    "message": "Opzioni di Aprelendo"
+  },
+  "openInNewTabOptLabel": {
+    "message": "Apri Aprelendo in una nuova scheda quando aggiungi una pagina"
+  },
+  "aprelendoServerUrlOptLabel": {
+    "message": "URL del server Aprelendo:"
+  },
+  "aprelendoServerUrlHelp": {
+    "message": "Avanzato: modifica questo solo se ospiti Aprelendo autonomamente. Lascia vuoto questo campo per continuare a usare https://www.aprelendo.com."
+  },
+  "errorOptMsgTitle": {
+    "message": "Errore"
+  },
+  "aprelendoServerUrlInvalidError": {
+    "message": "Inserisci un URL del server valido con http:// o https://."
+  },
+  "__WET_LOCALE__": {
+    "message": "it"
+  }
 }

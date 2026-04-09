@@ -110,6 +110,30 @@
   "saveBtnOpt": {
     "message": "सहेजें"
   },
+  "actionTitle": {
+    "message": "Aprelendo में जोड़ें"
+  },
+  "contextMenuAutoDetectTitle": {
+    "message": "Aprelendo में जोड़ें (भाषा का स्वतः पता लगाएँ)"
+  },
+  "optionsPageTitle": {
+    "message": "Aprelendo विकल्प"
+  },
+  "openInNewTabOptLabel": {
+    "message": "पेज जोड़ते समय Aprelendo को नए टैब में खोलें"
+  },
+  "aprelendoServerUrlOptLabel": {
+    "message": "Aprelendo सर्वर URL:"
+  },
+  "aprelendoServerUrlHelp": {
+    "message": "उन्नत: इसे केवल तभी बदलें जब आप Aprelendo को स्वयं होस्ट करते हों। https://www.aprelendo.com का उपयोग जारी रखने के लिए इस फ़ील्ड को खाली छोड़ दें।"
+  },
+  "errorOptMsgTitle": {
+    "message": "त्रुटि"
+  },
+  "aprelendoServerUrlInvalidError": {
+    "message": "http:// या https:// के साथ एक मान्य सर्वर URL दर्ज करें।"
+  },
   "__WET_LOCALE__": {
     "message": "hi"
   }

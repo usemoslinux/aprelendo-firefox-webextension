@@ -110,6 +110,30 @@
   "saveBtnOpt": {
     "message": "Сохранить"
   },
+  "actionTitle": {
+    "message": "Добавить в Aprelendo"
+  },
+  "contextMenuAutoDetectTitle": {
+    "message": "Добавить в Aprelendo (автоопределение языка)"
+  },
+  "optionsPageTitle": {
+    "message": "Параметры Aprelendo"
+  },
+  "openInNewTabOptLabel": {
+    "message": "Открывать Aprelendo в новой вкладке при добавлении страницы"
+  },
+  "aprelendoServerUrlOptLabel": {
+    "message": "URL сервера Aprelendo:"
+  },
+  "aprelendoServerUrlHelp": {
+    "message": "Расширенная настройка: меняйте это только если вы размещаете Aprelendo самостоятельно. Оставьте это поле пустым, чтобы продолжить использовать https://www.aprelendo.com."
+  },
+  "errorOptMsgTitle": {
+    "message": "Ошибка"
+  },
+  "aprelendoServerUrlInvalidError": {
+    "message": "Введите корректный URL сервера с http:// или https://."
+  },
   "__WET_LOCALE__": {
     "message": "ru"
   }

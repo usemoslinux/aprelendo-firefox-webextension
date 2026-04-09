@@ -110,6 +110,30 @@
   "saveBtnOpt": {
     "message": "保存"
   },
+  "actionTitle": {
+    "message": "Aprelendo に追加"
+  },
+  "contextMenuAutoDetectTitle": {
+    "message": "Aprelendo に追加（言語を自動検出）"
+  },
+  "optionsPageTitle": {
+    "message": "Aprelendo のオプション"
+  },
+  "openInNewTabOptLabel": {
+    "message": "ページを追加するときに Aprelendo を新しいタブで開く"
+  },
+  "aprelendoServerUrlOptLabel": {
+    "message": "Aprelendo サーバー URL:"
+  },
+  "aprelendoServerUrlHelp": {
+    "message": "上級者向け: これは Aprelendo を自分でホストしている場合にのみ変更してください。https://www.aprelendo.com を使い続ける場合は、この欄を空のままにしてください。"
+  },
+  "errorOptMsgTitle": {
+    "message": "エラー"
+  },
+  "aprelendoServerUrlInvalidError": {
+    "message": "http:// または https:// を使った有効なサーバー URL を入力してください。"
+  },
   "__WET_LOCALE__": {
     "message": "ja"
   }

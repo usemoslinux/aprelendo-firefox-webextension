@@ -3,17 +3,90 @@
 // This is a lightweight, dependency-free language detector.
 // Its accuracy will not be perfect, but it serves as a starting point.
 
+const scriptDetectors = {
+  ar: /[\u0600-\u06FF]/,
+  zh: /[\u4E00-\u9FFF]/,
+  el: /[\u0370-\u03FF]/,
+  he: /[\u0590-\u05FF]/,
+  hi: /[\u0900-\u097F]/,
+  ja: /[\u3040-\u309F\u30A0-\u30FF]/, // Hiragana/Katakana
+  ko: /[\uAC00-\uD7AF]/, // Hangul
+  cyrillic: /[\u0400-\u04FF]/,
+};
+
 const languageData = {
   // Languages with unique character sets
-  ar: { regex: /[\u0600-\u06FF]/ },
-  zh: { regex: /[\u4e00-\u9fa5]/ },
-  el: { regex: /[\u0370-\u03FF]/ },
-  he: { regex: /[\u0590-\u05FF]/ },
-  hi: { regex: /[\u0900-\u097F]/ },
-  ja: { regex: /[\u3040-\u309F\u30A0-\u30FF]/ }, // Hiragana/Katakana
-  ko: { regex: /[\uAC00-\uD7AF]/ }, // Hangul
-  ru: { regex: /[\u0400-\u04FF]/ }, // Cyrillic (covers ru, bg)
-  bg: { regex: /[\u0400-\u04FF]/ },
+  ar: {},
+  zh: {},
+  el: {},
+  he: {},
+  hi: {},
+  ja: {},
+  ko: {},
+  bg: {
+    words: [
+      "и",
+      "в",
+      "на",
+      "се",
+      "че",
+      "за",
+      "не",
+      "са",
+      "с",
+      "по",
+      "как",
+      "от",
+      "е",
+      "ще",
+      "като",
+      "той",
+      "тя",
+      "това",
+    ],
+  },
+  ca: {
+    words: [
+      "el",
+      "la",
+      "els",
+      "les",
+      "de",
+      "del",
+      "un",
+      "una",
+      "i",
+      "que",
+      "és",
+      "en",
+      "per",
+      "amb",
+      "aquesta",
+      "aquest",
+    ],
+  },
+  ru: {
+    words: [
+      "и",
+      "в",
+      "не",
+      "на",
+      "что",
+      "я",
+      "с",
+      "он",
+      "как",
+      "это",
+      "по",
+      "но",
+      "к",
+      "из",
+      "у",
+      "за",
+      "от",
+      "так",
+    ],
+  },
 
   // Languages sharing Latin script - check for common words
   // Word lists are not exhaustive, just a few high-frequency words.
@@ -319,46 +392,66 @@ const languageData = {
   },
 };
 
+function tokenize(text) {
+  return Array.from(text.toLowerCase().matchAll(/\p{L}+/gu), (match) => match[0]);
+}
+
+function getCandidateLanguages(text) {
+  if (scriptDetectors.ar.test(text)) return ["ar"];
+  if (scriptDetectors.ja.test(text)) return ["ja"];
+  if (scriptDetectors.zh.test(text)) return ["zh"];
+  if (scriptDetectors.el.test(text)) return ["el"];
+  if (scriptDetectors.he.test(text)) return ["he"];
+  if (scriptDetectors.hi.test(text)) return ["hi"];
+  if (scriptDetectors.ko.test(text)) return ["ko"];
+  if (scriptDetectors.cyrillic.test(text)) return ["bg", "ru"];
+
+  return Object.keys(languageData).filter((langCode) => languageData[langCode].words);
+}
+
 export function detectLang(text) {
   if (!text) return null;
 
-  // First, check for languages with unique character sets
-  for (const langCode of ["ar", "ja", "zh", "el", "he", "hi", "ko"]) {
-    if (languageData[langCode].regex.test(text)) {
-      return langCode;
-    }
-  }
-  if (languageData["ru"].regex.test(text)) {
-    return "ru";
+  const candidateLanguages = getCandidateLanguages(text);
+  if (candidateLanguages.length === 1 && !languageData[candidateLanguages[0]].words) {
+    return candidateLanguages[0];
   }
 
-  // For Latin-script languages, count common word occurrences
-  const words = text.toLowerCase().match(/\b\w+\b/g) || [];
-  const scores = {};
+  const words = tokenize(text);
+  if (!words.length) return null;
+
+  const wordCounts = new Map();
+  for (const word of words) {
+    wordCounts.set(word, (wordCounts.get(word) || 0) + 1);
+  }
+
   let bestLang = null;
-  let maxScore = 0;
+  let bestScore = 0;
+  let secondBestScore = 0;
+  const needsHigherConfidence = candidateLanguages.length > 2;
 
-  for (const langCode in languageData) {
-    if (languageData[langCode].words) {
-      scores[langCode] = 0;
-      for (const word of languageData[langCode].words) {
-        if (words.includes(word)) {
-          scores[langCode]++;
-        }
-      }
+  for (const langCode of candidateLanguages) {
+    const langWords = languageData[langCode].words;
+    if (!langWords) continue;
+
+    let score = 0;
+    for (const word of langWords) {
+      score += wordCounts.get(word) || 0;
     }
-  }
 
-  for (const langCode in scores) {
-    if (scores[langCode] > maxScore) {
-      maxScore = scores[langCode];
+    if (score > bestScore) {
+      secondBestScore = bestScore;
+      bestScore = score;
       bestLang = langCode;
+    } else if (score > secondBestScore) {
+      secondBestScore = score;
     }
   }
 
-  // Return null if confidence is too low.
-  if (maxScore < 1) return null;
-  if (maxScore < 2 && words.length < 10) return null;
+  // Return null if confidence is too low or the best score is tied.
+  if (bestScore < 1) return null;
+  if (bestScore === secondBestScore) return null;
+  if (needsHigherConfidence && bestScore < 2 && words.length < 10) return null;
 
   return bestLang;
 }

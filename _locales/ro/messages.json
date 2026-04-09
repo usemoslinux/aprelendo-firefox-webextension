@@ -110,6 +110,30 @@
   "saveBtnOpt": {
     "message": "Salvează"
   },
+  "actionTitle": {
+    "message": "Adaugă la Aprelendo"
+  },
+  "contextMenuAutoDetectTitle": {
+    "message": "Adaugă la Aprelendo (detectează automat limba)"
+  },
+  "optionsPageTitle": {
+    "message": "Opțiuni Aprelendo"
+  },
+  "openInNewTabOptLabel": {
+    "message": "Deschide Aprelendo într-o filă nouă când adaugi o pagină"
+  },
+  "aprelendoServerUrlOptLabel": {
+    "message": "URL-ul serverului Aprelendo:"
+  },
+  "aprelendoServerUrlHelp": {
+    "message": "Avansat: modificați aceasta doar dacă găzduiți singur Aprelendo. Lăsați acest câmp gol pentru a continua să folosiți https://www.aprelendo.com."
+  },
+  "errorOptMsgTitle": {
+    "message": "Eroare"
+  },
+  "aprelendoServerUrlInvalidError": {
+    "message": "Introduceți un URL de server valid folosind http:// sau https://."
+  },
   "__WET_LOCALE__": {
     "message": "ro"
   }

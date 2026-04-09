@@ -110,6 +110,30 @@
   "saveBtnOpt": {
     "message": "Lưu"
   },
+  "actionTitle": {
+    "message": "Thêm vào Aprelendo"
+  },
+  "contextMenuAutoDetectTitle": {
+    "message": "Thêm vào Aprelendo (tự động phát hiện ngôn ngữ)"
+  },
+  "optionsPageTitle": {
+    "message": "Tùy chọn Aprelendo"
+  },
+  "openInNewTabOptLabel": {
+    "message": "Mở Aprelendo trong tab mới khi thêm trang"
+  },
+  "aprelendoServerUrlOptLabel": {
+    "message": "URL máy chủ Aprelendo:"
+  },
+  "aprelendoServerUrlHelp": {
+    "message": "Nâng cao: chỉ thay đổi mục này nếu bạn tự lưu trữ Aprelendo. Hãy để trống trường này để tiếp tục dùng https://www.aprelendo.com."
+  },
+  "errorOptMsgTitle": {
+    "message": "Lỗi"
+  },
+  "aprelendoServerUrlInvalidError": {
+    "message": "Nhập URL máy chủ hợp lệ với http:// hoặc https://."
+  },
   "__WET_LOCALE__": {
     "message": "vi"
   }

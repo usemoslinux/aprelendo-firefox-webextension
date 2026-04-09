@@ -110,6 +110,30 @@
   "saveBtnOpt": {
     "message": "저장"
   },
+  "actionTitle": {
+    "message": "Aprelendo에 추가"
+  },
+  "contextMenuAutoDetectTitle": {
+    "message": "Aprelendo에 추가 (언어 자동 감지)"
+  },
+  "optionsPageTitle": {
+    "message": "Aprelendo 옵션"
+  },
+  "openInNewTabOptLabel": {
+    "message": "페이지를 추가할 때 Aprelendo를 새 탭에서 열기"
+  },
+  "aprelendoServerUrlOptLabel": {
+    "message": "Aprelendo 서버 URL:"
+  },
+  "aprelendoServerUrlHelp": {
+    "message": "고급 설정: Aprelendo를 직접 호스팅하는 경우에만 이 값을 변경하세요. 계속 https://www.aprelendo.com 을 사용하려면 이 필드를 비워 두세요."
+  },
+  "errorOptMsgTitle": {
+    "message": "오류"
+  },
+  "aprelendoServerUrlInvalidError": {
+    "message": "http:// 또는 https:// 를 사용하는 올바른 서버 URL을 입력하세요."
+  },
   "__WET_LOCALE__": {
     "message": "ko"
   }

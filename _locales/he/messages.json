@@ -110,6 +110,30 @@
   "saveBtnOpt": {
     "message": "שמור"
   },
+  "actionTitle": {
+    "message": "הוסף ל-Aprelendo"
+  },
+  "contextMenuAutoDetectTitle": {
+    "message": "הוסף ל-Aprelendo (זיהוי שפה אוטומטי)"
+  },
+  "optionsPageTitle": {
+    "message": "אפשרויות Aprelendo"
+  },
+  "openInNewTabOptLabel": {
+    "message": "פתח את Aprelendo בלשונית חדשה בעת הוספת דף"
+  },
+  "aprelendoServerUrlOptLabel": {
+    "message": "כתובת ה-URL של שרת Aprelendo:"
+  },
+  "aprelendoServerUrlHelp": {
+    "message": "הגדרה מתקדמת: שנה זאת רק אם אתה מארח את Aprelendo בעצמך. השאר שדה זה ריק כדי להמשיך להשתמש ב-https://www.aprelendo.com."
+  },
+  "errorOptMsgTitle": {
+    "message": "שגיאה"
+  },
+  "aprelendoServerUrlInvalidError": {
+    "message": "הזן כתובת URL תקינה של השרת עם http:// או https://."
+  },
   "__WET_LOCALE__": {
     "message": "he"
   }

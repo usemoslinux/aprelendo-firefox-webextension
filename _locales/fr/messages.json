@@ -91,6 +91,31 @@
     "message": "Sauvegarder",
     "hash": "aa14043bd4e6f79db542868539be9220"
   },
-
-  "__WET_LOCALE__": { "message": "fr" }
+  "actionTitle": {
+    "message": "Ajouter à Aprelendo"
+  },
+  "contextMenuAutoDetectTitle": {
+    "message": "Ajouter à Aprelendo (détection automatique de la langue)"
+  },
+  "optionsPageTitle": {
+    "message": "Options d'Aprelendo"
+  },
+  "openInNewTabOptLabel": {
+    "message": "Ouvrir Aprelendo dans un nouvel onglet lors de l'ajout d'une page"
+  },
+  "aprelendoServerUrlOptLabel": {
+    "message": "URL du serveur Aprelendo :"
+  },
+  "aprelendoServerUrlHelp": {
+    "message": "Avancé : modifiez ceci uniquement si vous auto-hébergez Aprelendo. Laissez ce champ vide pour continuer à utiliser https://www.aprelendo.com."
+  },
+  "errorOptMsgTitle": {
+    "message": "Erreur"
+  },
+  "aprelendoServerUrlInvalidError": {
+    "message": "Saisissez une URL de serveur valide avec http:// ou https://."
+  },
+  "__WET_LOCALE__": {
+    "message": "fr"
+  }
 }

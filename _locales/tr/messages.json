@@ -110,6 +110,30 @@
   "saveBtnOpt": {
     "message": "Kaydet"
   },
+  "actionTitle": {
+    "message": "Aprelendo'ya ekle"
+  },
+  "contextMenuAutoDetectTitle": {
+    "message": "Aprelendo'ya ekle (dili otomatik algıla)"
+  },
+  "optionsPageTitle": {
+    "message": "Aprelendo seçenekleri"
+  },
+  "openInNewTabOptLabel": {
+    "message": "Bir sayfa eklerken Aprelendo'yu yeni bir sekmede aç"
+  },
+  "aprelendoServerUrlOptLabel": {
+    "message": "Aprelendo sunucu URL'si:"
+  },
+  "aprelendoServerUrlHelp": {
+    "message": "Gelişmiş: bunu yalnızca Aprelendo'yu kendiniz barındırıyorsanız değiştirin. https://www.aprelendo.com adresini kullanmaya devam etmek için bu alanı boş bırakın."
+  },
+  "errorOptMsgTitle": {
+    "message": "Hata"
+  },
+  "aprelendoServerUrlInvalidError": {
+    "message": "http:// veya https:// ile geçerli bir sunucu URL'si girin."
+  },
   "__WET_LOCALE__": {
     "message": "tr"
   }

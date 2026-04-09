@@ -1,116 +1,140 @@
 {
-    "extensionName": {
-        "message": "Aprelendo"
-    },
-    "extensionDescription": {
-        "message": "أضف نصوصًا إلى مكتبة Aprelendo الخاصة بك."
-    },
-    "shortcutDescription": {
-        "message": "أرسل الصفحة إلى Aprelendo باستخدام اللغة المحددة في التفضيلات"
-    },
-    "arabicName": {
-        "message": "العربية"
-    },
-    "bulgarianName": {
-        "message": "البلغارية"
-    },
-    "catalanName": {
-        "message": "الكاتالونية"
-    },
-    "chineseName": {
-        "message": "الصينية"
-    },
-    "croatianName": {
-        "message": "الكرواتية"
-    },
-    "czechName": {
-        "message": "التشيكية"
-    },
-    "danishName": {
-        "message": "الدانماركية"
-    },
-    "dutchName": {
-        "message": "الهولندية"
-    },
-    "englishName": {
-        "message": "الإنجليزية"
-    },
-    "frenchName": {
-        "message": "الفرنسية"
-    },
-    "germanName": {
-        "message": "الألمانية"
-    },
-    "greekName": {
-        "message": "اليونانية"
-    },
-    "hebrewName": {
-        "message": "العبرية"
-    },
-    "hindiName": {
-        "message": "الهندية"
-    },
-    "hungarianName": {
-        "message": "المجرية"
-    },
-    "italianName": {
-        "message": "الإيطالية"
-    },
-    "japaneseName": {
-        "message": "اليابانية"
-    },
-    "koreanName": {
-        "message": "الكورية"
-    },
-    "norwegianName": {
-        "message": "النرويجية"
-    },
-    "polishName": {
-        "message": "البولندية"
-    },
-    "portugueseName": {
-        "message": "البرتغالية"
-    },
-    "romanianName": {
-        "message": "الرومانية"
-    },
-    "russianName": {
-        "message": "الروسية"
-    },
-    "slovakName": {
-        "message": "السلوفاكية"
-    },
-    "slovenianName": {
-        "message": "السلوفينية"
-    },
-    "spanishName": {
-        "message": "الإسبانية"
-    },
-    "swedishName": {
-        "message": "السويدية"
-    },
-    "turkishName": {
-        "message": "التركية"
-    },
-    "vietnameseName": {
-        "message": "الفيتنامية"
-    },
-    "langsShownOptLabel": {
-        "message": "اللغات التي تظهر في القائمة:"
-    },
-    "shortcutLangOptLabel": {
-        "message": "اللغة التي تستخدم مع اختصار لوحة المفاتيح:"
-    },
-    "successOptMsgTitle": {
-        "message": "نجاح!"
-    },
-    "successOptMsgText": {
-        "message": "تم حفظ تفضيلاتك."
-    },
-    "saveBtnOpt": {
-        "message": "حفظ"
-    },
-    "__WET_LOCALE__": {
-        "message": "ar"
-    }
+  "extensionName": {
+    "message": "Aprelendo"
+  },
+  "extensionDescription": {
+    "message": "أضف نصوصًا إلى مكتبة Aprelendo الخاصة بك."
+  },
+  "shortcutDescription": {
+    "message": "أرسل الصفحة إلى Aprelendo باستخدام اللغة المحددة في التفضيلات"
+  },
+  "arabicName": {
+    "message": "العربية"
+  },
+  "bulgarianName": {
+    "message": "البلغارية"
+  },
+  "catalanName": {
+    "message": "الكاتالونية"
+  },
+  "chineseName": {
+    "message": "الصينية"
+  },
+  "croatianName": {
+    "message": "الكرواتية"
+  },
+  "czechName": {
+    "message": "التشيكية"
+  },
+  "danishName": {
+    "message": "الدانماركية"
+  },
+  "dutchName": {
+    "message": "الهولندية"
+  },
+  "englishName": {
+    "message": "الإنجليزية"
+  },
+  "frenchName": {
+    "message": "الفرنسية"
+  },
+  "germanName": {
+    "message": "الألمانية"
+  },
+  "greekName": {
+    "message": "اليونانية"
+  },
+  "hebrewName": {
+    "message": "العبرية"
+  },
+  "hindiName": {
+    "message": "الهندية"
+  },
+  "hungarianName": {
+    "message": "المجرية"
+  },
+  "italianName": {
+    "message": "الإيطالية"
+  },
+  "japaneseName": {
+    "message": "اليابانية"
+  },
+  "koreanName": {
+    "message": "الكورية"
+  },
+  "norwegianName": {
+    "message": "النرويجية"
+  },
+  "polishName": {
+    "message": "البولندية"
+  },
+  "portugueseName": {
+    "message": "البرتغالية"
+  },
+  "romanianName": {
+    "message": "الرومانية"
+  },
+  "russianName": {
+    "message": "الروسية"
+  },
+  "slovakName": {
+    "message": "السلوفاكية"
+  },
+  "slovenianName": {
+    "message": "السلوفينية"
+  },
+  "spanishName": {
+    "message": "الإسبانية"
+  },
+  "swedishName": {
+    "message": "السويدية"
+  },
+  "turkishName": {
+    "message": "التركية"
+  },
+  "vietnameseName": {
+    "message": "الفيتنامية"
+  },
+  "langsShownOptLabel": {
+    "message": "اللغات التي تظهر في القائمة:"
+  },
+  "shortcutLangOptLabel": {
+    "message": "اللغة التي تستخدم مع اختصار لوحة المفاتيح:"
+  },
+  "successOptMsgTitle": {
+    "message": "نجاح!"
+  },
+  "successOptMsgText": {
+    "message": "تم حفظ تفضيلاتك."
+  },
+  "saveBtnOpt": {
+    "message": "حفظ"
+  },
+  "actionTitle": {
+    "message": "أضف إلى Aprelendo"
+  },
+  "contextMenuAutoDetectTitle": {
+    "message": "أضف إلى Aprelendo (اكتشاف اللغة تلقائيًا)"
+  },
+  "optionsPageTitle": {
+    "message": "خيارات Aprelendo"
+  },
+  "openInNewTabOptLabel": {
+    "message": "افتح Aprelendo في علامة تبويب جديدة عند إضافة صفحة"
+  },
+  "aprelendoServerUrlOptLabel": {
+    "message": "عنوان URL لخادم Aprelendo:"
+  },
+  "aprelendoServerUrlHelp": {
+    "message": "إعداد متقدم: غيّر هذا فقط إذا كنت تستضيف Aprelendo بنفسك. اترك هذا الحقل فارغًا لمواصلة استخدام https://www.aprelendo.com."
+  },
+  "errorOptMsgTitle": {
+    "message": "خطأ"
+  },
+  "aprelendoServerUrlInvalidError": {
+    "message": "أدخل عنوان URL صالحًا للخادم باستخدام http:// أو https://."
+  },
+  "__WET_LOCALE__": {
+    "message": "ar"
+  }
 }

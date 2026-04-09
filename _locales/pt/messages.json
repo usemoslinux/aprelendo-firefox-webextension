@@ -110,6 +110,30 @@
   "saveBtnOpt": {
     "message": "Salvar"
   },
+  "actionTitle": {
+    "message": "Adicionar ao Aprelendo"
+  },
+  "contextMenuAutoDetectTitle": {
+    "message": "Adicionar ao Aprelendo (detetar idioma automaticamente)"
+  },
+  "optionsPageTitle": {
+    "message": "Opções do Aprelendo"
+  },
+  "openInNewTabOptLabel": {
+    "message": "Abrir o Aprelendo num novo separador ao adicionar uma página"
+  },
+  "aprelendoServerUrlOptLabel": {
+    "message": "URL do servidor do Aprelendo:"
+  },
+  "aprelendoServerUrlHelp": {
+    "message": "Avançado: altere isto apenas se alojar o Aprelendo por conta própria. Deixe este campo vazio para continuar a usar https://www.aprelendo.com."
+  },
+  "errorOptMsgTitle": {
+    "message": "Erro"
+  },
+  "aprelendoServerUrlInvalidError": {
+    "message": "Introduza um URL de servidor válido com http:// ou https://."
+  },
   "__WET_LOCALE__": {
     "message": "pt"
   }

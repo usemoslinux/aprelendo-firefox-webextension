@@ -99,17 +99,42 @@
     "message": "Languages to show in the menu:"
   },
   "shortcutLangOptLabel": {
-    "message": "Language to use with keyboard shortcut:"
+    "message": "Fallback language (used when shortcut or context menu can't auto-detect):"
   },
   "successOptMsgTitle": {
     "message": "Success!"
   },
   "successOptMsgText": {
-    "message": "Your preferences where saved."
+    "message": "Your preferences were saved."
   },
   "saveBtnOpt": {
     "message": "Save"
   },
-
-  "__WET_LOCALE__": { "message": "en" }
+  "actionTitle": {
+    "message": "Add to Aprelendo"
+  },
+  "contextMenuAutoDetectTitle": {
+    "message": "Add to Aprelendo (auto-detect language)"
+  },
+  "optionsPageTitle": {
+    "message": "Aprelendo Options"
+  },
+  "openInNewTabOptLabel": {
+    "message": "Open Aprelendo in a new tab when adding a page"
+  },
+  "aprelendoServerUrlOptLabel": {
+    "message": "Aprelendo server URL:"
+  },
+  "aprelendoServerUrlHelp": {
+    "message": "Advanced: change this only if you self-host Aprelendo. Leave this field empty to keep using https://www.aprelendo.com."
+  },
+  "errorOptMsgTitle": {
+    "message": "Error"
+  },
+  "aprelendoServerUrlInvalidError": {
+    "message": "Enter a valid server URL using http:// or https://."
+  },
+  "__WET_LOCALE__": {
+    "message": "en"
+  }
 }

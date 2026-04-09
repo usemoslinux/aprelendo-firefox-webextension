@@ -1,116 +1,140 @@
 {
-    "extensionName": {
-        "message": "Aprelendo"
-    },
-    "extensionDescription": {
-        "message": "Voeg teksten toe aan je Aprelendo-bibliotheek."
-    },
-    "shortcutDescription": {
-        "message": "Stuur pagina naar Aprelendo met de taal geselecteerd in Voorkeuren"
-    },
-    "arabicName": {
-        "message": "Arabisch"
-    },
-    "bulgarianName": {
-        "message": "Bulgaars"
-    },
-    "catalanName": {
-        "message": "Catalaans"
-    },
-    "chineseName": {
-        "message": "Chinees"
-    },
-    "croatianName": {
-        "message": "Kroatisch"
-    },
-    "czechName": {
-        "message": "Tsjechisch"
-    },
-    "danishName": {
-        "message": "Deens"
-    },
-    "dutchName": {
-        "message": "Nederlands"
-    },
-    "englishName": {
-        "message": "Engels"
-    },
-    "frenchName": {
-        "message": "Frans"
-    },
-    "germanName": {
-        "message": "Duits"
-    },
-    "greekName": {
-        "message": "Grieks"
-    },
-    "hebrewName": {
-        "message": "Hebreeuws"
-    },
-    "hindiName": {
-        "message": "Hindi"
-    },
-    "hungarianName": {
-        "message": "Hongaars"
-    },
-    "italianName": {
-        "message": "Italiaans"
-    },
-    "japaneseName": {
-        "message": "Japans"
-    },
-    "koreanName": {
-        "message": "Koreaans"
-    },
-    "norwegianName": {
-        "message": "Noors"
-    },
-    "polishName": {
-        "message": "Pools"
-    },
-    "portugueseName": {
-        "message": "Portugees"
-    },
-    "romanianName": {
-        "message": "Roemeens"
-    },
-    "russianName": {
-        "message": "Russisch"
-    },
-    "slovakName": {
-        "message": "Slowaaks"
-    },
-    "slovenianName": {
-        "message": "Sloveens"
-    },
-    "spanishName": {
-        "message": "Spaans"
-    },
-    "swedishName": {
-        "message": "Zweeds"
-    },
-    "turkishName": {
-        "message": "Turks"
-    },
-    "vietnameseName": {
-        "message": "Vietnamees"
-    },
-    "langsShownOptLabel": {
-        "message": "Talen om in het menu te tonen:"
-    },
-    "shortcutLangOptLabel": {
-        "message": "Taal om te gebruiken met toetsenbord snelkoppeling:"
-    },
-    "successOptMsgTitle": {
-        "message": "Succes!"
-    },
-    "successOptMsgText": {
-        "message": "Je voorkeuren zijn opgeslagen."
-    },
-    "saveBtnOpt": {
-        "message": "Opslaan"
-    },
-    "__WET_LOCALE__": {
-        "message": "nl"
-    }
+  "extensionName": {
+    "message": "Aprelendo"
+  },
+  "extensionDescription": {
+    "message": "Voeg teksten toe aan je Aprelendo-bibliotheek."
+  },
+  "shortcutDescription": {
+    "message": "Stuur pagina naar Aprelendo met de taal geselecteerd in Voorkeuren"
+  },
+  "arabicName": {
+    "message": "Arabisch"
+  },
+  "bulgarianName": {
+    "message": "Bulgaars"
+  },
+  "catalanName": {
+    "message": "Catalaans"
+  },
+  "chineseName": {
+    "message": "Chinees"
+  },
+  "croatianName": {
+    "message": "Kroatisch"
+  },
+  "czechName": {
+    "message": "Tsjechisch"
+  },
+  "danishName": {
+    "message": "Deens"
+  },
+  "dutchName": {
+    "message": "Nederlands"
+  },
+  "englishName": {
+    "message": "Engels"
+  },
+  "frenchName": {
+    "message": "Frans"
+  },
+  "germanName": {
+    "message": "Duits"
+  },
+  "greekName": {
+    "message": "Grieks"
+  },
+  "hebrewName": {
+    "message": "Hebreeuws"
+  },
+  "hindiName": {
+    "message": "Hindi"
+  },
+  "hungarianName": {
+    "message": "Hongaars"
+  },
+  "italianName": {
+    "message": "Italiaans"
+  },
+  "japaneseName": {
+    "message": "Japans"
+  },
+  "koreanName": {
+    "message": "Koreaans"
+  },
+  "norwegianName": {
+    "message": "Noors"
+  },
+  "polishName": {
+    "message": "Pools"
+  },
+  "portugueseName": {
+    "message": "Portugees"
+  },
+  "romanianName": {
+    "message": "Roemeens"
+  },
+  "russianName": {
+    "message": "Russisch"
+  },
+  "slovakName": {
+    "message": "Slowaaks"
+  },
+  "slovenianName": {
+    "message": "Sloveens"
+  },
+  "spanishName": {
+    "message": "Spaans"
+  },
+  "swedishName": {
+    "message": "Zweeds"
+  },
+  "turkishName": {
+    "message": "Turks"
+  },
+  "vietnameseName": {
+    "message": "Vietnamees"
+  },
+  "langsShownOptLabel": {
+    "message": "Talen om in het menu te tonen:"
+  },
+  "shortcutLangOptLabel": {
+    "message": "Taal om te gebruiken met toetsenbord snelkoppeling:"
+  },
+  "successOptMsgTitle": {
+    "message": "Succes!"
+  },
+  "successOptMsgText": {
+    "message": "Je voorkeuren zijn opgeslagen."
+  },
+  "saveBtnOpt": {
+    "message": "Opslaan"
+  },
+  "actionTitle": {
+    "message": "Toevoegen aan Aprelendo"
+  },
+  "contextMenuAutoDetectTitle": {
+    "message": "Toevoegen aan Aprelendo (taal automatisch detecteren)"
+  },
+  "optionsPageTitle": {
+    "message": "Aprelendo-opties"
+  },
+  "openInNewTabOptLabel": {
+    "message": "Aprelendo openen in een nieuw tabblad bij het toevoegen van een pagina"
+  },
+  "aprelendoServerUrlOptLabel": {
+    "message": "Aprelendo-server-URL:"
+  },
+  "aprelendoServerUrlHelp": {
+    "message": "Geavanceerd: wijzig dit alleen als je Aprelendo zelf host. Laat dit veld leeg om https://www.aprelendo.com te blijven gebruiken."
+  },
+  "errorOptMsgTitle": {
+    "message": "Fout"
+  },
+  "aprelendoServerUrlInvalidError": {
+    "message": "Voer een geldige server-URL in met http:// of https://."
+  },
+  "__WET_LOCALE__": {
+    "message": "nl"
+  }
 }

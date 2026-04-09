@@ -1,116 +1,140 @@
 {
-    "extensionName": {
-        "message": "Aprelendo"
-    },
-    "extensionDescription": {
-        "message": "Dodajte tekstove u svoju Aprelendo knjižnicu."
-    },
-    "shortcutDescription": {
-        "message": "Pošaljite stranicu u Aprelendo koristeći jezik odabran u Postavkama"
-    },
-    "arabicName": {
-        "message": "Arapski"
-    },
-    "bulgarianName": {
-        "message": "Bugarski"
-    },
-    "catalanName": {
-        "message": "Katalonski"
-    },
-    "chineseName": {
-        "message": "Kineski"
-    },
-    "croatianName": {
-        "message": "Hrvatski"
-    },
-    "czechName": {
-        "message": "Češki"
-    },
-    "danishName": {
-        "message": "Danski"
-    },
-    "dutchName": {
-        "message": "Nizozemski"
-    },
-    "englishName": {
-        "message": "Engleski"
-    },
-    "frenchName": {
-        "message": "Francuski"
-    },
-    "germanName": {
-        "message": "Njemački"
-    },
-    "greekName": {
-        "message": "Grčki"
-    },
-    "hebrewName": {
-        "message": "Hebrejski"
-    },
-    "hindiName": {
-        "message": "Hindski"
-    },
-    "hungarianName": {
-        "message": "Mađarski"
-    },
-    "italianName": {
-        "message": "Talijanski"
-    },
-    "japaneseName": {
-        "message": "Japanski"
-    },
-    "koreanName": {
-        "message": "Korejski"
-    },
-    "norwegianName": {
-        "message": "Norveški"
-    },
-    "polishName": {
-        "message": "Poljski"
-    },
-    "portugueseName": {
-        "message": "Portugalski"
-    },
-    "romanianName": {
-        "message": "Rumunjski"
-    },
-    "russianName": {
-        "message": "Ruski"
-    },
-    "slovakName": {
-        "message": "Slovački"
-    },
-    "slovenianName": {
-        "message": "Slovenski"
-    },
-    "spanishName": {
-        "message": "Španjolski"
-    },
-    "swedishName": {
-        "message": "Švedski"
-    },
-    "turkishName": {
-        "message": "Turski"
-    },
-    "VietnameseName": {
-        "message": "Vijetnamski"
-    },
-    "langsShownOptLabel": {
-        "message": "Jezici za prikaz u izborniku:"
-    },
-    "shortcutLangOptLabel": {
-        "message": "Jezik za korištenje s tipkovničkim prečacem:"
-    },
-    "successOptMsgTitle": {
-        "message": "Uspjeh!"
-    },
-    "successOptMsgText": {
-        "message": "Vaše postavke su spremljene."
-    },
-    "saveBtnOpt": {
-        "message": "Spremi"
-    },
-    "__WET_LOCALE__": {
-        "message": "hr"
-    }
+  "extensionName": {
+    "message": "Aprelendo"
+  },
+  "extensionDescription": {
+    "message": "Dodajte tekstove u svoju Aprelendo knjižnicu."
+  },
+  "shortcutDescription": {
+    "message": "Pošaljite stranicu u Aprelendo koristeći jezik odabran u Postavkama"
+  },
+  "arabicName": {
+    "message": "Arapski"
+  },
+  "bulgarianName": {
+    "message": "Bugarski"
+  },
+  "catalanName": {
+    "message": "Katalonski"
+  },
+  "chineseName": {
+    "message": "Kineski"
+  },
+  "croatianName": {
+    "message": "Hrvatski"
+  },
+  "czechName": {
+    "message": "Češki"
+  },
+  "danishName": {
+    "message": "Danski"
+  },
+  "dutchName": {
+    "message": "Nizozemski"
+  },
+  "englishName": {
+    "message": "Engleski"
+  },
+  "frenchName": {
+    "message": "Francuski"
+  },
+  "germanName": {
+    "message": "Njemački"
+  },
+  "greekName": {
+    "message": "Grčki"
+  },
+  "hebrewName": {
+    "message": "Hebrejski"
+  },
+  "hindiName": {
+    "message": "Hindski"
+  },
+  "hungarianName": {
+    "message": "Mađarski"
+  },
+  "italianName": {
+    "message": "Talijanski"
+  },
+  "japaneseName": {
+    "message": "Japanski"
+  },
+  "koreanName": {
+    "message": "Korejski"
+  },
+  "norwegianName": {
+    "message": "Norveški"
+  },
+  "polishName": {
+    "message": "Poljski"
+  },
+  "portugueseName": {
+    "message": "Portugalski"
+  },
+  "romanianName": {
+    "message": "Rumunjski"
+  },
+  "russianName": {
+    "message": "Ruski"
+  },
+  "slovakName": {
+    "message": "Slovački"
+  },
+  "slovenianName": {
+    "message": "Slovenski"
+  },
+  "spanishName": {
+    "message": "Španjolski"
+  },
+  "swedishName": {
+    "message": "Švedski"
+  },
+  "turkishName": {
+    "message": "Turski"
+  },
+  "VietnameseName": {
+    "message": "Vijetnamski"
+  },
+  "langsShownOptLabel": {
+    "message": "Jezici za prikaz u izborniku:"
+  },
+  "shortcutLangOptLabel": {
+    "message": "Jezik za korištenje s tipkovničkim prečacem:"
+  },
+  "successOptMsgTitle": {
+    "message": "Uspjeh!"
+  },
+  "successOptMsgText": {
+    "message": "Vaše postavke su spremljene."
+  },
+  "saveBtnOpt": {
+    "message": "Spremi"
+  },
+  "actionTitle": {
+    "message": "Dodaj u Aprelendo"
+  },
+  "contextMenuAutoDetectTitle": {
+    "message": "Dodaj u Aprelendo (automatski prepoznaj jezik)"
+  },
+  "optionsPageTitle": {
+    "message": "Postavke za Aprelendo"
+  },
+  "openInNewTabOptLabel": {
+    "message": "Otvori Aprelendo u novoj kartici pri dodavanju stranice"
+  },
+  "aprelendoServerUrlOptLabel": {
+    "message": "URL Aprelendo poslužitelja:"
+  },
+  "aprelendoServerUrlHelp": {
+    "message": "Napredno: promijenite ovo samo ako sami hostate Aprelendo. Ostavite ovo polje praznim kako biste nastavili koristiti https://www.aprelendo.com."
+  },
+  "errorOptMsgTitle": {
+    "message": "Pogreška"
+  },
+  "aprelendoServerUrlInvalidError": {
+    "message": "Unesite valjani URL poslužitelja s http:// ili https://."
+  },
+  "__WET_LOCALE__": {
+    "message": "hr"
+  }
 }

@@ -2,7 +2,7 @@
 
 <html>
   <head>
-    <title>Aprelendo Options</title>
+    <title data-i18n-content="optionsPageTitle">Aprelendo Options</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="options.css"/>
@@ -130,7 +130,7 @@
     </section>
 
     <section class="option" id="opt-shortcut-lang">
-        <label for="shortcut-lang">Fallback language (used when shortcut or context menu can't auto-detect):</label>
+        <label for="shortcut-lang" data-i18n-content="shortcutLangOptLabel"></label>
         <select name="shortcut-lang" id="shortcut-lang">
             <option value="ar" data-i18n-content="arabicName"></option>
             <option value="bg" data-i18n-content="bulgarianName"></option>
@@ -166,7 +166,13 @@
 
     <section class="option" id="opt-open-new-tab">
         <input type="checkbox" id="open-in-new-tab">
-        <label for="open-in-new-tab">Open Aprelendo in a new tab when adding a page</label>
+        <label for="open-in-new-tab" data-i18n-content="openInNewTabOptLabel"></label>
+    </section>
+
+    <section class="option" id="opt-aprelendo-base-url">
+        <label for="aprelendo-base-url" data-i18n-content="aprelendoServerUrlOptLabel"></label>
+        <input type="url" id="aprelendo-base-url" class="text-input" inputmode="url" spellcheck="false">
+        <p class="option-help" data-i18n-content="aprelendoServerUrlHelp"></p>
     </section>
 
     <br>
@@ -175,8 +181,8 @@
       <button id="save" class="button" data-i18n-content="saveBtnOpt" type="button"></button>
 
       <span class="message message-success hidden" id="message-block">
-          <span class="message-head" data-i18n-content="successOptMsgTitle"></span>
-          <span class="message-body" data-i18n-content="successOptMsgText"></span>
+          <span class="message-head" id="message-title" data-i18n-content="successOptMsgTitle"></span>
+          <span class="message-body" id="message-body" data-i18n-content="successOptMsgText"></span>
       </span>
     </section>
 

@@ -110,7 +110,31 @@
   "saveBtnOpt": {
     "message": "Uložiť"
   },
-
-  "__WET_LOCALE__": { "message": "sk" }
+  "actionTitle": {
+    "message": "Pridať do Aprelendo"
+  },
+  "contextMenuAutoDetectTitle": {
+    "message": "Pridať do Aprelendo (automaticky rozpoznať jazyk)"
+  },
+  "optionsPageTitle": {
+    "message": "Možnosti Aprelendo"
+  },
+  "openInNewTabOptLabel": {
+    "message": "Pri pridaní stránky otvoriť Aprelendo na novej karte"
+  },
+  "aprelendoServerUrlOptLabel": {
+    "message": "URL servera Aprelendo:"
+  },
+  "aprelendoServerUrlHelp": {
+    "message": "Rozšírené: zmeňte to iba vtedy, ak si Aprelendo hostujete sami. Nechajte toto pole prázdne, ak chcete naďalej používať https://www.aprelendo.com."
+  },
+  "errorOptMsgTitle": {
+    "message": "Chyba"
+  },
+  "aprelendoServerUrlInvalidError": {
+    "message": "Zadajte platnú URL servera s http:// alebo https://."
+  },
+  "__WET_LOCALE__": {
+    "message": "sk"
+  }
 }
-

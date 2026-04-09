@@ -110,7 +110,31 @@
   "saveBtnOpt": {
     "message": "Spara"
   },
-
-  "__WET_LOCALE__": { "message": "sv" }
+  "actionTitle": {
+    "message": "Lägg till i Aprelendo"
+  },
+  "contextMenuAutoDetectTitle": {
+    "message": "Lägg till i Aprelendo (identifiera språk automatiskt)"
+  },
+  "optionsPageTitle": {
+    "message": "Aprelendo-inställningar"
+  },
+  "openInNewTabOptLabel": {
+    "message": "Öppna Aprelendo i en ny flik när du lägger till en sida"
+  },
+  "aprelendoServerUrlOptLabel": {
+    "message": "URL till Aprelendo-servern:"
+  },
+  "aprelendoServerUrlHelp": {
+    "message": "Avancerat: ändra detta endast om du själv hostar Aprelendo. Lämna fältet tomt om du vill fortsätta använda https://www.aprelendo.com."
+  },
+  "errorOptMsgTitle": {
+    "message": "Fel"
+  },
+  "aprelendoServerUrlInvalidError": {
+    "message": "Ange en giltig server-URL med http:// eller https://."
+  },
+  "__WET_LOCALE__": {
+    "message": "sv"
+  }
 }
-

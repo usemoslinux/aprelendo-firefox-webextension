@@ -1,15 +1,37 @@
 import { languages } from "./shared/languages.js";
 import { detectLang } from "./shared/language_detector.js";
-import { buildAprelendoUrl } from "./shared/url_builder.js";
+import {
+  buildAprelendoUrl,
+  normalizeAprelendoBaseUrl,
+} from "./shared/url_builder.js";
 
 // background.js
 const browser = globalThis.browser || globalThis.chrome;
 
 const supportedLangCodes = new Set(languages.map((l) => l.code));
 
+function normalizeSupportedLang(code) {
+  if (!code) return null;
+
+  const normalized = String(code)
+    .split(",")[0]
+    .trim()
+    .toLowerCase()
+    .split(/[-_]/)[0];
+
+  return supportedLangCodes.has(normalized) ? normalized : null;
+}
+
 async function getShortcutFallbackLang() {
   const { shortcut_lang } = await browser.storage.sync.get(["shortcut_lang"]);
   return shortcut_lang || "en";
+}
+
+async function getConfiguredAprelendoBaseUrl() {
+  const { aprelendo_base_url } = await browser.storage.local.get([
+    "aprelendo_base_url",
+  ]);
+  return normalizeAprelendoBaseUrl(aprelendo_base_url);
 }
 
 async function redirect(msg) {
@@ -18,11 +40,12 @@ async function redirect(msg) {
   if (!tab || !tab.url) throw new Error("No active tab URL.");
 
   const lang = msg.lang;
-  const aprelendo_url = buildAprelendoUrl(tab.url, lang);
-
-  const { open_in_new_tab } = await browser.storage.sync.get([
-    "open_in_new_tab",
+  const [{ open_in_new_tab }, aprelendoBaseUrl] = await Promise.all([
+    browser.storage.sync.get(["open_in_new_tab"]),
+    getConfiguredAprelendoBaseUrl(),
   ]);
+  const aprelendo_url = buildAprelendoUrl(tab.url, lang, aprelendoBaseUrl);
+
   const openInNewTab =
     typeof open_in_new_tab === "undefined" ? true : open_in_new_tab;
 
@@ -42,10 +65,18 @@ async function detectTabLanguage(tab) {
   try {
     const results = await browser.scripting.executeScript({
       target: { tabId: tab.id },
-      func: () => document.body.innerText.slice(0, 5000), // Increased limit for better accuracy
+      func: () => ({
+        pageLang: document.documentElement?.lang || "",
+        text: document.body?.innerText?.slice(0, 5000) || "",
+      }),
     });
-    const text = results && results[0] && results[0].result;
+    const payload = results && results[0] && results[0].result;
+    const hintedLang = normalizeSupportedLang(payload?.pageLang);
+    if (hintedLang) return hintedLang;
+
+    const text = payload?.text;
     if (!text) return null;
+
     const detected = detectLang(text);
     return supportedLangCodes.has(detected) ? detected : null;
   } catch (e) {
@@ -132,7 +163,7 @@ browser.runtime.onInstalled.addListener(() => {
   // Create context menu
   browser.contextMenus.create({
     id: "add-page-auto-detect",
-    title: "Add to Aprelendo (auto-detect language)",
+    title: browser.i18n.getMessage("contextMenuAutoDetectTitle"),
     contexts: ["page"],
   });
 

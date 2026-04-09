@@ -1,48 +1,95 @@
 import { languages } from "../shared/languages.js";
 const browser = globalThis.browser || globalThis.chrome;
 
+const GENERIC_ADD_ERROR = "The current page could not be added to Aprelendo.";
+
 document.addEventListener("DOMContentLoaded", async () => {
   const popup = document.querySelector("#popup-content");
+  const popupError = document.querySelector("#popup-error");
   let detectedLang = null;
+  let busy = false;
+  let hasUserInteracted = false;
+
+  function showError(message) {
+    popupError.textContent = message || GENERIC_ADD_ERROR;
+    popupError.classList.remove("hidden");
+  }
+
+  function clearError() {
+    popupError.textContent = "";
+    popupError.classList.add("hidden");
+  }
+
+  function getButton(code) {
+    return code ? document.getElementById(code) : null;
+  }
+
+  function focusButton(button) {
+    if (!button) return;
+    button.focus({ preventScroll: true });
+  }
+
+  function focusPreferredButton() {
+    if (hasUserInteracted) return;
+
+    const preferredButton =
+      getButton(detectedLang) || popup.querySelector(".button");
+
+    if (preferredButton && document.activeElement !== preferredButton) {
+      focusButton(preferredButton);
+    }
+  }
+
+  function scrollButtonIntoView(button) {
+    requestAnimationFrame(() => {
+      const popupRect = popup.getBoundingClientRect();
+      const buttonRect = button.getBoundingClientRect();
+      const offset =
+        buttonRect.top -
+        popupRect.top -
+        (popup.clientHeight / 2 - button.offsetHeight / 2);
+      popup.scrollTop += offset;
+    });
+  }
 
   function buildPopup(visibleLangs) {
     const fragment = document.createDocumentFragment();
     for (const lang of visibleLangs) {
-      const el = document.createElement("div");
+      const el = document.createElement("button");
+      el.type = "button";
       el.id = lang.code;
       el.className = `button ${lang.code}`;
       el.textContent = browser.i18n.getMessage(lang.name);
       fragment.appendChild(el);
     }
-    popup.appendChild(fragment);
+
+    popup.replaceChildren(fragment);
 
     if (detectedLang) {
       highlightDetected(detectedLang);
+    } else {
+      focusPreferredButton();
     }
   }
 
   function highlightDetected(lang) {
     detectedLang = lang;
-    const detectedButton = document.getElementById(lang);
-    if (detectedButton) {
-      // Remove 'detected' class from any other button just in case
-      const current = popup.querySelector(".detected");
-      if (current) current.classList.remove("detected");
+    const detectedButton = getButton(lang);
+    const current = popup.querySelector(".detected");
 
-      detectedButton.classList.add("detected");
-      requestAnimationFrame(() => {
-        const popupRect = popup.getBoundingClientRect();
-        const buttonRect = detectedButton.getBoundingClientRect();
-        const offset =
-          buttonRect.top -
-          popupRect.top -
-          (popup.clientHeight / 2 - detectedButton.offsetHeight / 2);
-        popup.scrollTop += offset;
-      });
+    if (current && current !== detectedButton) {
+      current.classList.remove("detected");
+      current.removeAttribute("aria-current");
     }
+
+    if (!detectedButton) return;
+
+    detectedButton.classList.add("detected");
+    detectedButton.setAttribute("aria-current", "true");
+    scrollButtonIntoView(detectedButton);
+    focusPreferredButton();
   }
 
-  // Ask background script for detected language of the current tab
   browser.runtime
     .sendMessage({ action: "getDetectedLanguage" })
     .then((response) => {
@@ -59,60 +106,49 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (res.cached_languages && res.cached_languages.length > 0) {
       buildPopup(res.cached_languages);
     } else {
-      // Fallback: fetch from sync storage if local cache is empty
       const keys = languages.map((l) => `show_${l.code}`);
-      const sync_res = await browser.storage.sync.get(keys);
+      const syncRes = await browser.storage.sync.get(keys);
       const visibleLangs = languages.filter(
         (lang) =>
-          sync_res[`show_${lang.code}`] ||
-          typeof sync_res[`show_${lang.code}`] === "undefined",
+          syncRes[`show_${lang.code}`] ||
+          typeof syncRes[`show_${lang.code}`] === "undefined",
       );
       buildPopup(visibleLangs);
     }
   } catch (e) {
     console.error("Failed to load languages:", e);
-    // Emergency fallback: show all languages
     buildPopup(languages);
   }
 
-  popup.tabIndex = -1;
-  popup.focus();
+  popup.addEventListener("pointerdown", () => {
+    hasUserInteracted = true;
+  });
 
-  let busy = false;
+  popup.addEventListener("keydown", () => {
+    hasUserInteracted = true;
+  });
 
-  const handlePick = async (e) => {
-    const btn = e.target.closest(".button");
+  async function submitSelection(btn) {
     if (!btn || busy) return;
     busy = true;
+    clearError();
 
     try {
-      await browser.runtime.sendMessage({ lang: btn.id });
+      const response = await browser.runtime.sendMessage({ lang: btn.id });
+      if (!response?.ok) {
+        throw new Error(response?.error || GENERIC_ADD_ERROR);
+      }
+      setTimeout(() => window.close(), 0);
     } catch (error) {
       console.error("Failed to send selection:", error);
-    } finally {
-      // close even if failed — but only once
-      setTimeout(() => window.close(), 0);
+      showError(error instanceof Error ? error.message : GENERIC_ADD_ERROR);
+      busy = false;
+      focusButton(btn);
     }
-  };
+  }
 
-  // Use click so scrolling doesn't trigger a selection on touch devices.
-  popup.addEventListener("click", handlePick);
-
-  // Optional keyboard support (Enter/Space) without using 'click'
-  document.addEventListener("keydown", async (e) => {
-    if ((e.key === "Enter" || e.key === " ") && !busy) {
-      const btn = document.activeElement?.closest?.(".button");
-      if (btn) {
-        e.preventDefault();
-        busy = true;
-        try {
-          await browser.runtime.sendMessage({ lang: btn.id });
-        } catch (error) {
-          console.error("Failed to send selection:", error);
-        } finally {
-          setTimeout(() => window.close(), 0);
-        }
-      }
-    }
+  popup.addEventListener("click", async (e) => {
+    const btn = e.target.closest(".button");
+    await submitSelection(btn);
   });
 });

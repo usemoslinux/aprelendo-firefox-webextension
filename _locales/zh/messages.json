@@ -110,6 +110,30 @@
   "saveBtnOpt": {
     "message": "保存"
   },
+  "actionTitle": {
+    "message": "添加到 Aprelendo"
+  },
+  "contextMenuAutoDetectTitle": {
+    "message": "添加到 Aprelendo（自动检测语言）"
+  },
+  "optionsPageTitle": {
+    "message": "Aprelendo 选项"
+  },
+  "openInNewTabOptLabel": {
+    "message": "添加页面时在新标签页中打开 Aprelendo"
+  },
+  "aprelendoServerUrlOptLabel": {
+    "message": "Aprelendo 服务器 URL："
+  },
+  "aprelendoServerUrlHelp": {
+    "message": "高级：仅当您自行托管 Aprelendo 时才更改此项。将此字段留空可继续使用 https://www.aprelendo.com。"
+  },
+  "errorOptMsgTitle": {
+    "message": "错误"
+  },
+  "aprelendoServerUrlInvalidError": {
+    "message": "请输入使用 http:// 或 https:// 的有效服务器 URL。"
+  },
   "__WET_LOCALE__": {
     "message": "zh"
   }
