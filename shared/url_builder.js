@@ -1,11 +1,7 @@
+import { isYouTubeVideoUrl } from "./page_language_input.js";
+
 export const DEFAULT_APRELENDO_BASE_URL = "https://www.aprelendo.com";
 const SUPPORTED_PROTOCOLS = new Set(["http:", "https:"]);
-const YOUTUBE_HOSTS = new Set([
-    "youtube.com",
-    "www.youtube.com",
-    "m.youtube.com",
-    "youtu.be",
-]);
 
 function parseSupportedPageUrl(url) {
     let parsedUrl;
@@ -23,13 +19,6 @@ function parseSupportedPageUrl(url) {
     }
 
     return parsedUrl;
-}
-
-function isYouTubeUrl(parsedUrl) {
-    if (!YOUTUBE_HOSTS.has(parsedUrl.hostname)) return false;
-    if (parsedUrl.hostname === "youtu.be") return true;
-
-    return parsedUrl.pathname === "/watch";
 }
 
 export function normalizeAprelendoBaseUrl(baseUrl = DEFAULT_APRELENDO_BASE_URL) {
@@ -71,7 +60,7 @@ export function buildAprelendoUrl(
     if (!lang) throw new Error("No language provided.");
 
     const parsedUrl = parseSupportedPageUrl(url);
-    const path = isYouTubeUrl(parsedUrl) ? "addvideo.php" : "addtext.php";
+    const path = isYouTubeVideoUrl(parsedUrl.toString()) ? "addvideo.php" : "addtext.php";
     const normalizedBaseUrl = normalizeAprelendoBaseUrl(baseUrl);
     const destination = new URL(
         path,

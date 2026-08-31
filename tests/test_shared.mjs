@@ -4,9 +4,18 @@ import {
   buildAprelendoUrl,
   normalizeAprelendoBaseUrl,
 } from '../shared/url_builder.js';
+import {
+  getYouTubeMetadataText,
+  getYouTubeVideoId,
+  isYouTubeVideoUrl,
+} from '../shared/page_language_input.js';
 import assert from 'assert';
 
 console.log("Running tests...");
+
+const textUrl = "https://example.com/article";
+const videoUrl = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+const shortVideoUrl = "https://youtu.be/dQw4w9WgXcQ";
 
 // Test Language Detector
 console.log("Testing Language Detector...");
@@ -48,11 +57,43 @@ assert.strictEqual(
 );
 assert.strictEqual(detectLang("???"), null);
 
+// Test YouTube language input
+console.log("Testing YouTube language input...");
+assert.strictEqual(isYouTubeVideoUrl(videoUrl), true);
+assert.strictEqual(isYouTubeVideoUrl(shortVideoUrl), true);
+assert.strictEqual(isYouTubeVideoUrl("https://www.youtube.com/results?search_query=test"), false);
+assert.strictEqual(isYouTubeVideoUrl(textUrl), false);
+assert.strictEqual(getYouTubeVideoId(videoUrl), "dQw4w9WgXcQ");
+assert.strictEqual(getYouTubeVideoId(shortVideoUrl), "dQw4w9WgXcQ");
+assert.strictEqual(getYouTubeVideoId("https://www.youtube.com/results?search_query=test"), null);
+
+const metadata = new Map([
+  ['meta[property="og:title"]', "Une video francaise"],
+  ['meta[property="og:description"]', "Une description en francais."],
+]);
+const mockDocument = {
+  querySelector(selector) {
+    const content = metadata.get(selector);
+    return content ? { content } : null;
+  },
+  title: "YouTube title fallback",
+};
+assert.strictEqual(
+  getYouTubeMetadataText(mockDocument),
+  "Une video francaise Une description en francais.",
+);
+assert.strictEqual(
+  getYouTubeMetadataText({
+    querySelector() {
+      return null;
+    },
+    title: "A French video title",
+  }),
+  "A French video title",
+);
+
 // Test URL Builder
 console.log("Testing URL Builder...");
-const textUrl = "https://example.com/article";
-const videoUrl = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
-const shortVideoUrl = "https://youtu.be/dQw4w9WgXcQ";
 
 assert.strictEqual(normalizeAprelendoBaseUrl(""), DEFAULT_APRELENDO_BASE_URL);
 assert.strictEqual(

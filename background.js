@@ -1,6 +1,10 @@
 import { languages } from "./shared/languages.js";
 import { detectLang } from "./shared/language_detector.js";
 import {
+  getYouTubeVideoId,
+  isYouTubeVideoUrl,
+} from "./shared/page_language_input.js";
+import {
   buildAprelendoUrl,
   normalizeAprelendoBaseUrl,
 } from "./shared/url_builder.js";
@@ -63,16 +67,62 @@ async function redirect(msg) {
 async function detectTabLanguage(tab) {
   if (!tab || !tab.id) return null;
   try {
+    const isYouTubeVideo = isYouTubeVideoUrl(tab.url);
+    const expectedYouTubeVideoId = isYouTubeVideo ? getYouTubeVideoId(tab.url) : null;
     const results = await browser.scripting.executeScript({
       target: { tabId: tab.id },
-      func: () => ({
-        pageLang: document.documentElement?.lang || "",
-        text: document.body?.innerText?.slice(0, 5000) || "",
-      }),
+      func: async (isYouTubeVideo, expectedYouTubeVideoId) => {
+        if (isYouTubeVideo) {
+          const getVideoId = () => {
+            const currentUrl = new URL(location.href);
+            return currentUrl.hostname === "youtu.be"
+              ? currentUrl.pathname.slice(1)
+              : currentUrl.searchParams.get("v");
+          };
+          const getText = () => {
+            const title = document
+              .querySelector("ytd-watch-metadata h1 yt-formatted-string")
+              ?.textContent?.trim();
+            const description = document
+              .querySelector("ytd-text-inline-expander#description-inline-expander")
+              ?.textContent?.trim();
+            const metadata = [
+              'meta[property="og:title"]',
+              'meta[property="og:description"]',
+            ]
+              .map((selector) => document.querySelector(selector)?.content?.trim())
+              .filter(Boolean);
+
+            return [title, description, ...metadata].filter(Boolean).join(" ").slice(0, 5000);
+          };
+
+          let previousText = "";
+          for (let attempt = 0; attempt < 10; attempt += 1) {
+            if (getVideoId() !== expectedYouTubeVideoId) return { text: "" };
+
+            const text = getText();
+            if (text && text === previousText) return { text };
+
+            previousText = text;
+
+            await new Promise((resolve) => setTimeout(resolve, 150));
+          }
+
+          return { text: "" };
+        }
+
+        return {
+          pageLang: document.documentElement?.lang || "",
+          text: document.body?.innerText?.slice(0, 5000) || "",
+        };
+      },
+      args: [isYouTubeVideo, expectedYouTubeVideoId],
     });
     const payload = results && results[0] && results[0].result;
-    const hintedLang = normalizeSupportedLang(payload?.pageLang);
-    if (hintedLang) return hintedLang;
+    if (!isYouTubeVideo) {
+      const hintedLang = normalizeSupportedLang(payload?.pageLang);
+      if (hintedLang) return hintedLang;
+    }
 
     const text = payload?.text;
     if (!text) return null;
